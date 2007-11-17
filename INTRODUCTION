@@ -1,0 +1,137 @@
+This is the documentation for RubyObjC, 
+a bridge connecting the Ruby and Objective-C languages.
+It is automatically generated from the RubyObjC source files.
+WARNING: This is a preliminary release.  All features are subject to change.
+
+=Copyright and License
+
+RubyObjC is a copyrighted software product of Neon Design Technology, Inc.  
+It is released under the terms of the Ruby License.
+See the LICENSE file for details.
+
+=Requirements
+
+RubyObjC has been tested on systems running Mac OS 10.4.8 and greater.
+It is planned that other platforms will be supported in the future.
+
+=Distribution
+
+RubyObjC is distributed as a Ruby gem. To install it, use the following command:
+
+	gem install rubyobjc --source http://www.rubyobjc.com
+
+=News 
+For the latest information about RubyObjC, visit http://www.rubyobjc.com.
+
+=About RubyObjC
+
+Ruby and Objective-C are powerful languages for software development that have complementary
+strengths and weaknesses.  
+
+* Ruby is highly expressive, interpreted, and dynamic.  It can be used to write standalone
+  programs and can be run interactively from a command line. It was specifically designed to be an
+  easy-to-use interface for software development.  It is implemented in the C programming 
+  language and has a well-defined interface for extensions written in C.  However, because
+  Ruby is interpreted and extremely dynamic, it is poorly suited to the inner workings of
+  memory- or compute-intensive software applications.
+
+* Objective-C is a compiled object-oriented extension of C.
+  It is much more verbose than Ruby and cannot be used interactively.  
+  But because it is based on C, it can be used to write fast, efficient code and 
+  has access to many powerful libraries.  Also, Objective-C includes
+  a dynamic runtime environment that allows run-time introspection and definition of classes 
+  and methods. This runtime environment is the key ingredient 
+  that makes the RubyObjC bridge possible.
+
+RubyObjC allows Ruby and Objective-C to be used together.  With it, software developers
+can use the strengths of both languages while avoiding their respective weaknesses. 
+
+Prior to RubyObjC, another bridge was developed between Ruby and Objective-C.  
+This bridge, RubyCocoa, is available under the Ruby license and is actively 
+supported by a small team of volunteers.  Recently it has also received many
+contributions from Laurent Sansonetti at Apple Computer, Inc.  
+
+RubyObjC was created so that emphasis could be placed on the following values:
+
+====A GOOD BRIDGE GETS A LOT OF TRAFFIC
+RubyObjC directly inserts handlers for Ruby methods in Objective-C method tables 
+and adds handlers for Objective-C methods to the Ruby method tables.  	
+This allows method calls to be made more quickly than in bridges that resolve calls
+dynamically, perhaps by using Ruby's "method_missing" method.  
+As a result, we can afford to cross the RubyObjC bridge frequently.
+
+====YOU CAN NEVER BE TOO RICH, TOO THIN, OR TOO INTROSPECTIVE
+Because handlers are inserted in the Ruby class method tables, Ruby's "methods" method 
+can be used to introspect the capabilities of Objective-C objects. More generally, 
+RubyObjC includes Ruby interfaces that provide direct access to the Objective-C 
+runtime and to data structures and statistics maintained by the RubyObjC bridge.
+A machine- and human-readable log file also makes it easier to diagnose problems in 
+RubyObjC applications. 
+
+====CLARITY IS BEAUTY
+To avoid ambiguity, only one naming convention is used to map Objective-C selector 
+names to Ruby. Some may find this less "beautiful", but the guiding principles are that 
+ambiguity undermines reliability and that reliability is an essential element of beauty.
+
+Also, the source code for RubyObjC itself was written to be as clear and minimal as possible 
+so that RubyObjC could be reliably used in commercial software projects. 
+The emphasis is on clarity and reliability over completeness: 
+currently RubyObjC does not support the full range of bridged types that RubyCocoa does, 
+but it is believed that this limitation is easily worked around with project-specific 
+Ruby and Objective-C code.  RubyObjC's deep Ruby interfaces to the Objective-C runtime 
+allow many more of these issues to be addressed directly from Ruby.
+
+====LIBERTY, EQUALITY, FRATERNITY
+In RubyObjC, Objective-C and Ruby are each important contributors that addresses weaknesses of the other.
+Instead of forcing one language to fully adapt to the other, we blend them together in a powerful partnership.
+
+====BUILD IT THE RUBY WAY
+RubyObjC embraces Ruby as a systems-programming language and as a platform for domain-specific
+language (DSL) development.  Rake is used to build the bridge, RDoc is used to generate
+documentation, testing is managed with Test::Unit, and RubyObjC is distributed as a Ruby gem.  
+
+RubyObjC includes a Rake task that can be used to build a Cocoa application.
+When an application is written with Ruby code only, it can be built with no
+compilation or linking.  When the application includes Objective-C code, that code is
+automatically compiled and linked into the executable.  This allows Cocoa applications
+to be easily built from the command line or your favorite text editor.
+
+There's also an emphasis in RubyObjC toward minimizing dependence on Interface Builder for 
+constructing user interfaces.  Examples illustrate the use of Ruby to 
+build interfaces by direct manipulation of Cocoa objects.  This is leading to Ruby DSLs 
+for concisely designing interfaces and is loosening Objective-C's bondage to
+platform-dependent graphical tools.
+
+====PORTABILITY
+Although Objective-C is most often used on Apple systems, 
+it is supported on other platforms by the GNU gcc compiler. 
+RubyObjC was designed to minimize dependencies on Apple proprietary features 
+so that it can be easily ported to other platforms.  
+It was originally developed on a prerelease version of Apple's OS X 10.5 (Leopard), 
+then was back-ported to OS X 10.4 (Tiger).  
+
+=Author
+RubyObjC was written by me, Tim Burks. 
+Prior to its development, I built a web site that documented RubyCocoa.
+I called it "RubyCocoa Resources" and you'll find it at http://www.rubycocoa.com.  
+
+=Acknowledgements
+RubyObjC would not have been possible without the preceeding efforts of many giants.
+Some of them include:
+
+* Hisakuni FUJIMOTO, who developed RubyCocoa, the first bridge connecting Ruby and Objective-C.
+  Many others contributed to RubyCocoa development, notably Chris Thomas, Kimura WATARU,
+  Jonathan Paisley, and Laurent Sansonetti.
+
+* Anthony Green, the creator of libffi, the library that allows function calls to be dynamically 
+  constructed and made from C.  The libffi port to OS X was done by the talented team 
+  behind the PyObjC project.
+
+* Jim Weirich, the author of Rake, the build system used by RubyObjC.
+
+* Dave Thomas, who developed RDoc, the documentation system used by RubyObjC.
+  Evan Weaver created Allison, the RDoc template used to generate these web pages.
+
+* Nathaniel Talbott, the creator of Test::Unit.
+
+* Brad Cox and Yukihiro MATSUMOTO, who created the Objective-C and Ruby programming languages, respectively. 

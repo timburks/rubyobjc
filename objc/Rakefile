@@ -1,0 +1,115 @@
+#
+# objc/Rakefile
+#
+# Rakefile for building RubyObjC.
+#
+# Copyright (c) 2007 Tim Burks, Neon Design Technology, Inc.
+# For more information about this file, visit http://www.rubyobjc.com.
+
+require 'rake'
+require 'rake/clean'
+
+BUNDLE = '../lib/objc.bundle'
+STATIC = '../lib/librubyobjc.a'
+BASEAPP = '../lib/rubyobjcapp'
+
+TARGET = [BUNDLE, STATIC, BASEAPP]
+
+ERBSRCS = FileList['*.rm']
+
+BRIDGED = FileList['../ruby/foundation.rb', '../ruby/appkit.rb']
+
+OBJCSRCS = FileList.new 
+temp = FileList['*.m'] + ERBSRCS.sub(/\.rm$/, '.m')
+temp.to_a.sort.uniq.each {|file| OBJCSRCS.add file unless file =~ /^main.m$/}
+OBJCOBJS = OBJCSRCS.sub(/\.m$/, '.o')
+
+if File.exist? "/System/Library/Frameworks/Ruby.framework/Headers"
+  RUBY_HEADERS = "/System/Library/Frameworks/Ruby.framework/Headers"
+  DEFINE_OBJC2 = "-DLEOPARD_OBJC2"
+  RUBY_LIBRARY = "-framework Ruby"
+  ARCH = "" #-arch i386 -arch ppc"
+  FFIOBJS = FileList.new
+  FFILIB = "-lffi -L/usr/lib"
+else
+  RUBY_HEADERS = "../include"
+  DEFINE_OBJC2 = ""
+  FFIOBJS = FileList.new(%w{types.o prep_cif.o x86/ffi_darwin.o x86/darwin.o powerpc/ffi_darwin.o powerpc/darwin.o powerpc/darwin_closure.o}.map{|f| "../libffi/src/"+f})
+  FFILIB = ""
+  if File.exist? "/usr/local/lib/libruby-static.a"
+    RUBY_LIBRARY = "-L/usr/local/lib -lruby-static"
+    ARCH = "-arch i386 -arch ppc"
+  elsif File.exist? "/opt/local/lib/libruby-static.a"
+    RUBY_LIBRARY = "-L/opt/local/lib -lruby-static"
+    ARCH = ""
+  else
+    raise "can't find Ruby.framework or libruby-static.a"
+  end
+end
+
+
+CC = "gcc"
+CFLAGS = "-g -O2 -Wall -I../libffi/include -I. -I#{RUBY_HEADERS} -DMACOSX #{DEFINE_OBJC2} #{ARCH}"
+MFLAGS = " -fobjc-exceptions"
+LDFLAGS = "-lobjc -framework Cocoa -undefined suppress -flat_namespace"
+
+CLEAN.include("*.o")
+CLEAN.include("objc_builtin.m")
+CLEAN.include("fast_handlers.i")
+CLEAN.include(FFIOBJS)
+CLOBBER.include(BRIDGED)
+CLOBBER.include(BUNDLE)
+CLOBBER.include(STATIC)
+CLOBBER.include(BASEAPP)
+
+BRIDGED.each do |bridgedfile|
+  file bridgedfile => "../ruby/bridge.rb" do |t|
+    framework = File.basename(bridgedfile).split(".")[0]
+    sh "ruby ../ruby/bridge.rb #{framework} > #{bridgedfile}"
+  end
+end
+
+rule ".o" => [".m"] do |t|
+  sh "#{CC} #{CFLAGS} #{MFLAGS} -c -o #{t.name} #{t.source}"
+end
+
+rule ".o" => [".c"] do |t|
+  sh "#{CC} #{CFLAGS} -c -o #{t.name} #{t.source}"
+end
+
+rule ".o" => [".S"] do |t|
+  sh "#{CC} #{CFLAGS} -c -o #{t.name} #{t.source}"
+end
+
+file STATIC => OBJCOBJS+FFIOBJS do |t|
+  sh "rm -f #{STATIC}"
+  sh "ar crl #{t.name} #{OBJCOBJS} #{FFIOBJS}"
+  sh "ranlib #{t.name}"
+end
+
+file BUNDLE => OBJCOBJS+FFIOBJS do |t|
+  sh "#{CC} #{OBJCOBJS} #{FFIOBJS} #{LDFLAGS} #{ARCH} #{FFILIB} -bundle -o #{t.name}"
+end
+
+file BASEAPP => STATIC do |t|
+  sh "#{CC} main.m #{STATIC} #{@cflags} #{ARCH} #{FFILIB} -framework Foundation -framework AppKit #{RUBY_LIBRARY} -o #{t.name}"
+end
+
+BUILTINS = FileList['../ruby/*.rb'] + BRIDGED
+BUILTINS.include 'objc_builtin.rm'
+
+file 'objc_builtin.m' => BUILTINS do |t|
+  sh "erb objc_builtin.rm > objc_builtin.m"
+end
+
+file 'methods.o' => 'fast_handlers.i'
+
+file 'fast_handlers.i' => 'fast_handlers.ri' do
+  sh "erb fast_handlers.ri > fast_handlers.i"
+end
+
+task :build => TARGET
+
+task :default => :build
+
+task :static => STATIC

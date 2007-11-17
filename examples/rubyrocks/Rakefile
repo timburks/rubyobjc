@@ -1,0 +1,7 @@
+require 'rake/cocoa'
+
+Rake::CocoaApplication.new do |t|
+  t.application = 'RubyRocks'
+  t.identifier = 'com.rubyobjc.rubyrocks'
+  t.icon_file = 'rubyrocks.icns'
+end

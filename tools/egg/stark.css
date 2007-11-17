@@ -1,0 +1,204 @@
+
+/* STARK */
+
+/* This stylesheet is licensed from Tony Pires for use on http://www.rubyobjc.com.
+   For all other uses, contact Tony at http://20pirates.com.
+*/
+
+body{
+font:.8em Arial, Helvetica, sans-serif;
+background-color:#FFF;
+color:#555;
+}
+
+p{
+line-height:1.4em;
+padding-right:20px;
+margin-top:4px;
+}
+
+h1,h2,h3,h4,h5{margin-bottom:4px;}
+h1{font-size:1.5em;}
+h2{font-size:1.4em;}
+h3{font-size:1.3em;}
+h4{font-size:1.2em;}
+h5{font-size:1.1em;}
+h6{font-size:1.0em;}
+
+a{
+text-decoration:none;
+font-weight:bold;
+color:#C11;
+border-bottom:none;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+fieldset{
+border:none;
+padding:0;
+margin:0;
+}
+
+input,textarea{
+border:none;
+background-color:#DDD;
+color:#555;
+font-weight:bold;
+padding:4px;
+}
+
+#sidebar input{
+width:168px;
+}
+
+input.formbutton,a.formbutton{
+border:none;
+margin:0;
+padding:0;
+background-color:transparent;
+text-align:right;
+}
+
+a:hover.formbutton input{color:#C11;}
+
+ul,ol{
+line-height:1.4em;
+list-style-position:outside;
+}
+
+ul{
+list-style-image:url(stark/bullet.gif);
+}
+
+blockquote{
+background:url(stark/bq.gif) left top no-repeat transparent;
+padding:0 10px;
+}
+
+img{border:1px solid #555;}
+
+a:hover img{border:1px solid #C11;}
+
+.undecorated a:hover img {
+text-decoration:none;
+border:1px solid #555;
+}
+img.l{
+float:left;
+margin:4px 10px 4px 0;
+}
+
+img.r{
+float:right;
+margin:4px 0 4px 10px;
+}
+
+#container{
+width:700px;
+margin:0;
+margin-left: auto;
+margin-right: auto;
+}
+
+#menu{
+padding:4px;
+margin:0 0 10px 0;
+text-align:right;
+}
+
+#menu ul{
+list-style-type:none;
+clear:both;
+margin:0 0 2px 0;
+}
+
+#menu li{
+display:inline;
+border:1px solid #555;
+padding:3px 1px;
+font-size:.8em;
+text-transform:uppercase;
+}
+
+#menu li a{
+text-decoration:none;
+color:#FFF;
+background-color:#555;
+padding:2px 10px;
+border-bottom:none;
+}
+
+#menu a.current{background-color:#333;}
+
+#menu a:hover,.sidelinks a:hover{background-color:#C11;color:#FFF}
+
+.sidelinks{
+margin-left:-40px;
+list-style-type:none;
+list-style-image:none;
+line-height:1em;
+}
+
+.sidelinks li{
+border:1px solid #555;
+padding:1px 1px;
+margin-bottom:2px;
+font-size:.9em;
+}
+
+.sidelinks li a{
+display:block;
+text-decoration:none;
+color:#FFF;
+background-color:#555;
+padding:2px 10px;
+border-bottom:none;
+}
+
+#banner{
+background:url(stark/banner.gif) center right no-repeat transparent;
+margin:-10px 0 0 0;
+padding:4px;
+border-bottom:1px solid #888;
+border-left:1px solid #888;
+}
+
+#banner h4{margin:0;padding:0;}
+#banner .lighter_banner{font-weight:100;font-size:80%}
+
+#content{
+background:url(stark/bg.gif) top right no-repeat transparent;
+border-right:1px solid #888;
+padding:0 0 20px 0;
+width:520px;
+background-color:#FFF;
+min-height:500px;
+}
+
+#sidebar{
+float:right;
+width:170px;
+margin:0;
+padding:0;
+background-color:transparent;
+}
+
+#sidebar p{
+margin-right:-20px;
+}
+
+#footer{
+background:url(stark/footer.gif) top left repeat-y transparent;
+clear:both;
+padding:5px;
+background-color:#FFF;
+border-top:1px solid #888;
+padding-bottom:0;
+text-align:right;
+}
+
+#footer p{line-height:1.5em;margin:0}
+

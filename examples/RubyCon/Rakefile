@@ -1,0 +1,38 @@
+require 'rake/cocoa'
+
+INSTALLDIR = "~/Library/InputManagers"
+BUNDLENAME = "RubyCon"
+
+Rake::CocoaBundle.new do |t|
+  t.bundle = BUNDLENAME
+  t.identifier = "com.rubyobjc.#{BUNDLENAME.downcase}"
+  t.ldflags += '-lrubyobjc -lruby'
+end
+
+desc "Create the Info file for the bundle."
+task :info  => "Info"
+file "Info" do |t|
+  info = {
+    :BundleName => "#{BUNDLENAME}.bundle",
+    :LoadBundleOnLaunch => "YES",
+    :LocalizedNames => {:English => "#{BUNDLENAME}"},
+    :NoMenuEntry => "YES"
+  }
+  File.open(t.name, "w") {|f| f.write PList.generate(info)}
+end
+
+CLOBBER.include("Info")
+
+desc "Install the bundle."
+task :install => [:bundle, :info, :uninstall] do
+  sh "mkdir -p #{INSTALLDIR}/#{BUNDLENAME}"
+  sh "cp -r #{BUNDLENAME}.bundle #{INSTALLDIR}/#{BUNDLENAME}"
+  sh "cp Info #{INSTALLDIR}/#{BUNDLENAME}"
+end
+
+desc "Uninstall the bundle."
+task :uninstall do
+  sh "rm -rf #{INSTALLDIR}/#{BUNDLENAME}"
+end
+
+task :default => :install

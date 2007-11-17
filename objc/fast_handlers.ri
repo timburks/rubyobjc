@@ -1,0 +1,20 @@
+/* 
+ * fast_handlers.ri/i
+ *
+ * Automatically-generated code to handle Objective-C method calls (bypassing libffi).
+ *
+ * Copyright (c) 2007 Tim Burks, Neon Design Technology, Inc.
+ * For more information about this file, visit http://www.rubyobjc.com.
+ */
+<% max_handlers = 1000 %>
+#define MAX_HANDLERS <%= max_handlers %>
+static int global_handlers = 0;
+static void *global_userdata[MAX_HANDLERS];
+<% max_handlers.times do |i| %>
+static VALUE foh<%= i %>(int argc, VALUE *argv, VALUE self){return foh(argc, argv, self, global_userdata[<%= i %>]);}<% end %>
+
+static rubyIMP fast_objc_handlers[MAX_HANDLERS] =
+{<% (max_handlers-1).times do |i| %>
+    &foh<%= i %>,<% end %>
+    &foh<%= max_handlers-1 %>
+};

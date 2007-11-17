@@ -1,0 +1,22 @@
+require 'rake/cocoa'
+
+Rake::CocoaApplication.new do |t|
+  t.application = 'RaiseMan'
+  t.identifier = 'com.rubyobjc.raiseman'
+  t.icon_file = "AppIcon.icns"
+  t.info = {
+    :CFBundleDocumentTypes => [
+      {
+        :CFBundleTypeExtensions => ["rrm"],
+        :CFBundleTypeIconFile => "AppIcon.icns",
+        :CFBundleTypeName => "DocumentType",
+        :CFBundleTypeOSTypes => ["???"],
+        :CFBundleTypeRole => "Editor",
+        :NSDocumentClass => "MyDocument",
+        :NSPersistentStoreTypeKey => "XML"
+      }
+    ]
+  }
+end
+
+

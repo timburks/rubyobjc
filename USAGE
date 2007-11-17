@@ -1,0 +1,113 @@
+RubyObjC includes tools for building Cocoa applications from pure-Ruby source code or from a mixture of Ruby and Objective-C sources.
+
+=Project Template
+
+To create a new Cocoa application, run the *rubyapp* command. Give it the application name as an argument. If no name is specified, the application will be called "app". In either case, a directory will be created for the application that contains a skeleton for a RubyObjC application. This consists of a main.rb Ruby file and a Rakefile. 
+
+The main.rb file will look something like this:
+	# Set the application search path
+	ObjC.set_path :LOCAL
+	
+	# Activate any optional components
+	ObjC.require :Foundation  
+	ObjC.require :AppKit
+	ObjC.require :console
+	ObjC.require :menu
+
+	# Load all ruby files in the application's Resource directory
+	ObjC.load_internal_files(__FILE__)
+
+	# Load any ruby files in same directory as the application
+	# optional -- use for development only!
+	#ObjC.load_external_files
+
+	# The application delegate configures the application
+	# after all basic services have been started
+	class ApplicationDelegate < ObjC::NSObject
+  		imethod "applicationDidFinishLaunching:" do |sender|
+    			make_menu "RubyObjC Demo"
+    			console
+  		end
+	end
+
+	# keep a reference to the delegate to keep it safe 
+	# from premature garbage-collection
+	$delegate = ApplicationDelegate.alloc.init
+	ObjC::NSApplication.sharedApplication.setDelegate_($delegate)
+
+	# if the app is started at the command line, 
+	# we need this to make it take focus
+	ObjC::NSApplication.sharedApplication.activateIgnoringOtherApps_(true)
+
+	# start the main event loop
+	ObjC.NSApplicationMain(0, nil)
+
+The first step in any RubyObjC application is to specify the search path to 
+use for any Ruby components required by the application.  This can be either
+:LOCAL (to use the search path of the Ruby installed locally on the system),
+:INTERNAL (to only search for components within the application's Resource directory),
+or a Ruby array of directory names.
+Next, several built-in RubyObjC components are loaded using calls to ObjC.require.
+Then all of the Ruby files in the application's Resource directory are loaded.
+Next and optionally, any Ruby files in the same directory as the application are 
+loaded. This disabled by default but is sometimes useful during application 
+development. After this, the application's delegate is defined.  This 
+allows us to specify actions to be performed after the application's data 
+structures and event handling loop have been initialized.  In this case, we 
+create a set of menus and start an interactive console in a Cocoa window.  
+The delegate is instantiated and set for the application.  Since delegates 
+are not retained by their client objects, we assign the delegate to a global 
+variable to keep it safe from Ruby's garbage collector.  Then after a slight 
+hack for command-line starts, we enter the main Cocoa event loop.
+
+The Rakefile is extremely simple:
+
+	require 'rake/cocoa'
+
+	Rake::CocoaApplication.new do |t|
+  		t.application = 'RubyObjC'
+  		t.identifier = 'com.rubyobjc.app'
+	end
+
+It simply sets the name of the application and the application's identifier.
+Application identifiers are like reversed domain names and are used to 
+uniquely describe Cocoa applications.  
+
+=Rake Tasks
+
+To build the application, type "rake"; to run it, use "rake run".
+
+If no Objective-C source files are present in the application directory,
+the Rake::CocoaApplication task can build a Cocoa application without
+compilation using a pre-built executable.  Otherwise, all Objective-C 
+source files are compiled and linked with the RubyObjC and Ruby libraries
+to create the application's executable.  All Ruby source files and nib 
+files in the project directory are copied into the application and the
+application's Info.plist file is automatically generated.
+
+By default, universal applications are generated.
+
+The "rake dmg" task will pack the compiled application in a disk image 
+(dmg) file for easy distribution.
+
+=Command-Line and Script Usage
+
+RubyObjC can also be used from the irb (Interactive Ruby) command line and 
+in Ruby scripts.  Because it is distributed as a gem, you'll need to 
+<tt>require 'rubygems'</tt> first, then simply <tt>require 'objc'</tt>.
+For example, to list the methods of NSObject, you might do this:
+	
+	require 'rubygems'
+	require 'objc'
+	c = ObjC::Class.find("NSObject")
+	puts c.imethods.sort
+
+You might prefer this, which also includes extra methods only available from Ruby:
+
+	require 'rubygems'
+	require 'objc'
+	o = ObjC::NSObject.alloc.init
+	puts o.methods.sort
+
+There's a lot more that can happen when you put Ruby and the Objective-C runtime together.
+

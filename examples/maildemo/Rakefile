@@ -1,0 +1,6 @@
+require 'rake/cocoa'
+
+Rake::CocoaApplication.new do |t|
+  t.application = "MailDemo"
+  t.identifier = 'com.rubyobjc.maildemo'
+end

@@ -1,0 +1,16 @@
+--
+
+Ruby Screen Saver
+
+-- 
+
+Too late for IronCoder V, this directory contains a screen saver written in Ruby with RubyObjC.
+Derived from the Maze game example, it creates, draws, and solves mazes.
+
+To build it, simply type "rake" from the terminal.  
+Then use "rake install" to install the screen saver.
+
+-- 
+
+Copyright (c) 2007 Tim Burks, Neon Design Technology, Inc.
+This and other RubyObjC examples can be found online at http://www.rubyobjc.com.

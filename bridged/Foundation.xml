@@ -1,0 +1,1672 @@
+<?xml version='1.0'?>
+<!DOCTYPE signatures SYSTEM "file://localhost/System/Library/DTDs/BridgeSupport.dtd">
+<signatures version='0.9'>
+  <constant name='NSAppleEventTimeOutDefault' type='_C_DBL'/>
+  <constant name='NSAppleEventTimeOutNone' type='_C_DBL'/>
+  <constant name='NSAppleEventManagerWillProcessFirstEventNotification' type='_C_ID'/>
+  <constant name='NSAppleScriptErrorMessage' type='_C_ID'/>
+  <constant name='NSAppleScriptErrorNumber' type='_C_ID'/>
+  <constant name='NSAppleScriptErrorAppName' type='_C_ID'/>
+  <constant name='NSAppleScriptErrorBriefMessage' type='_C_ID'/>
+  <constant name='NSAppleScriptErrorRange' type='_C_ID'/>
+  <constant name='NSInconsistentArchiveException' type='_C_ID'/>
+  <constant name='NSBundleDidLoadNotification' type='_C_ID'/>
+  <constant name='NSLoadedClasses' type='_C_ID'/>
+  <constant name='NSClassDescriptionNeededForClassNotification' type='_C_ID'/>
+  <constant name='NSConnectionReplyMode' type='_C_ID'/>
+  <constant name='NSConnectionDidDieNotification' type='_C_ID'/>
+  <constant name='NSFailedAuthenticationException' type='_C_ID'/>
+  <constant name='NSConnectionDidInitializeNotification' type='_C_ID'/>
+  <constant name='NSDebugEnabled' type='_PRIV_C_BOOL'/>
+  <constant name='NSZombieEnabled' type='_PRIV_C_BOOL'/>
+  <constant name='NSDeallocateZombies' type='_PRIV_C_BOOL'/>
+  <constant name='NSHangOnUncaughtException' type='_PRIV_C_BOOL'/>
+  <constant name='NSKeepAllocationStatistics' type='_PRIV_C_BOOL'/>
+  <constant name='NSDecimalNumberExactnessException' type='_C_ID'/>
+  <constant name='NSDecimalNumberOverflowException' type='_C_ID'/>
+  <constant name='NSDecimalNumberUnderflowException' type='_C_ID'/>
+  <constant name='NSDecimalNumberDivideByZeroException' type='_C_ID'/>
+  <constant name='NSLocalNotificationCenterType' type='_C_ID'/>
+  <constant name='NSCocoaErrorDomain' type='_C_ID'/>
+  <constant name='NSPOSIXErrorDomain' type='_C_ID'/>
+  <constant name='NSOSStatusErrorDomain' type='_C_ID'/>
+  <constant name='NSMachErrorDomain' type='_C_ID'/>
+  <constant name='NSUnderlyingErrorKey' type='_C_ID'/>
+  <constant name='NSLocalizedDescriptionKey' type='_C_ID'/>
+  <constant name='NSLocalizedFailureReasonErrorKey' type='_C_ID'/>
+  <constant name='NSLocalizedRecoverySuggestionErrorKey' type='_C_ID'/>
+  <constant name='NSLocalizedRecoveryOptionsErrorKey' type='_C_ID'/>
+  <constant name='NSRecoveryAttempterErrorKey' type='_C_ID'/>
+  <constant name='NSStringEncodingErrorKey' type='_C_ID'/>
+  <constant name='NSURLErrorKey' type='_C_ID'/>
+  <constant name='NSFilePathErrorKey' type='_C_ID'/>
+  <constant name='NSGenericException' type='_C_ID'/>
+  <constant name='NSRangeException' type='_C_ID'/>
+  <constant name='NSInvalidArgumentException' type='_C_ID'/>
+  <constant name='NSInternalInconsistencyException' type='_C_ID'/>
+  <constant name='NSMallocException' type='_C_ID'/>
+  <constant name='NSObjectInaccessibleException' type='_C_ID'/>
+  <constant name='NSObjectNotAvailableException' type='_C_ID'/>
+  <constant name='NSDestinationInvalidException' type='_C_ID'/>
+  <constant name='NSPortTimeoutException' type='_C_ID'/>
+  <constant name='NSInvalidSendPortException' type='_C_ID'/>
+  <constant name='NSInvalidReceivePortException' type='_C_ID'/>
+  <constant name='NSPortSendException' type='_C_ID'/>
+  <constant name='NSPortReceiveException' type='_C_ID'/>
+  <constant name='NSOldStyleException' type='_C_ID'/>
+  <constant name='NSFileHandleOperationException' type='_C_ID'/>
+  <constant name='NSFileHandleReadCompletionNotification' type='_C_ID'/>
+  <constant name='NSFileHandleReadToEndOfFileCompletionNotification' type='_C_ID'/>
+  <constant name='NSFileHandleConnectionAcceptedNotification' type='_C_ID'/>
+  <constant name='NSFileHandleDataAvailableNotification' type='_C_ID'/>
+  <constant name='NSFileHandleNotificationDataItem' type='_C_ID'/>
+  <constant name='NSFileHandleNotificationFileHandleItem' type='_C_ID'/>
+  <constant name='NSFileHandleNotificationMonitorModes' type='_C_ID'/>
+  <constant name='NSFileType' type='_C_ID'/>
+  <constant name='NSFileTypeDirectory' type='_C_ID'/>
+  <constant name='NSFileTypeRegular' type='_C_ID'/>
+  <constant name='NSFileTypeSymbolicLink' type='_C_ID'/>
+  <constant name='NSFileTypeSocket' type='_C_ID'/>
+  <constant name='NSFileTypeCharacterSpecial' type='_C_ID'/>
+  <constant name='NSFileTypeBlockSpecial' type='_C_ID'/>
+  <constant name='NSFileTypeUnknown' type='_C_ID'/>
+  <constant name='NSFileSize' type='_C_ID'/>
+  <constant name='NSFileModificationDate' type='_C_ID'/>
+  <constant name='NSFileReferenceCount' type='_C_ID'/>
+  <constant name='NSFileDeviceIdentifier' type='_C_ID'/>
+  <constant name='NSFileOwnerAccountName' type='_C_ID'/>
+  <constant name='NSFileGroupOwnerAccountName' type='_C_ID'/>
+  <constant name='NSFilePosixPermissions' type='_C_ID'/>
+  <constant name='NSFileSystemNumber' type='_C_ID'/>
+  <constant name='NSFileSystemFileNumber' type='_C_ID'/>
+  <constant name='NSFileExtensionHidden' type='_C_ID'/>
+  <constant name='NSFileHFSCreatorCode' type='_C_ID'/>
+  <constant name='NSFileHFSTypeCode' type='_C_ID'/>
+  <constant name='NSFileImmutable' type='_C_ID'/>
+  <constant name='NSFileAppendOnly' type='_C_ID'/>
+  <constant name='NSFileCreationDate' type='_C_ID'/>
+  <constant name='NSFileOwnerAccountID' type='_C_ID'/>
+  <constant name='NSFileGroupOwnerAccountID' type='_C_ID'/>
+  <constant name='NSFileBusy' type='_C_ID'/>
+  <constant name='NSFileSystemSize' type='_C_ID'/>
+  <constant name='NSFileSystemFreeSize' type='_C_ID'/>
+  <constant name='NSFileSystemNodes' type='_C_ID'/>
+  <constant name='NSFileSystemFreeNodes' type='_C_ID'/>
+  <constant name='NSZeroPoint' type='_PRIV_C_NSPOINT'/>
+  <constant name='NSZeroSize' type='_PRIV_C_NSSIZE'/>
+  <constant name='NSZeroRect' type='_PRIV_C_NSRECT'/>
+  <constant name='NSIntegerHashCallBacks' type='UNKNOWN'/>
+  <constant name='NSNonOwnedPointerHashCallBacks' type='UNKNOWN'/>
+  <constant name='NSNonRetainedObjectHashCallBacks' type='UNKNOWN'/>
+  <constant name='NSObjectHashCallBacks' type='UNKNOWN'/>
+  <constant name='NSOwnedObjectIdentityHashCallBacks' type='UNKNOWN'/>
+  <constant name='NSOwnedPointerHashCallBacks' type='UNKNOWN'/>
+  <constant name='NSPointerToStructHashCallBacks' type='UNKNOWN'/>
+  <constant name='NSHTTPCookieName' type='_C_ID'/>
+  <constant name='NSHTTPCookieValue' type='_C_ID'/>
+  <constant name='NSHTTPCookieOriginURL' type='_C_ID'/>
+  <constant name='NSHTTPCookieVersion' type='_C_ID'/>
+  <constant name='NSHTTPCookieDomain' type='_C_ID'/>
+  <constant name='NSHTTPCookiePath' type='_C_ID'/>
+  <constant name='NSHTTPCookieSecure' type='_C_ID'/>
+  <constant name='NSHTTPCookieExpires' type='_C_ID'/>
+  <constant name='NSHTTPCookieComment' type='_C_ID'/>
+  <constant name='NSHTTPCookieCommentURL' type='_C_ID'/>
+  <constant name='NSHTTPCookieDiscard' type='_C_ID'/>
+  <constant name='NSHTTPCookieMaximumAge' type='_C_ID'/>
+  <constant name='NSHTTPCookiePort' type='_C_ID'/>
+  <constant name='NSHTTPCookieManagerAcceptPolicyChangedNotification' type='_C_ID'/>
+  <constant name='NSHTTPCookieManagerCookiesChangedNotification' type='_C_ID'/>
+  <constant name='NSInvalidArchiveOperationException' type='_C_ID'/>
+  <constant name='NSInvalidUnarchiveOperationException' type='_C_ID'/>
+  <constant name='NSUndefinedKeyException' type='_C_ID'/>
+  <constant name='NSAverageKeyValueOperator' type='_C_ID'/>
+  <constant name='NSCountKeyValueOperator' type='_C_ID'/>
+  <constant name='NSDistinctUnionOfArraysKeyValueOperator' type='_C_ID'/>
+  <constant name='NSDistinctUnionOfObjectsKeyValueOperator' type='_C_ID'/>
+  <constant name='NSDistinctUnionOfSetsKeyValueOperator' type='_C_ID'/>
+  <constant name='NSMaximumKeyValueOperator' type='_C_ID'/>
+  <constant name='NSMinimumKeyValueOperator' type='_C_ID'/>
+  <constant name='NSSumKeyValueOperator' type='_C_ID'/>
+  <constant name='NSUnionOfArraysKeyValueOperator' type='_C_ID'/>
+  <constant name='NSUnionOfObjectsKeyValueOperator' type='_C_ID'/>
+  <constant name='NSUnionOfSetsKeyValueOperator' type='_C_ID'/>
+  <constant name='NSKeyValueChangeKindKey' type='_C_ID'/>
+  <constant name='NSKeyValueChangeNewKey' type='_C_ID'/>
+  <constant name='NSKeyValueChangeOldKey' type='_C_ID'/>
+  <constant name='NSKeyValueChangeIndexesKey' type='_C_ID'/>
+  <constant name='NSLocaleIdentifier' type='_C_ID'/>
+  <constant name='NSLocaleLanguageCode' type='_C_ID'/>
+  <constant name='NSLocaleCountryCode' type='_C_ID'/>
+  <constant name='NSLocaleScriptCode' type='_C_ID'/>
+  <constant name='NSLocaleVariantCode' type='_C_ID'/>
+  <constant name='NSLocaleExemplarCharacterSet' type='_C_ID'/>
+  <constant name='NSLocaleCalendar' type='_C_ID'/>
+  <constant name='NSLocaleCollationIdentifier' type='_C_ID'/>
+  <constant name='NSLocaleUsesMetricSystem' type='_C_ID'/>
+  <constant name='NSLocaleMeasurementSystem' type='_C_ID'/>
+  <constant name='NSLocaleDecimalSeparator' type='_C_ID'/>
+  <constant name='NSLocaleGroupingSeparator' type='_C_ID'/>
+  <constant name='NSLocaleCurrencySymbol' type='_C_ID'/>
+  <constant name='NSLocaleCurrencyCode' type='_C_ID'/>
+  <constant name='NSGregorianCalendar' type='_C_ID'/>
+  <constant name='NSBuddhistCalendar' type='_C_ID'/>
+  <constant name='NSChineseCalendar' type='_C_ID'/>
+  <constant name='NSHebrewCalendar' type='_C_ID'/>
+  <constant name='NSIslamicCalendar' type='_C_ID'/>
+  <constant name='NSIslamicCivilCalendar' type='_C_ID'/>
+  <constant name='NSJapaneseCalendar' type='_C_ID'/>
+  <constant name='NSIntegerMapKeyCallBacks' type='UNKNOWN'/>
+  <constant name='NSNonOwnedPointerMapKeyCallBacks' type='UNKNOWN'/>
+  <constant name='NSNonOwnedPointerOrNullMapKeyCallBacks' type='UNKNOWN'/>
+  <constant name='NSNonRetainedObjectMapKeyCallBacks' type='UNKNOWN'/>
+  <constant name='NSObjectMapKeyCallBacks' type='UNKNOWN'/>
+  <constant name='NSOwnedPointerMapKeyCallBacks' type='UNKNOWN'/>
+  <constant name='NSIntegerMapValueCallBacks' type='UNKNOWN'/>
+  <constant name='NSNonOwnedPointerMapValueCallBacks' type='UNKNOWN'/>
+  <constant name='NSObjectMapValueCallBacks' type='UNKNOWN'/>
+  <constant name='NSNonRetainedObjectMapValueCallBacks' type='UNKNOWN'/>
+  <constant name='NSOwnedPointerMapValueCallBacks' type='UNKNOWN'/>
+  <constant name='NSMetadataQueryDidStartGatheringNotification' type='_C_ID'/>
+  <constant name='NSMetadataQueryGatheringProgressNotification' type='_C_ID'/>
+  <constant name='NSMetadataQueryDidFinishGatheringNotification' type='_C_ID'/>
+  <constant name='NSMetadataQueryDidUpdateNotification' type='_C_ID'/>
+  <constant name='NSMetadataQueryResultContentRelevanceAttribute' type='_C_ID'/>
+  <constant name='NSMetadataQueryUserHomeScope' type='_C_ID'/>
+  <constant name='NSMetadataQueryLocalComputerScope' type='_C_ID'/>
+  <constant name='NSMetadataQueryNetworkScope' type='_C_ID'/>
+  <constant name='NSNetServicesErrorCode' type='_C_ID'/>
+  <constant name='NSNetServicesErrorDomain' type='_C_ID'/>
+  <constant name='NSFoundationVersionNumber' type='_C_DBL'/>
+  <constant name='NSPortDidBecomeInvalidNotification' type='_C_ID'/>
+  <constant name='NSDefaultRunLoopMode' type='_C_ID'/>
+  <constant name='NSOperationNotSupportedForKeyException' type='_C_ID'/>
+  <constant name='NSStreamSocketSecurityLevelKey' type='_C_ID'/>
+  <constant name='NSStreamSocketSecurityLevelNone' type='_C_ID'/>
+  <constant name='NSStreamSocketSecurityLevelSSLv2' type='_C_ID'/>
+  <constant name='NSStreamSocketSecurityLevelSSLv3' type='_C_ID'/>
+  <constant name='NSStreamSocketSecurityLevelTLSv1' type='_C_ID'/>
+  <constant name='NSStreamSocketSecurityLevelNegotiatedSSL' type='_C_ID'/>
+  <constant name='NSStreamSOCKSProxyConfigurationKey' type='_C_ID'/>
+  <constant name='NSStreamSOCKSProxyHostKey' type='_C_ID'/>
+  <constant name='NSStreamSOCKSProxyPortKey' type='_C_ID'/>
+  <constant name='NSStreamSOCKSProxyVersionKey' type='_C_ID'/>
+  <constant name='NSStreamSOCKSProxyUserKey' type='_C_ID'/>
+  <constant name='NSStreamSOCKSProxyPasswordKey' type='_C_ID'/>
+  <constant name='NSStreamSOCKSProxyVersion4' type='_C_ID'/>
+  <constant name='NSStreamSOCKSProxyVersion5' type='_C_ID'/>
+  <constant name='NSStreamDataWrittenToMemoryStreamKey' type='_C_ID'/>
+  <constant name='NSStreamFileCurrentOffsetKey' type='_C_ID'/>
+  <constant name='NSStreamSocketSSLErrorDomain' type='_C_ID'/>
+  <constant name='NSStreamSOCKSErrorDomain' type='_C_ID'/>
+  <constant name='NSParseErrorException' type='_C_ID'/>
+  <constant name='NSCharacterConversionException' type='_C_ID'/>
+  <constant name='_NSConstantStringClassReference' type='_PRIV_C_PTR'/>
+  <constant name='NSTaskDidTerminateNotification' type='_C_ID'/>
+  <constant name='NSWillBecomeMultiThreadedNotification' type='_C_ID'/>
+  <constant name='NSDidBecomeSingleThreadedNotification' type='_C_ID'/>
+  <constant name='NSThreadWillExitNotification' type='_C_ID'/>
+  <constant name='NSSystemTimeZoneDidChangeNotification' type='_C_ID'/>
+  <constant name='NSUndoManagerCheckpointNotification' type='_C_ID'/>
+  <constant name='NSUndoManagerWillUndoChangeNotification' type='_C_ID'/>
+  <constant name='NSUndoManagerWillRedoChangeNotification' type='_C_ID'/>
+  <constant name='NSUndoManagerDidUndoChangeNotification' type='_C_ID'/>
+  <constant name='NSUndoManagerDidRedoChangeNotification' type='_C_ID'/>
+  <constant name='NSUndoManagerDidOpenUndoGroupNotification' type='_C_ID'/>
+  <constant name='NSUndoManagerWillCloseUndoGroupNotification' type='_C_ID'/>
+  <constant name='NSURLFileScheme' type='_C_ID'/>
+  <constant name='NSURLCredentialStorageChangedNotification' type='_C_ID'/>
+  <constant name='NSURLErrorDomain' type='_C_ID'/>
+  <constant name='NSErrorFailingURLStringKey' type='_C_ID'/>
+  <constant name='NSHTTPPropertyStatusCodeKey' type='_C_ID'/>
+  <constant name='NSHTTPPropertyStatusReasonKey' type='_C_ID'/>
+  <constant name='NSHTTPPropertyServerHTTPVersionKey' type='_C_ID'/>
+  <constant name='NSHTTPPropertyRedirectionHeadersKey' type='_C_ID'/>
+  <constant name='NSHTTPPropertyErrorPageDataKey' type='_C_ID'/>
+  <constant name='NSHTTPPropertyHTTPProxy' type='_C_ID'/>
+  <constant name='NSFTPPropertyUserLoginKey' type='_C_ID'/>
+  <constant name='NSFTPPropertyUserPasswordKey' type='_C_ID'/>
+  <constant name='NSFTPPropertyActiveTransferModeKey' type='_C_ID'/>
+  <constant name='NSFTPPropertyFileOffsetKey' type='_C_ID'/>
+  <constant name='NSFTPPropertyFTPProxy' type='_C_ID'/>
+  <constant name='NSURLProtectionSpaceHTTPProxy' type='_C_ID'/>
+  <constant name='NSURLProtectionSpaceHTTPSProxy' type='_C_ID'/>
+  <constant name='NSURLProtectionSpaceFTPProxy' type='_C_ID'/>
+  <constant name='NSURLProtectionSpaceSOCKSProxy' type='_C_ID'/>
+  <constant name='NSURLAuthenticationMethodDefault' type='_C_ID'/>
+  <constant name='NSURLAuthenticationMethodHTTPBasic' type='_C_ID'/>
+  <constant name='NSURLAuthenticationMethodHTTPDigest' type='_C_ID'/>
+  <constant name='NSURLAuthenticationMethodHTMLForm' type='_C_ID'/>
+  <constant name='NSGlobalDomain' type='_C_ID'/>
+  <constant name='NSArgumentDomain' type='_C_ID'/>
+  <constant name='NSRegistrationDomain' type='_C_ID'/>
+  <constant name='NSUserDefaultsDidChangeNotification' type='_C_ID'/>
+  <constant name='NSNegateBooleanTransformerName' type='_C_ID'/>
+  <constant name='NSIsNilTransformerName' type='_C_ID'/>
+  <constant name='NSIsNotNilTransformerName' type='_C_ID'/>
+  <constant name='NSUnarchiveFromDataTransformerName' type='_C_ID'/>
+  <constant name='NSXMLParserErrorDomain' type='_C_ID'/>
+  <enum name='NSEndsWithComparison' value='0x6'/>
+  <enum name='NSAllPredicateModifier' value='0x1'/>
+  <enum name='NSBeginsWithPredicateOperatorType' value='0x8'/>
+  <enum name='NSDayCalendarUnit' value='0x10'/>
+  <enum name='NSRoundPlain' value='0x0'/>
+  <enum name='NSBundleExecutableArchitectureX86_64' value='0x1000007'/>
+  <enum name='NSApplicationDirectory' value='0x1'/>
+  <enum name='NSXMLElementKind' value='0x2'/>
+  <enum name='NSURLCredentialPersistenceNone' value='0x0'/>
+  <enum name='NSXMLProcessingInstructionKind' value='0x5'/>
+  <enum name='NSNotificationSuspensionBehaviorCoalesce' value='0x2'/>
+  <enum name='NSLessThanPredicateOperatorType' value='0x0'/>
+  <enum name='NSObjCBitfield' value='0x62'/>
+  <enum name='NSXMLParserEqualExpectedError' value='0x4b'/>
+  <enum name='NSNumberFormatterBehavior10_4' value='0x410'/>
+  <enum name='NSXMLNamespaceKind' value='0x4'/>
+  <enum name='NSLessThanOrEqualToPredicateOperatorType' value='0x1'/>
+  <enum name='NSXMLParserProcessingInstructionNotFinishedError' value='0x2f'/>
+  <enum name='NSXMLParserEmptyDocumentError' value='0x4'/>
+  <enum name='NSNumberFormatterPadBeforePrefix' value='0x0'/>
+  <enum name='NSObjCSelectorType' value='0x3a'/>
+  <enum name='NSDateFormatterBehaviorDefault' value='0x0'/>
+  <enum name='NSDocumentationDirectory' value='0x8'/>
+  <enum name='NSXMLDocumentKind' value='0x1'/>
+  <enum name='NSAdminApplicationDirectory' value='0x4'/>
+  <enum name='NSObjCNoType' value='0x0'/>
+  <enum name='NSObjCStringType' value='0x2a'/>
+  <enum name='NSNumberFormatterRoundFloor' value='0x1'/>
+  <enum name='NSInvalidIndexSpecifierError' value='0x4'/>
+  <enum name='NSXMLEntityDeclarationKind' value='0x9'/>
+  <enum name='NSPostWhenIdle' value='0x1'/>
+  <enum name='NSHashTableZeroingWeakMemory' value='0x1'/>
+  <enum name='NSPointerFunctionsMachVirtualMemory' value='0x4'/>
+  <enum name='NSLibraryDirectory' value='0x5'/>
+  <enum name='NSPositionAfter' value='0x0'/>
+  <enum name='NSXMLEntityGeneralKind' value='0x1'/>
+  <enum name='NSDirectPredicateModifier' value='0x0'/>
+  <enum name='NSXMLParserParsedEntityRefInInternalError' value='0x58'/>
+  <enum name='NSFileWriteUnknownError' value='0x200'/>
+  <enum name='NSXMLParserParsedEntityRefInInternalSubsetError' value='0x15'/>
+  <enum name='NSXMLEntityParsedKind' value='0x2'/>
+  <enum name='NSStreamStatusNotOpen' value='0x0'/>
+  <enum name='NSNumberFormatterRoundHalfDown' value='0x5'/>
+  <enum name='NSMatchesPredicateOperatorType' value='0x6'/>
+  <enum name='NSCannotCreateScriptCommandError' value='0xa'/>
+  <enum name='NSDocumentDirectory' value='0x9'/>
+  <enum name='NSObjCStructType' value='0x7b'/>
+  <enum name='NSBetweenPredicateOperatorType' value='0x64'/>
+  <enum name='NSOrPredicateType' value='0x2'/>
+  <enum name='NSXMLParserMisplacedXMLDeclarationError' value='0x40'/>
+  <enum name='NSXMLParserElementContentDeclNotFinishedError' value='0x37'/>
+  <enum name='NSDateFormatterMediumStyle' value='0x2'/>
+  <enum name='NSStreamEventHasBytesAvailable' value='0x2'/>
+  <enum name='NSReceiverEvaluationScriptError' value='0x1'/>
+  <enum name='NSUndefinedDateComponent' value='0x7fffffff'/>
+  <enum name='NSTimeZoneNameStyleShortDaylightSaving' value='0x3'/>
+  <enum name='NSShiftJISStringEncoding' value='0x8'/>
+  <enum name='NSPointerFunctionsOpaqueMemory' value='0x2'/>
+  <enum name='NS_UnknownByteOrder' value='0x0'/>
+  <enum name='NSXMLParserPublicIdentifierRequiredError' value='0x47'/>
+  <enum name='NSXMLParserDocumentStartError' value='0x3'/>
+  <enum name='NSXMLElementDeclarationAnyKind' value='0x12'/>
+  <enum name='NSOperationQueueDefaultMaxConcurrentOperationCount' value='0xffffffff'/>
+  <enum name='NSAllLibrariesDirectory' value='0x65'/>
+  <enum name='NSNetServicesInvalidError' value='0xfffee6ba'/>
+  <enum name='NSXMLParserAttributeNotFinishedError' value='0x28'/>
+  <enum name='NSXMLParserEntityReferenceMissingSemiError' value='0x17'/>
+  <enum name='NSUTF32StringEncoding' value='0x8c000100'/>
+  <enum name='NSFileReadCorruptFileError' value='0x103'/>
+  <enum name='NSISOLatin1StringEncoding' value='0x5'/>
+  <enum name='NSCalculationOverflow' value='0x3'/>
+  <enum name='NSXMLParserParsedEntityRefMissingSemiError' value='0x19'/>
+  <enum name='NSNetServicesActivityInProgress' value='0xfffee6bd'/>
+  <enum name='NSMaxXEdge' value='0x2'/>
+  <enum name='NSXMLAttributeNMTokenKind' value='0xc'/>
+  <enum name='NSNumberFormatterPadBeforeSuffix' value='0x2'/>
+  <enum name='NSXMLCommentKind' value='0x6'/>
+  <enum name='NSMapTableOptionObjectPointerPersonality' value='0x20000'/>
+  <enum name='NSNetServicesCancelledError' value='0xfffee6bb'/>
+  <enum name='NSOperationNotSupportedForKeyScriptError' value='0x9'/>
+  <enum name='NSStreamStatusReading' value='0x3'/>
+  <enum name='NSNetServicesCollisionError' value='0xfffee6bf'/>
+  <enum name='NSArgumentsWrongScriptError' value='0x6'/>
+  <enum name='NSHashTableOptionZeroingWeakMemory' value='0x1'/>
+  <enum name='NSMacOSRomanStringEncoding' value='0x1e'/>
+  <enum name='NSHTTPCookieAcceptPolicyOnlyFromMainDocumentDomain' value='0x2'/>
+  <enum name='NSMiddleSubelement' value='0x2'/>
+  <enum name='NSXMLParserEntityRefInEpilogError' value='0x10'/>
+  <enum name='NSSubqueryExpressionType' value='0xd'/>
+  <enum name='NSXMLParserStandaloneValueError' value='0x4e'/>
+  <enum name='NSXMLNodePreserveCharacterReferences' value='0x8000000'/>
+  <enum name='NSSaveOptionsAsk' value='0x2'/>
+  <enum name='NSLiteralSearch' value='0x2'/>
+  <enum name='NSXMLParserLiteralNotStartedError' value='0x2b'/>
+  <enum name='NSPointerFunctionsCopyIn' value='0x10000'/>
+  <enum name='NSXMLTextKind' value='0x7'/>
+  <enum name='NSKeyValueChangeSetting' value='0x1'/>
+  <enum name='NSFileReadUnknownError' value='0x100'/>
+  <enum name='NSKeyValueObservingOptionOld' value='0x2'/>
+  <enum name='NSXMLNodePreserveCDATA' value='0x1000000'/>
+  <enum name='NSMachPortDeallocateReceiveRight' value='0x2'/>
+  <enum name='NSXMLDocumentTextKind' value='0x3'/>
+  <enum name='NSNEXTSTEPStringEncoding' value='0x2'/>
+  <enum name='NSStreamEventOpenCompleted' value='0x1'/>
+  <enum name='NSWindowsCP1251StringEncoding' value='0xb'/>
+  <enum name='NSGreaterThanOrEqualToPredicateOperatorType' value='0x3'/>
+  <enum name='NSUTF16StringEncoding' value='0xa'/>
+  <enum name='NSXMLEntityParameterKind' value='0x4'/>
+  <enum name='NSXMLParserDelegateAbortedParseError' value='0x200'/>
+  <enum name='NSXMLParserProcessingInstructionNotStartedError' value='0x2e'/>
+  <enum name='NSXMLParserInternalError' value='0x1'/>
+  <enum name='NSNumberFormatterPercentStyle' value='0x3'/>
+  <enum name='NSRelativeBefore' value='0x1'/>
+  <enum name='NSPointerFunctionsStructPersonality' value='0x400'/>
+  <enum name='NSStreamStatusWriting' value='0x4'/>
+  <enum name='NSMACHOperatingSystem' value='0x5'/>
+  <enum name='NSXMLParserMixedContentDeclNotFinishedError' value='0x35'/>
+  <enum name='NSXMLParserLiteralNotFinishedError' value='0x2c'/>
+  <enum name='NSXMLParserInvalidHexCharacterRefError' value='0x6'/>
+  <enum name='NSXMLAttributeEntitiesKind' value='0xb'/>
+  <enum name='NSConstantValueExpressionType' value='0x0'/>
+  <enum name='NSDiacriticInsensitiveSearch' value='0x80'/>
+  <enum name='NSHashTableCopyIn' value='0x10000'/>
+  <enum name='NSObjCLonglongType' value='0x71'/>
+  <enum name='NSNotFound' value='0x7fffffff'/>
+  <enum name='NSExecutableNotLoadableError' value='0xe00'/>
+  <enum name='NSXMLParserParsedEntityRefInPrologError' value='0x13'/>
+  <enum name='NSXMLElementDeclarationMixedKind' value='0x13'/>
+  <enum name='NSMapTableOptionCopyIn' value='0x8000'/>
+  <enum name='NSHPUXOperatingSystem' value='0x4'/>
+  <enum name='NSOrderedAscending' value='0xffffffff'/>
+  <enum name='NSURLHandleLoadFailed' value='0x3'/>
+  <enum name='NSXMLAttributeIDKind' value='0x7'/>
+  <enum name='NSKeyValueSetSetMutation' value='0x4'/>
+  <enum name='NSXMLParserMisplacedCDATAEndStringError' value='0x3e'/>
+  <enum name='NSXMLParserXMLDeclNotStartedError' value='0x38'/>
+  <enum name='NSDeveloperDirectory' value='0x6'/>
+  <enum name='NSXMLNodeOptionsNone' value='0x0'/>
+  <enum name='NSXMLInvalidKind' value='0x0'/>
+  <enum name='NSXMLNodePreserveEntities' value='0x400000'/>
+  <enum name='NSXMLNodePreserveWhitespace' value='0x2000000'/>
+  <enum name='NSXMLParserNotWellBalancedError' value='0x55'/>
+  <enum name='NSXMLParserCDATANotFinishedError' value='0x3f'/>
+  <enum name='NSDateFormatterShortStyle' value='0x1'/>
+  <enum name='NSNotEqualToPredicateOperatorType' value='0x5'/>
+  <enum name='NSWindowsCP1253StringEncoding' value='0xd'/>
+  <enum name='NSURLHandleLoadInProgress' value='0x2'/>
+  <enum name='NSStringEncodingConversionExternalRepresentation' value='0x2'/>
+  <enum name='NSXMLParserTagNameMismatchError' value='0x4c'/>
+  <enum name='NSXMLParserSeparatorRequiredError' value='0x42'/>
+  <enum name='NSXMLParserPrematureDocumentEndError' value='0x5'/>
+  <enum name='NSSolarisOperatingSystem' value='0x3'/>
+  <enum name='NSFileReadInvalidFileNameError' value='0x102'/>
+  <enum name='NSXMLParserEntityNotStartedError' value='0x24'/>
+  <enum name='NSRelativeAfter' value='0x0'/>
+  <enum name='NSUnknownKeySpecifierError' value='0x3'/>
+  <enum name='NSFileWriteInvalidFileNameError' value='0x202'/>
+  <enum name='NSExecutableLinkError' value='0xe04'/>
+  <enum name='NSXMLParserInvalidEncodingError' value='0x51'/>
+  <enum name='NSBackwardsSearch' value='0x4'/>
+  <enum name='NSOSF1OperatingSystem' value='0x7'/>
+  <enum name='NSXMLNodePreserveQuotes' value='0x18'/>
+  <enum name='NSTimeZoneNameStyleDaylightSaving' value='0x2'/>
+  <enum name='NSHashTableOptionCopyIn' value='0x8000'/>
+  <enum name='NSStreamStatusAtEnd' value='0x5'/>
+  <enum name='NSXMLDocumentHTMLKind' value='0x2'/>
+  <enum name='NSNotificationSuspensionBehaviorDeliverImmediately' value='0x4'/>
+  <enum name='NSXMLParserLTRequiredError' value='0x48'/>
+  <enum name='NSFileReadNoSuchFileError' value='0x104'/>
+  <enum name='NSYearCalendarUnit' value='0x4'/>
+  <enum name='NSXMLParserEntityNotFinishedError' value='0x25'/>
+  <enum name='NSNumberFormatterDecimalStyle' value='0x1'/>
+  <enum name='NSPointerFunctionsObjectPointerPersonality' value='0x200'/>
+  <enum name='NSForcedOrderingSearch' value='0x200'/>
+  <enum name='NSCaseInsensitiveSearch' value='0x1'/>
+  <enum name='NSXMLParserCommentNotFinishedError' value='0x2d'/>
+  <enum name='NSPointerFunctionsStrongMemory' value='0x0'/>
+  <enum name='NSXMLEntityPredefined' value='0x5'/>
+  <enum name='NSStreamStatusOpening' value='0x1'/>
+  <enum name='NSDesktopDirectory' value='0xc'/>
+  <enum name='NSXMLElementDeclarationKind' value='0xb'/>
+  <enum name='NSNotificationSuspensionBehaviorDrop' value='0x1'/>
+  <enum name='NSURLHandleNotLoaded' value='0x0'/>
+  <enum name='NSXMLNodeUseDoubleQuotes' value='0x10'/>
+  <enum name='NSWeekdayCalendarUnit' value='0x200'/>
+  <enum name='NSNetServiceNoAutoRename' value='0x1'/>
+  <enum name='NSXMLParserEntityValueRequiredError' value='0x54'/>
+  <enum name='NSContainerSpecifierError' value='0x2'/>
+  <enum name='NSKeySpecifierEvaluationScriptError' value='0x2'/>
+  <enum name='NSXMLParserOutOfMemoryError' value='0x2'/>
+  <enum name='NSObjCUnionType' value='0x28'/>
+  <enum name='NSReceiversCantHandleCommandScriptError' value='0x4'/>
+  <enum name='NSWidthInsensitiveSearch' value='0x100'/>
+  <enum name='NSSymbolStringEncoding' value='0x6'/>
+  <enum name='NSXMLAttributeKind' value='0x3'/>
+  <enum name='NSMapTableOptionZeroingWeakMemory' value='0x1'/>
+  <enum name='NSNotificationCoalescingOnName' value='0x1'/>
+  <enum name='NSFileWriteUnsupportedSchemeError' value='0x206'/>
+  <enum name='NSRoundUp' value='0x2'/>
+  <enum name='NSXMLNodePreserveEmptyElements' value='0x6'/>
+  <enum name='NSNumberFormatterRoundCeiling' value='0x0'/>
+  <enum name='NSExecutableErrorMaximum' value='0xeff'/>
+  <enum name='NSRoundBankers' value='0x3'/>
+  <enum name='NSNumberFormatterNoStyle' value='0x0'/>
+  <enum name='NSXMLParserInvalidEncodingNameError' value='0x4f'/>
+  <enum name='NSXMLParserUnparsedEntityError' value='0x1c'/>
+  <enum name='NSWeekCalendarUnit' value='0x100'/>
+  <enum name='NSXMLParserElementContentDeclNotStartedError' value='0x36'/>
+  <enum name='NSXMLNodePreserveAll' value='0xfff0001e'/>
+  <enum name='NSOrderedDescending' value='0x1'/>
+  <enum name='NSCollectorDisabledOption' value='0x2'/>
+  <enum name='NSXMLParserParsedEntityRefNoNameError' value='0x18'/>
+  <enum name='NSPointerFunctionsObjectPersonality' value='0x0'/>
+  <enum name='NSUserDirectory' value='0x7'/>
+  <enum name='NSNetServicesBadArgumentError' value='0xfffee6bc'/>
+  <enum name='NSValidationErrorMaximum' value='0x7ff'/>
+  <enum name='NSObjCBoolType' value='0x42'/>
+  <enum name='NSDeveloperApplicationDirectory' value='0x3'/>
+  <enum name='NSKeyValueChangeRemoval' value='0x3'/>
+  <enum name='NSNumberFormatterRoundHalfEven' value='0x4'/>
+  <enum name='NSXMLDocumentIncludeContentTypeDeclaration' value='0x40000'/>
+  <enum name='NSUTF32BigEndianStringEncoding' value='0x98000100'/>
+  <enum name='NSNumberFormatterBehaviorDefault' value='0x0'/>
+  <enum name='NSXMLParserCharacterRefInPrologError' value='0xb'/>
+  <enum name='NSObjCPointerType' value='0x5e'/>
+  <enum name='NSISO2022JPStringEncoding' value='0x15'/>
+  <enum name='NSBundleExecutableArchitectureI386' value='0x7'/>
+  <enum name='NSDateFormatterFullStyle' value='0x4'/>
+  <enum name='NSExecutableRuntimeMismatchError' value='0xe02'/>
+  <enum name='NSXMLParserNMTOKENRequiredError' value='0x43'/>
+  <enum name='NSXMLParserCharacterRefAtEOFError' value='0xa'/>
+  <enum name='NSSecondCalendarUnit' value='0x80'/>
+  <enum name='NSRandomSubelement' value='0x3'/>
+  <enum name='NS_BigEndian' value='0x2'/>
+  <enum name='NSExecutableErrorMinimum' value='0xe00'/>
+  <enum name='NSMappedRead' value='0x1'/>
+  <enum name='NSSaveOptionsYes' value='0x0'/>
+  <enum name='NSBundleExecutableArchitecturePPC64' value='0x1000012'/>
+  <enum name='NSMachPortDeallocateSendRight' value='0x1'/>
+  <enum name='NSPropertyListOpenStepFormat' value='0x1'/>
+  <enum name='NSXMLParserStringNotClosedError' value='0x22'/>
+  <enum name='NSGreaterThanPredicateOperatorType' value='0x2'/>
+  <enum name='NSEndsWithPredicateOperatorType' value='0x9'/>
+  <enum name='NSValidationErrorMinimum' value='0x400'/>
+  <enum name='NSNetServicesUnknownError' value='0xfffee6c0'/>
+  <enum name='NSXMLNodePreserveDTD' value='0x4000000'/>
+  <enum name='NSIndexSubelement' value='0x0'/>
+  <enum name='NSXMLParserXMLDeclNotFinishedError' value='0x39'/>
+  <enum name='NSEverySubelement' value='0x1'/>
+  <enum name='NSFormattingErrorMaximum' value='0x9ff'/>
+  <enum name='NSAllDomainsMask' value='0xffff'/>
+  <enum name='NSSaveOptionsNo' value='0x1'/>
+  <enum name='NSLessThanOrEqualToComparison' value='0x1'/>
+  <enum name='NSNumericSearch' value='0x40'/>
+  <enum name='NSXMLAttributeNMTokensKind' value='0xd'/>
+  <enum name='NSAtomicWrite' value='0x1'/>
+  <enum name='NSNumberFormatterCurrencyStyle' value='0x2'/>
+  <enum name='NSUncachedRead' value='0x2'/>
+  <enum name='NSSystemDomainMask' value='0x8'/>
+  <enum name='NSCalculationNoError' value='0x0'/>
+  <enum name='NSXMLAttributeEnumerationKind' value='0xe'/>
+  <enum name='NSNotificationNoCoalescing' value='0x0'/>
+  <enum name='NSURLHandleLoadSucceeded' value='0x1'/>
+  <enum name='NSStreamStatusClosed' value='0x6'/>
+  <enum name='NSXMLNodeExpandEmptyElement' value='0x2'/>
+  <enum name='NSXMLParserEntityReferenceWithoutNameError' value='0x16'/>
+  <enum name='NSXMLAttributeNotationKind' value='0xf'/>
+  <enum name='NSXMLParserInvalidURIError' value='0x5b'/>
+  <enum name='NSLessThanComparison' value='0x2'/>
+  <enum name='NSCachesDirectory' value='0xd'/>
+  <enum name='NSXMLParserEntityBoundaryError' value='0x5a'/>
+  <enum name='NSUnicodeStringEncoding' value='0xa'/>
+  <enum name='NSXMLParserLessThanSymbolInAttributeError' value='0x26'/>
+  <enum name='NSContainsPredicateOperatorType' value='0x63'/>
+  <enum name='NSPropertyListXMLFormat_v1_0' value='0x64'/>
+  <enum name='NSObjCVoidType' value='0x76'/>
+  <enum name='NSObjCFloatType' value='0x66'/>
+  <enum name='NSURLCredentialPersistencePermanent' value='0x2'/>
+  <enum name='NSXMLParserInvalidConditionalSectionError' value='0x53'/>
+  <enum name='NSFileLockingError' value='0xff'/>
+  <enum name='NSAnchoredSearch' value='0x8'/>
+  <enum name='NSStreamEventEndEncountered' value='0x10'/>
+  <enum name='NSNoTopLevelContainersSpecifierError' value='0x1'/>
+  <enum name='NSWrapCalendarComponents' value='0x1'/>
+  <enum name='NSGreaterThanOrEqualToComparison' value='0x3'/>
+  <enum name='NSExecutableArchitectureMismatchError' value='0xe01'/>
+  <enum name='NSXMLParserEntityRefAtEOFError' value='0xe'/>
+  <enum name='NSXMLParserInvalidDecimalCharacterRefError' value='0x7'/>
+  <enum name='NSFormattingError' value='0x800'/>
+  <enum name='NSMinYEdge' value='0x1'/>
+  <enum name='NSArgumentEvaluationScriptError' value='0x3'/>
+  <enum name='NSXMLParserExternalSubsetNotFinishedError' value='0x3c'/>
+  <enum name='NSXMLParserNotationNotFinishedError' value='0x31'/>
+  <enum name='NSXMLAttributeIDRefsKind' value='0x9'/>
+  <enum name='NSXMLParserUnfinishedTagError' value='0x4d'/>
+  <enum name='NSXMLParserAttributeListNotFinishedError' value='0x33'/>
+  <enum name='NSCaseInsensitivePredicateOption' value='0x1'/>
+  <enum name='NSJapaneseEUCStringEncoding' value='0x3'/>
+  <enum name='NSXMLParserSpaceRequiredError' value='0x41'/>
+  <enum name='NSXMLNotationDeclarationKind' value='0xc'/>
+  <enum name='NSKeyValueObservingOptionPrior' value='0x8'/>
+  <enum name='NSPositionBeginning' value='0x2'/>
+  <enum name='NSMonthCalendarUnit' value='0x8'/>
+  <enum name='NSCoreServiceDirectory' value='0xa'/>
+  <enum name='NSXMLParserInvalidCharacterRefError' value='0x8'/>
+  <enum name='NSFileReadUnsupportedSchemeError' value='0x106'/>
+  <enum name='NSEraCalendarUnit' value='0x2'/>
+  <enum name='NSPropertyListImmutable' value='0x0'/>
+  <enum name='NSXMLParserUndeclaredEntityError' value='0x1a'/>
+  <enum name='NSNotificationDeliverImmediately' value='0x1'/>
+  <enum name='NSXMLDocumentTidyXML' value='0x400'/>
+  <enum name='NSWindowsNTOperatingSystem' value='0x1'/>
+  <enum name='NSXMLNodeCompactEmptyElement' value='0x4'/>
+  <enum name='NSObjCArrayType' value='0x5b'/>
+  <enum name='NSKeyValueValidationError' value='0x400'/>
+  <enum name='NSASCIIStringEncoding' value='0x1'/>
+  <enum name='NSInPredicateOperatorType' value='0xa'/>
+  <enum name='NSXMLNodePrettyPrint' value='0x20000'/>
+  <enum name='NSFileWriteOutOfSpaceError' value='0x280'/>
+  <enum name='NSFileWriteNoPermissionError' value='0x201'/>
+  <enum name='NSXMLParserNAMERequiredError' value='0x44'/>
+  <enum name='NSKeyPathExpressionType' value='0x3'/>
+  <enum name='NSCalculationDivideByZero' value='0x4'/>
+  <enum name='NSHashTableObjectPointerPersonality' value='0x200'/>
+  <enum name='NSXMLElementDeclarationEmptyKind' value='0x11'/>
+  <enum name='NSWindowsCP1254StringEncoding' value='0xe'/>
+  <enum name='NSGreaterThanComparison' value='0x4'/>
+  <enum name='NSPointerFunctionsCStringPersonality' value='0x300'/>
+  <enum name='NSXMLParserAttributeRedefinedError' value='0x2a'/>
+  <enum name='NSNotPredicateType' value='0x0'/>
+  <enum name='NSFormattingErrorMinimum' value='0x800'/>
+  <enum name='NSXMLNodeIsCDATA' value='0x1'/>
+  <enum name='NSPositionReplace' value='0x4'/>
+  <enum name='NSHTTPCookieAcceptPolicyAlways' value='0x0'/>
+  <enum name='NSXMLParserEntityRefLoopError' value='0x59'/>
+  <enum name='NSXMLParserInvalidCharacterError' value='0x9'/>
+  <enum name='NSNoSubelement' value='0x4'/>
+  <enum name='NSXMLParserConditionalSectionNotStartedError' value='0x3a'/>
+  <enum name='NSFileErrorMaximum' value='0x3ff'/>
+  <enum name='NSHourCalendarUnit' value='0x20'/>
+  <enum name='NSXMLParserURIFragmentError' value='0x5c'/>
+  <enum name='NSXMLParserNamespaceDeclarationError' value='0x23'/>
+  <enum name='NSIntersectSetExpressionType' value='0x6'/>
+  <enum name='NSObjCShortType' value='0x73'/>
+  <enum name='NSExecutableLoadError' value='0xe03'/>
+  <enum name='NSDateFormatterNoStyle' value='0x0'/>
+  <enum name='NSInternalSpecifierError' value='0x5'/>
+  <enum name='NSDateFormatterBehavior10_0' value='0x3e8'/>
+  <enum name='NSXMLParserLTSlashRequiredError' value='0x4a'/>
+  <enum name='NSXMLDTDKind' value='0x8'/>
+  <enum name='NSPositionEnd' value='0x3'/>
+  <enum name='NSNumberFormatterSpellOutStyle' value='0x5'/>
+  <enum name='NSISOLatin2StringEncoding' value='0x9'/>
+  <enum name='NSPointerFunctionsOpaquePersonality' value='0x100'/>
+  <enum name='NSPointerFunctionsZeroingWeakMemory' value='0x1'/>
+  <enum name='NSXMLParserAttributeListNotStartedError' value='0x32'/>
+  <enum name='NSXMLDocumentValidate' value='0x2000'/>
+  <enum name='NSObjCObjectType' value='0x40'/>
+  <enum name='NSXMLParserPCDATARequiredError' value='0x45'/>
+  <enum name='NSPropertyListMutableContainersAndLeaves' value='0x2'/>
+  <enum name='NSMapTableZeroingWeakMemory' value='0x1'/>
+  <enum name='NSMinuteCalendarUnit' value='0x40'/>
+  <enum name='NSXMLParserInvalidCharacterInEntityError' value='0x57'/>
+  <enum name='NSXMLParserNotationNotStartedError' value='0x30'/>
+  <enum name='NSXMLAttributeDeclarationKind' value='0xa'/>
+  <enum name='NSAnyPredicateModifier' value='0x2'/>
+  <enum name='NSDateFormatterBehavior10_4' value='0x410'/>
+  <enum name='NSXMLParserExtraContentError' value='0x56'/>
+  <enum name='NSXMLDocumentXHTMLKind' value='0x1'/>
+  <enum name='NSXMLElementDeclarationUndefinedKind' value='0x10'/>
+  <enum name='NSKeyValueObservingOptionInitial' value='0x4'/>
+  <enum name='NSNoSpecifierError' value='0x0'/>
+  <enum name='NSFileErrorMinimum' value='0x0'/>
+  <enum name='NSScannedOption' value='0x1'/>
+  <enum name='NSXMLParserAttributeHasNoValueError' value='0x29'/>
+  <enum name='NSStreamStatusOpen' value='0x2'/>
+  <enum name='NSVariableExpressionType' value='0x2'/>
+  <enum name='NSCalculationLossOfPrecision' value='0x1'/>
+  <enum name='NSXMLParserNoDTDError' value='0x5e'/>
+  <enum name='NSRoundDown' value='0x1'/>
+  <enum name='NSKeyValueUnionSetMutation' value='0x1'/>
+  <enum name='NSXMLParserStringNotStartedError' value='0x21'/>
+  <enum name='NSFileNoSuchFileError' value='0x4'/>
+  <enum name='NSNumberFormatterRoundDown' value='0x2'/>
+  <enum name='NSOperationNotSupportedForKeySpecifierError' value='0x6'/>
+  <enum name='NSXMLNodePreserveNamespaceOrder' value='0x100000'/>
+  <enum name='NSWindowsCP1252StringEncoding' value='0xc'/>
+  <enum name='NSObjCCharType' value='0x63'/>
+  <enum name='NSCustomSelectorPredicateOperatorType' value='0xb'/>
+  <enum name='NSUTF32LittleEndianStringEncoding' value='0x9c000100'/>
+  <enum name='NSXMLParserCharacterRefInEpilogError' value='0xc'/>
+  <enum name='NSDemoApplicationDirectory' value='0x2'/>
+  <enum name='NSHTTPCookieAcceptPolicyNever' value='0x1'/>
+  <enum name='NSDateFormatterLongStyle' value='0x3'/>
+  <enum name='NSXMLParserExternalStandaloneEntityError' value='0x52'/>
+  <enum name='NSXMLParserCharacterRefInDTDError' value='0xd'/>
+  <enum name='NSNetServicesTimeoutError' value='0xfffee6b9'/>
+  <enum name='NSApplicationSupportDirectory' value='0xe'/>
+  <enum name='NSXMLParserConditionalSectionNotFinishedError' value='0x3b'/>
+  <enum name='NSXMLParserParsedEntityRefInEpilogError' value='0x14'/>
+  <enum name='NSXMLDocumentTidyHTML' value='0x200'/>
+  <enum name='NSMinusSetExpressionType' value='0x7'/>
+  <enum name='NSNotificationCoalescingOnSender' value='0x2'/>
+  <enum name='NSUTF16LittleEndianStringEncoding' value='0x94000100'/>
+  <enum name='NSKeyValueMinusSetMutation' value='0x2'/>
+  <enum name='NSAggregateExpressionType' value='0xe'/>
+  <enum name='NSEvaluatedObjectExpressionType' value='0x1'/>
+  <enum name='NSXMLDocumentXInclude' value='0x10000'/>
+  <enum name='NSXMLParserDOCTYPEDeclNotFinishedError' value='0x3d'/>
+  <enum name='NSXMLParserEntityRefInPrologError' value='0xf'/>
+  <enum name='NSKeyValueObservingOptionNew' value='0x1'/>
+  <enum name='NSPropertyListMutableContainers' value='0x1'/>
+  <enum name='NSMinXEdge' value='0x0'/>
+  <enum name='NSMaxYEdge' value='0x3'/>
+  <enum name='NSXMLParserEntityIsExternalError' value='0x1d'/>
+  <enum name='NSOpenStepUnicodeReservedBase' value='0xf400'/>
+  <enum name='NSEqualToPredicateOperatorType' value='0x4'/>
+  <enum name='NSXMLNodeUseSingleQuotes' value='0x8'/>
+  <enum name='NSWindowsCP1250StringEncoding' value='0xf'/>
+  <enum name='NSPositionBefore' value='0x1'/>
+  <enum name='NSNumberFormatterPadAfterPrefix' value='0x1'/>
+  <enum name='NSWindows95OperatingSystem' value='0x2'/>
+  <enum name='NSStreamEventHasSpaceAvailable' value='0x4'/>
+  <enum name='NSXMLParserEncodingNotSupportedError' value='0x20'/>
+  <enum name='NSNetServicesNotFoundError' value='0xfffee6be'/>
+  <enum name='NSNotificationPostToAllSessions' value='0x2'/>
+  <enum name='NSNumberFormatterRoundUp' value='0x3'/>
+  <enum name='NSOrderedSame' value='0x0'/>
+  <enum name='NSXMLAttributeEntityKind' value='0xa'/>
+  <enum name='NSCalculationUnderflow' value='0x2'/>
+  <enum name='NSStreamEventErrorOccurred' value='0x8'/>
+  <enum name='NSUnionSetExpressionType' value='0x5'/>
+  <enum name='NSXMLNodePreservePrefixes' value='0x800000'/>
+  <enum name='NSUserDomainMask' value='0x1'/>
+  <enum name='NSMapTableCopyIn' value='0x10000'/>
+  <enum name='NSXMLElementDeclarationElementKind' value='0x14'/>
+  <enum name='NSPointerFunctionsIntegerPersonality' value='0x500'/>
+  <enum name='NS_LittleEndian' value='0x1'/>
+  <enum name='NSNoScriptError' value='0x0'/>
+  <enum name='NSFunctionExpressionType' value='0x4'/>
+  <enum name='NSTimeZoneNameStyleShortStandard' value='0x1'/>
+  <enum name='NSFileReadInapplicableStringEncodingError' value='0x105'/>
+  <enum name='NSXMLParserMixedContentDeclNotStartedError' value='0x34'/>
+  <enum name='NSPostASAP' value='0x2'/>
+  <enum name='NSObjCDoubleType' value='0x64'/>
+  <enum name='NSXMLEntityUnparsedKind' value='0x3'/>
+  <enum name='NSObjCLongType' value='0x6c'/>
+  <enum name='NSXMLParserEntityIsParameterError' value='0x1e'/>
+  <enum name='NSNumberFormatterRoundHalfUp' value='0x6'/>
+  <enum name='NSURLCredentialPersistenceForSession' value='0x1'/>
+  <enum name='NSKeyValueChangeReplacement' value='0x4'/>
+  <enum name='NSBeginsWithComparison' value='0x5'/>
+  <enum name='NSXMLParserAttributeNotStartedError' value='0x27'/>
+  <enum name='NSNumberFormatterPadAfterSuffix' value='0x3'/>
+  <enum name='NSLikePredicateOperatorType' value='0x7'/>
+  <enum name='NSMapTableStrongMemory' value='0x0'/>
+  <enum name='NSAllApplicationsDirectory' value='0x64'/>
+  <enum name='NSXMLParserParsedEntityRefAtEOFError' value='0x12'/>
+  <enum name='NSXMLParserEntityRefInDTDError' value='0x11'/>
+  <enum name='NSMachPortDeallocateNone' value='0x0'/>
+  <enum name='NSRequiredArgumentsMissingScriptError' value='0x5'/>
+  <enum name='NSContainsComparison' value='0x7'/>
+  <enum name='NSKeyValueIntersectSetMutation' value='0x3'/>
+  <enum name='NSMapTableObjectPointerPersonality' value='0x200'/>
+  <enum name='NSPostNow' value='0x3'/>
+  <enum name='NSXMLAttributeCDATAKind' value='0x6'/>
+  <enum name='NSPropertyListBinaryFormat_v1_0' value='0xc8'/>
+  <enum name='NSUserCancelledError' value='0xc00'/>
+  <enum name='NSUTF16BigEndianStringEncoding' value='0x90000100'/>
+  <enum name='NSStringEncodingConversionAllowLossy' value='0x1'/>
+  <enum name='NSUndoCloseGroupingRunLoopOrdering' value='0x55730'/>
+  <enum name='NSWeekdayOrdinalCalendarUnit' value='0x400'/>
+  <enum name='NSNonLossyASCIIStringEncoding' value='0x7'/>
+  <enum name='NSNotificationSuspensionBehaviorHold' value='0x3'/>
+  <enum name='NSXMLParserUnknownEncodingError' value='0x1f'/>
+  <enum name='NSXMLAttributeIDRefKind' value='0x8'/>
+  <enum name='NSStreamEventNone' value='0x0'/>
+  <enum name='NSInternalScriptError' value='0x8'/>
+  <enum name='NSXMLParserCommentContainsDoubleHyphenError' value='0x50'/>
+  <enum name='NSEqualToComparison' value='0x0'/>
+  <enum name='NSUTF8StringEncoding' value='0x4'/>
+  <enum name='NSHashTableStrongMemory' value='0x0'/>
+  <enum name='NSNetworkDomainMask' value='0x4'/>
+  <enum name='NSFileWriteInapplicableStringEncodingError' value='0x205'/>
+  <enum name='NSKeyValueChangeInsertion' value='0x2'/>
+  <enum name='NSUnknownKeyScriptError' value='0x7'/>
+  <enum name='NSPointerFunctionsMallocMemory' value='0x3'/>
+  <enum name='NSXMLParserGTRequiredError' value='0x49'/>
+  <enum name='NSHashTableOptionObjectPointerPersonality' value='0x20000'/>
+  <enum name='NSDiacriticInsensitivePredicateOption' value='0x2'/>
+  <enum name='NSLocalDomainMask' value='0x2'/>
+  <enum name='NSXMLParserURIRequiredError' value='0x46'/>
+  <enum name='NSBundleExecutableArchitecturePPC' value='0x12'/>
+  <enum name='NSAndPredicateType' value='0x1'/>
+  <enum name='NSXMLDocumentXMLKind' value='0x0'/>
+  <enum name='NSNumberFormatterScientificStyle' value='0x4'/>
+  <enum name='NSStreamStatusError' value='0x7'/>
+  <enum name='NSSunOSOperatingSystem' value='0x6'/>
+  <enum name='NSNumberFormatterBehavior10_0' value='0x3e8'/>
+  <enum name='NSTimeZoneNameStyleStandard' value='0x0'/>
+  <enum name='NSFileReadNoPermissionError' value='0x101'/>
+  <enum name='NSXMLNodePreserveAttributeOrder' value='0x200000'/>
+  <function name='NSIsFreedObject' returns='_PRIV_C_BOOL'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSFrameAddress' returns='_PRIV_C_PTR'>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSReturnAddress' returns='_PRIV_C_PTR'>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSCountFrames' returns='UNKNOWN'/>
+  <function name='_NSAutoreleaseNoPool'>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='_NSAutoreleaseFreedObject'>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='_NSAutoreleaseHighWaterLog'>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSRecordAllocationEvent'>
+    <function_arg type='_C_INT'/>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSDecimalCopy'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSDecimalCompact'>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSDecimalCompare' returns='_C_INT'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSDecimalRound'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSDecimalNormalize' returns='UNKNOWN'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSDecimalAdd' returns='UNKNOWN'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSDecimalSubtract' returns='UNKNOWN'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSDecimalMultiply' returns='UNKNOWN'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSDecimalDivide' returns='UNKNOWN'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSDecimalPower' returns='UNKNOWN'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSDecimalMultiplyByPowerOf10' returns='UNKNOWN'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_C_SHT'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSDecimalString' returns='_C_ID'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSGetUncaughtExceptionHandler' returns='_PRIV_C_PTR'/>
+  <function name='NSSetUncaughtExceptionHandler'>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSEqualPoints' returns='_PRIV_C_BOOL'>
+    <function_arg type='_PRIV_C_NSPOINT'/>
+    <function_arg type='_PRIV_C_NSPOINT'/>
+  </function>
+  <function name='NSEqualSizes' returns='_PRIV_C_BOOL'>
+    <function_arg type='_PRIV_C_NSSIZE'/>
+    <function_arg type='_PRIV_C_NSSIZE'/>
+  </function>
+  <function name='NSEqualRects' returns='_PRIV_C_BOOL'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+    <function_arg type='_PRIV_C_NSRECT'/>
+  </function>
+  <function name='NSIsEmptyRect' returns='_PRIV_C_BOOL'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+  </function>
+  <function name='NSInsetRect' returns='_PRIV_C_NSRECT'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSIntegralRect' returns='_PRIV_C_NSRECT'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+  </function>
+  <function name='NSUnionRect' returns='_PRIV_C_NSRECT'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+    <function_arg type='_PRIV_C_NSRECT'/>
+  </function>
+  <function name='NSIntersectionRect' returns='_PRIV_C_NSRECT'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+    <function_arg type='_PRIV_C_NSRECT'/>
+  </function>
+  <function name='NSOffsetRect' returns='_PRIV_C_NSRECT'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSDivideRect'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='_C_INT'/>
+  </function>
+  <function name='NSPointInRect' returns='_PRIV_C_BOOL'>
+    <function_arg type='_PRIV_C_NSPOINT'/>
+    <function_arg type='_PRIV_C_NSRECT'/>
+  </function>
+  <function name='NSMouseInRect' returns='_PRIV_C_BOOL'>
+    <function_arg type='_PRIV_C_NSPOINT'/>
+    <function_arg type='_PRIV_C_NSRECT'/>
+    <function_arg type='_PRIV_C_BOOL'/>
+  </function>
+  <function name='NSContainsRect' returns='_PRIV_C_BOOL'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+    <function_arg type='_PRIV_C_NSRECT'/>
+  </function>
+  <function name='NSIntersectsRect' returns='_PRIV_C_BOOL'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+    <function_arg type='_PRIV_C_NSRECT'/>
+  </function>
+  <function name='NSStringFromPoint' returns='_C_ID'>
+    <function_arg type='_PRIV_C_NSPOINT'/>
+  </function>
+  <function name='NSStringFromSize' returns='_C_ID'>
+    <function_arg type='_PRIV_C_NSSIZE'/>
+  </function>
+  <function name='NSStringFromRect' returns='_C_ID'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+  </function>
+  <function name='NSPointFromString' returns='_PRIV_C_NSPOINT'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSSizeFromString' returns='_PRIV_C_NSSIZE'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSRectFromString' returns='_PRIV_C_NSRECT'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSFreeHashTable'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSResetHashTable'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSCompareHashTables' returns='_PRIV_C_BOOL'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSCopyHashTableWithZone' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSHashGet' returns='_PRIV_C_PTR'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSHashInsert'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSHashInsertKnownAbsent'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSHashInsertIfAbsent' returns='_PRIV_C_PTR'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSHashRemove'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSEnumerateHashTable' returns='UNKNOWN'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSNextHashEnumeratorItem' returns='_PRIV_C_PTR'>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSEndHashTableEnumeration'>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSCountHashTable' returns='UNKNOWN'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSStringFromHashTable' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSAllHashTableObjects' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSCreateHashTableWithZone' returns='_C_ID'>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSCreateHashTable' returns='_C_ID'>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSFileTypeForHFSTypeCode' returns='_C_ID'>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSHFSTypeCodeFromFileType' returns='UNKNOWN'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSHFSTypeOfFile' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSFreeMapTable'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSResetMapTable'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSCompareMapTables' returns='_PRIV_C_BOOL'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSCopyMapTableWithZone' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSMapMember' returns='_PRIV_C_BOOL'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSMapGet' returns='_PRIV_C_PTR'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSMapInsert'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSMapInsertKnownAbsent'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSMapInsertIfAbsent' returns='_PRIV_C_PTR'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSMapRemove'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSEnumerateMapTable' returns='UNKNOWN'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSNextMapEnumeratorPair' returns='_PRIV_C_BOOL'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSEndMapTableEnumeration'>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSCountMapTable' returns='UNKNOWN'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSStringFromMapTable' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSAllMapTableKeys' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSAllMapTableValues' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSCreateMapTableWithZone' returns='_C_ID'>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSCreateMapTable' returns='_C_ID'>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSStringFromSelector' returns='_C_ID'>
+    <function_arg type='_C_SEL'/>
+  </function>
+  <function name='NSSelectorFromString' returns='_C_SEL'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSStringFromClass' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSClassFromString' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSStringFromProtocol' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSProtocolFromString' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSGetSizeAndAlignment' returns='_C_CHARPTR'>
+    <function_arg type='_C_CHARPTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSLog' variadic='true'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSLogv'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSAllocateObject' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSDeallocateObject'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSCopyObject' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSShouldRetainWithZone' returns='_PRIV_C_BOOL'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSIncrementExtraRefCount'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSDecrementExtraRefCountWasZero' returns='_PRIV_C_BOOL'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSExtraRefCount' returns='UNKNOWN'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSUserName' returns='_C_ID'/>
+  <function name='NSFullUserName' returns='_C_ID'/>
+  <function name='NSHomeDirectory' returns='_C_ID'/>
+  <function name='NSHomeDirectoryForUser' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSTemporaryDirectory' returns='_C_ID'/>
+  <function name='NSOpenStepRootDirectory' returns='_C_ID'/>
+  <function name='NSSearchPathForDirectoriesInDomains' returns='_C_ID'>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='_PRIV_C_BOOL'/>
+  </function>
+  <function name='NSUnionRange' returns='_PRIV_C_NSRANGE'>
+    <function_arg type='_PRIV_C_NSRANGE'/>
+    <function_arg type='_PRIV_C_NSRANGE'/>
+  </function>
+  <function name='NSIntersectionRange' returns='_PRIV_C_NSRANGE'>
+    <function_arg type='_PRIV_C_NSRANGE'/>
+    <function_arg type='_PRIV_C_NSRANGE'/>
+  </function>
+  <function name='NSStringFromRange' returns='_C_ID'>
+    <function_arg type='_PRIV_C_NSRANGE'/>
+  </function>
+  <function name='NSRangeFromString' returns='_PRIV_C_NSRANGE'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSDefaultMallocZone' returns='_PRIV_C_PTR'/>
+  <function name='NSCreateZone' returns='_PRIV_C_PTR'>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='_PRIV_C_BOOL'/>
+  </function>
+  <function name='NSRecycleZone'>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSSetZoneName'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSZoneName' returns='_C_ID'>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSZoneFromPointer' returns='_PRIV_C_PTR'>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSZoneMalloc' returns='_PRIV_C_PTR'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSZoneCalloc' returns='_PRIV_C_PTR'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSZoneRealloc' returns='_PRIV_C_PTR'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSZoneFree'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSAllocateCollectable' returns='_PRIV_C_PTR'>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSReallocateCollectable' returns='_PRIV_C_PTR'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSPageSize' returns='UNKNOWN'/>
+  <function name='NSLogPageSize' returns='UNKNOWN'/>
+  <function name='NSRoundUpToMultipleOfPageSize' returns='UNKNOWN'>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSRoundDownToMultipleOfPageSize' returns='UNKNOWN'>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSAllocateMemoryPages' returns='_PRIV_C_PTR'>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSDeallocateMemoryPages'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSCopyMemoryPages'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSRealMemoryAvailable' returns='UNKNOWN'/>
+  <class name='NSNumber'>
+    <method returns_char='true' selector='charValue'/>
+  </class>
+  <informal_protocol name='NSArchiverCallback'>
+    <method encoding='#8@0:4' selector='classForArchiver'/>
+    <method encoding='@12@0:4@8' selector='replacementObjectForArchiver:'/>
+  </informal_protocol>
+  <informal_protocol name='NSClassDescriptionPrimitives'>
+    <method encoding='@8@0:4' selector='classDescription'/>
+    <method encoding='@8@0:4' selector='attributeKeys'/>
+    <method encoding='@8@0:4' selector='toOneRelationshipKeys'/>
+    <method encoding='@8@0:4' selector='toManyRelationshipKeys'/>
+    <method encoding='@12@0:4@8' selector='inverseForRelationshipKey:'/>
+  </informal_protocol>
+  <informal_protocol name='NSConnectionDelegateMethods'>
+    <method encoding='c16@0:4@8@12' selector='makeNewConnection:sender:'/>
+    <method encoding='c16@0:4@8@12' selector='connection:shouldMakeNewConnection:'/>
+    <method encoding='@12@0:4@8' selector='authenticationDataForComponents:'/>
+    <method encoding='c16@0:4@8@12' selector='authenticateComponents:withData:'/>
+    <method encoding='@12@0:4@8' selector='createConversationForConnection:'/>
+  </informal_protocol>
+  <informal_protocol name='NSDistantObjectRequestMethods'>
+    <method encoding='c16@0:4@8@12' selector='connection:handleRequest:'/>
+  </informal_protocol>
+  <informal_protocol name='NSErrorRecoveryAttempting'>
+    <method encoding='v28@0:4@8I12@16:20^v24' selector='attemptRecoveryFromError:optionIndex:delegate:didRecoverSelector:contextInfo:'/>
+    <method encoding='c16@0:4@8I12' selector='attemptRecoveryFromError:optionIndex:'/>
+  </informal_protocol>
+  <informal_protocol name='NSCopyLinkMoveHandler'>
+    <method encoding='c16@0:4@8@12' selector='fileManager:shouldProceedAfterError:'/>
+    <method encoding='v16@0:4@8@12' selector='fileManager:willProcessPath:'/>
+  </informal_protocol>
+  <informal_protocol name='NSFileManagerFileOperationAdditions'>
+    <method encoding='c20@0:4@8@12@16' selector='fileManager:shouldCopyItemAtPath:toPath:'/>
+    <method encoding='c24@0:4@8@12@16@20' selector='fileManager:shouldProceedAfterError:copyingItemAtPath:toPath:'/>
+    <method encoding='c20@0:4@8@12@16' selector='fileManager:shouldMoveItemAtPath:toPath:'/>
+    <method encoding='c24@0:4@8@12@16@20' selector='fileManager:shouldProceedAfterError:movingItemAtPath:toPath:'/>
+    <method encoding='c20@0:4@8@12@16' selector='fileManager:shouldLinkItemAtPath:toPath:'/>
+    <method encoding='c24@0:4@8@12@16@20' selector='fileManager:shouldProceedAfterError:linkingItemAtPath:toPath:'/>
+    <method encoding='c16@0:4@8@12' selector='fileManager:shouldRemoveItemAtPath:'/>
+    <method encoding='c20@0:4@8@12@16' selector='fileManager:shouldProceedAfterError:removingItemAtPath:'/>
+  </informal_protocol>
+  <informal_protocol name='NSKeyedArchiverDelegate'>
+    <method encoding='@16@0:4@8@12' selector='archiver:willEncodeObject:'/>
+    <method encoding='v20@0:4@8@12@16' selector='archiver:willReplaceObject:withObject:'/>
+    <method encoding='v12@0:4@8' selector='archiverWillFinish:'/>
+    <method encoding='v12@0:4@8' selector='archiverDidFinish:'/>
+  </informal_protocol>
+  <informal_protocol name='NSKeyedUnarchiverDelegate'>
+    <method encoding='#20@0:4@8@12@16' selector='unarchiver:cannotDecodeObjectOfClassName:originalClasses:'/>
+    <method encoding='v20@0:4@8@12@16' selector='unarchiver:willReplaceObject:withObject:'/>
+    <method encoding='v12@0:4@8' selector='unarchiverWillFinish:'/>
+    <method encoding='v12@0:4@8' selector='unarchiverDidFinish:'/>
+  </informal_protocol>
+  <informal_protocol name='NSKeyedArchiverObjectSubstitution'>
+    <method encoding='#8@0:4' selector='classForKeyedArchiver'/>
+  </informal_protocol>
+  <informal_protocol name='NSKeyedUnarchiverObjectSubstitution'>
+    <method encoding='#8@0:4' class_method='true' selector='classForKeyedUnarchiver'/>
+  </informal_protocol>
+  <informal_protocol name='NSKeyValueCoding'>
+    <method encoding='c8@0:4' class_method='true' selector='accessInstanceVariablesDirectly'/>
+    <method encoding='c20@0:4^@8@12^@16' selector='validateValue:forKey:error:'/>
+    <method encoding='@12@0:4@8' selector='valueForKeyPath:'/>
+    <method encoding='v16@0:4@8@12' selector='setValue:forKeyPath:'/>
+    <method encoding='c20@0:4^@8@12^@16' selector='validateValue:forKeyPath:error:'/>
+    <method encoding='@12@0:4@8' selector='mutableArrayValueForKeyPath:'/>
+    <method encoding='@12@0:4@8' selector='mutableSetValueForKeyPath:'/>
+    <method encoding='@12@0:4@8' selector='valueForUndefinedKey:'/>
+    <method encoding='v16@0:4@8@12' selector='setValue:forUndefinedKey:'/>
+    <method encoding='v12@0:4@8' selector='setNilValueForKey:'/>
+    <method encoding='@12@0:4@8' selector='dictionaryWithValuesForKeys:'/>
+    <method encoding='v12@0:4@8' selector='setValuesForKeysWithDictionary:'/>
+  </informal_protocol>
+  <informal_protocol name='NSDeprecatedKeyValueCoding'>
+    <method encoding='v16@0:4@8@12' selector='takeValue:forKey:'/>
+    <method encoding='v16@0:4@8@12' selector='takeValue:forKeyPath:'/>
+    <method encoding='@12@0:4@8' selector='handleQueryWithUnboundKey:'/>
+    <method encoding='v16@0:4@8@12' selector='handleTakeValue:forUnboundKey:'/>
+    <method encoding='v12@0:4@8' selector='unableToSetNilForKey:'/>
+    <method encoding='@12@0:4@8' selector='valuesForKeys:'/>
+    <method encoding='v12@0:4@8' selector='takeValuesFromDictionary:'/>
+    <method encoding='c8@0:4' class_method='true' selector='useStoredAccessor'/>
+    <method encoding='@12@0:4@8' selector='storedValueForKey:'/>
+    <method encoding='v16@0:4@8@12' selector='takeStoredValue:forKey:'/>
+  </informal_protocol>
+  <informal_protocol name='NSKeyValueObserving'/>
+  <informal_protocol name='NSKeyValueObserverRegistration'>
+    <method encoding='v24@0:4@8@12I16^v20' selector='addObserver:forKeyPath:options:context:'/>
+    <method encoding='v16@0:4@8@12' selector='removeObserver:forKeyPath:'/>
+  </informal_protocol>
+  <informal_protocol name='NSKeyValueObserverNotification'>
+    <method encoding='v12@0:4@8' selector='willChangeValueForKey:'/>
+    <method encoding='v12@0:4@8' selector='didChangeValueForKey:'/>
+    <method encoding='v20@0:4I8@12@16' selector='willChange:valuesAtIndexes:forKey:'/>
+    <method encoding='v20@0:4I8@12@16' selector='didChange:valuesAtIndexes:forKey:'/>
+    <method encoding='v20@0:4@8I12@16' selector='didChangeValueForKey:withSetMutation:usingObjects:'/>
+  </informal_protocol>
+  <informal_protocol name='NSKeyValueObservingCustomization'>
+    <method encoding='c12@0:4@8' class_method='true' selector='automaticallyNotifiesObserversForKey:'/>
+    <method encoding='v12@0:4^v8' selector='setObservationInfo:'/>
+    <method encoding='^v8@0:4' selector='observationInfo'/>
+  </informal_protocol>
+  <informal_protocol name='NSDeprecatedKeyValueObservingCustomization'>
+    <method encoding='v16@0:4@8@12' class_method='true' selector='setKeys:triggerChangeNotificationsForDependentKey:'/>
+  </informal_protocol>
+  <informal_protocol name='NSMetadataQueryDelegate'>
+    <method encoding='@16@0:4@8@12' selector='metadataQuery:replacementObjectForResultObject:'/>
+    <method encoding='@20@0:4@8@12@16' selector='metadataQuery:replacementValueForAttribute:value:'/>
+  </informal_protocol>
+  <informal_protocol name='NSNetServiceDelegateMethods'>
+    <method encoding='v12@0:4@8' selector='netServiceWillPublish:'/>
+    <method encoding='v12@0:4@8' selector='netServiceDidPublish:'/>
+    <method encoding='v16@0:4@8@12' selector='netService:didNotPublish:'/>
+    <method encoding='v12@0:4@8' selector='netServiceWillResolve:'/>
+    <method encoding='v12@0:4@8' selector='netServiceDidResolveAddress:'/>
+    <method encoding='v16@0:4@8@12' selector='netService:didNotResolve:'/>
+    <method encoding='v12@0:4@8' selector='netServiceDidStop:'/>
+    <method encoding='v16@0:4@8@12' selector='netService:didUpdateTXTRecordData:'/>
+  </informal_protocol>
+  <informal_protocol name='NSNetServiceBrowserDelegateMethods'>
+    <method encoding='v12@0:4@8' selector='netServiceBrowserWillSearch:'/>
+    <method encoding='v12@0:4@8' selector='netServiceBrowserDidStopSearch:'/>
+    <method encoding='v16@0:4@8@12' selector='netServiceBrowser:didNotSearch:'/>
+    <method encoding='v20@0:4@8@12c16' selector='netServiceBrowser:didFindDomain:moreComing:'/>
+    <method encoding='v20@0:4@8@12c16' selector='netServiceBrowser:didFindService:moreComing:'/>
+    <method encoding='v20@0:4@8@12c16' selector='netServiceBrowser:didRemoveDomain:moreComing:'/>
+    <method encoding='v20@0:4@8@12c16' selector='netServiceBrowser:didRemoveService:moreComing:'/>
+  </informal_protocol>
+  <informal_protocol name='NSScripting'>
+    <method encoding='@8@0:4' selector='scriptingProperties'/>
+    <method encoding='v12@0:4@8' selector='setScriptingProperties:'/>
+  </informal_protocol>
+  <informal_protocol name='NSPortDelegateMethods'>
+    <method encoding='v12@0:4@8' selector='handlePortMessage:'/>
+  </informal_protocol>
+  <informal_protocol name='NSMachPortDelegateMethods'>
+    <method encoding='v12@0:4^v8' selector='handleMachMessage:'/>
+  </informal_protocol>
+  <informal_protocol name='NSDistributedObjects'>
+    <method encoding='#8@0:4' selector='classForPortCoder'/>
+    <method encoding='@12@0:4@8' selector='replacementObjectForPortCoder:'/>
+  </informal_protocol>
+  <informal_protocol name='NSDelayedPerforming'>
+    <method encoding='v28@0:4:8@12d16@24' selector='performSelector:withObject:afterDelay:inModes:'/>
+    <method encoding='v24@0:4:8@12d16' selector='performSelector:withObject:afterDelay:'/>
+    <method encoding='v20@0:4@8:12@16' class_method='true' selector='cancelPreviousPerformRequestsWithTarget:selector:object:'/>
+    <method encoding='v12@0:4@8' class_method='true' selector='cancelPreviousPerformRequestsWithTarget:'/>
+  </informal_protocol>
+  <informal_protocol name='NSScriptClassDescription'>
+    <method encoding='L8@0:4' selector='classCode'/>
+    <method encoding='@8@0:4' selector='className'/>
+  </informal_protocol>
+  <informal_protocol name='NSScriptKeyValueCoding'>
+    <method encoding='@16@0:4I8@12' selector='valueAtIndex:inPropertyWithKey:'/>
+    <method encoding='@16@0:4@8@12' selector='valueWithName:inPropertyWithKey:'/>
+    <method encoding='@16@0:4@8@12' selector='valueWithUniqueID:inPropertyWithKey:'/>
+    <method encoding='v20@0:4I8@12@16' selector='replaceValueAtIndex:inPropertyWithKey:withValue:'/>
+    <method encoding='v20@0:4@8I12@16' selector='insertValue:atIndex:inPropertyWithKey:'/>
+    <method encoding='v16@0:4I8@12' selector='removeValueAtIndex:fromPropertyWithKey:'/>
+    <method encoding='@16@0:4@8@12' selector='coerceValue:forKey:'/>
+  </informal_protocol>
+  <informal_protocol name='NSScriptObjectSpecifiers'>
+    <method encoding='@8@0:4' selector='objectSpecifier'/>
+    <method encoding='@12@0:4@8' selector='indicesOfObjectsByEvaluatingObjectSpecifier:'/>
+  </informal_protocol>
+  <informal_protocol name='NSComparisonMethods'>
+    <method encoding='c12@0:4@8' selector='isEqualTo:'/>
+    <method encoding='c12@0:4@8' selector='isLessThanOrEqualTo:'/>
+    <method encoding='c12@0:4@8' selector='isLessThan:'/>
+    <method encoding='c12@0:4@8' selector='isGreaterThanOrEqualTo:'/>
+    <method encoding='c12@0:4@8' selector='isGreaterThan:'/>
+    <method encoding='c12@0:4@8' selector='isNotEqualTo:'/>
+    <method encoding='c12@0:4@8' selector='doesContain:'/>
+    <method encoding='c12@0:4@8' selector='isLike:'/>
+    <method encoding='c12@0:4@8' selector='isCaseInsensitiveLike:'/>
+  </informal_protocol>
+  <informal_protocol name='NSScriptingComparisonMethods'>
+    <method encoding='c12@0:4@8' selector='scriptingIsEqualTo:'/>
+    <method encoding='c12@0:4@8' selector='scriptingIsLessThanOrEqualTo:'/>
+    <method encoding='c12@0:4@8' selector='scriptingIsLessThan:'/>
+    <method encoding='c12@0:4@8' selector='scriptingIsGreaterThanOrEqualTo:'/>
+    <method encoding='c12@0:4@8' selector='scriptingIsGreaterThan:'/>
+    <method encoding='c12@0:4@8' selector='scriptingBeginsWith:'/>
+    <method encoding='c12@0:4@8' selector='scriptingEndsWith:'/>
+    <method encoding='c12@0:4@8' selector='scriptingContains:'/>
+  </informal_protocol>
+  <informal_protocol name='NSSpellServerDelegate'>
+    <method encoding='{_NSRange=II}28@0:4@8@12@16^i20c24' selector='spellServer:findMisspelledWordInString:language:wordCount:countOnly:'/>
+    <method encoding='@20@0:4@8@12@16' selector='spellServer:suggestGuessesForWord:inLanguage:'/>
+    <method encoding='v20@0:4@8@12@16' selector='spellServer:didLearnWord:inLanguage:'/>
+    <method encoding='v20@0:4@8@12@16' selector='spellServer:didForgetWord:inLanguage:'/>
+    <method encoding='@28@0:4@8{_NSRange=II}12@20@24' selector='spellServer:suggestCompletionsForPartialWordRange:inString:language:'/>
+    <method encoding='{_NSRange=II}24@0:4@8@12@16^@20' selector='spellServer:checkGrammarInString:language:details:'/>
+  </informal_protocol>
+  <informal_protocol name='NSStreamDelegateEventExtensions'>
+    <method encoding='v16@0:4@8I12' selector='stream:handleEvent:'/>
+  </informal_protocol>
+  <informal_protocol name='NSThreadPerformAdditions'>
+    <method encoding='v24@0:4:8@12c16@20' selector='performSelectorOnMainThread:withObject:waitUntilDone:modes:'/>
+    <method encoding='v20@0:4:8@12c16' selector='performSelectorOnMainThread:withObject:waitUntilDone:'/>
+    <method encoding='v28@0:4:8@12@16c20@24' selector='performSelector:onThread:withObject:waitUntilDone:modes:'/>
+    <method encoding='v24@0:4:8@12@16c20' selector='performSelector:onThread:withObject:waitUntilDone:'/>
+    <method encoding='v16@0:4:8@12' selector='performSelectorInBackground:withObject:'/>
+  </informal_protocol>
+  <informal_protocol name='NSURLClient'>
+    <method encoding='v16@0:4@8@12' selector='URL:resourceDataDidBecomeAvailable:'/>
+    <method encoding='v12@0:4@8' selector='URLResourceDidFinishLoading:'/>
+    <method encoding='v12@0:4@8' selector='URLResourceDidCancelLoading:'/>
+    <method encoding='v16@0:4@8@12' selector='URL:resourceDidFailLoadingWithReason:'/>
+  </informal_protocol>
+  <informal_protocol name='NSURLConnectionDelegate'>
+    <method encoding='v16@0:4@8@12' selector='connection:didCancelAuthenticationChallenge:'/>
+  </informal_protocol>
+  <informal_protocol name='NSURLDownloadDelegate'>
+    <method encoding='v12@0:4@8' selector='downloadDidBegin:'/>
+    <method encoding='v16@0:4@8@12' selector='download:didCancelAuthenticationChallenge:'/>
+    <method encoding='v16@0:4@8@12' selector='download:didCreateDestination:'/>
+  </informal_protocol>
+  <informal_protocol name='NSXMLParserDelegateEventAdditions'>
+    <method encoding='v12@0:4@8' selector='parserDidStartDocument:'/>
+    <method encoding='v12@0:4@8' selector='parserDidEndDocument:'/>
+    <method encoding='v24@0:4@8@12@16@20' selector='parser:foundNotationDeclarationWithName:publicID:systemID:'/>
+    <method encoding='v28@0:4@8@12@16@20@24' selector='parser:foundUnparsedEntityDeclarationWithName:publicID:systemID:notationName:'/>
+    <method encoding='v28@0:4@8@12@16@20@24' selector='parser:foundAttributeDeclarationWithName:forElement:type:defaultValue:'/>
+    <method encoding='v20@0:4@8@12@16' selector='parser:foundElementDeclarationWithName:model:'/>
+    <method encoding='v20@0:4@8@12@16' selector='parser:foundInternalEntityDeclarationWithName:value:'/>
+    <method encoding='v24@0:4@8@12@16@20' selector='parser:foundExternalEntityDeclarationWithName:publicID:systemID:'/>
+    <method encoding='v28@0:4@8@12@16@20@24' selector='parser:didStartElement:namespaceURI:qualifiedName:attributes:'/>
+    <method encoding='v24@0:4@8@12@16@20' selector='parser:didEndElement:namespaceURI:qualifiedName:'/>
+    <method encoding='v20@0:4@8@12@16' selector='parser:didStartMappingPrefix:toURI:'/>
+    <method encoding='v16@0:4@8@12' selector='parser:didEndMappingPrefix:'/>
+    <method encoding='v16@0:4@8@12' selector='parser:foundCharacters:'/>
+    <method encoding='v16@0:4@8@12' selector='parser:foundIgnorableWhitespace:'/>
+    <method encoding='v20@0:4@8@12@16' selector='parser:foundProcessingInstructionWithTarget:data:'/>
+    <method encoding='v16@0:4@8@12' selector='parser:foundComment:'/>
+    <method encoding='v16@0:4@8@12' selector='parser:foundCDATA:'/>
+    <method encoding='@20@0:4@8@12@16' selector='parser:resolveExternalEntityName:systemID:'/>
+    <method encoding='v16@0:4@8@12' selector='parser:parseErrorOccurred:'/>
+    <method encoding='v16@0:4@8@12' selector='parser:validationErrorOccurred:'/>
+  </informal_protocol>
+  <class name='NSAppleEventDescriptor'>
+    <method class_method='true' selector='descriptorWithDescriptorType:bytes:length:'>
+      <method_arg c_array_delimited_by_arg='2' index='1' type_modifier='in'/>
+    </method>
+    <method selector='initWithDescriptorType:bytes:length:'>
+      <method_arg c_array_delimited_by_arg='2' index='1' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSOutputStream'>
+    <method selector='write:maxLength:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+    <method selector='initToBuffer:capacity:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+    <method class_method='true' selector='outputStreamToBuffer:capacity:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='out'/>
+    </method>
+  </class>
+  <class name='NSInputStream'>
+    <method selector='read:maxLength:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='out'/>
+    </method>
+  </class>
+  <class name='NSKeyedArchiver'>
+    <method selector='encodeBytes:length:forKey:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSCoder'>
+    <method selector='encodeValueOfObjCType:at:'>
+      <method_arg index='1' type_modifier='in'/>
+    </method>
+    <method selector='decodeValueOfObjCType:at:'>
+      <method_arg index='1' type_modifier='in'/>
+    </method>
+    <method ignore='true' suggestion='Call encodeValueOfObjCType:at: several times.' selector='encodeValuesOfObjCTypes:'/>
+    <method selector='encodeArrayOfObjCType:count:at:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+      <method_arg index='2' type_modifier='in'/>
+    </method>
+    <method selector='encodeBytes:length:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+    <method ignore='true' suggestion='Call decodeValueOfObjCType:at: several times.' selector='decodeValuesOfObjCTypes:'/>
+    <method selector='decodeArrayOfObjCType:count:at:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+      <method_arg index='2' type_modifier='in'/>
+    </method>
+    <method selector='encodeBytes:length:forKey:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSMutableArray'>
+    <method selector='removeObjectsFromIndices:numIndices:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSSet'>
+    <method selector='initWithObjects:count:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+    <method class_method='true' selector='setWithObjects:count:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSData'> 
+    <method ignore='true' suggestion='Call bytes or getBytes:length:.' selector='getBytes:'/>
+    <method ignore='true' suggestion='Call bytes or getBytes:length:.' selector='getBytes:range:'/>
+    <method selector='getBytes:length:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='out'/>
+    </method>
+    <method class_method='true' selector='dataWithBytes:length:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+    <method ignore='true' class_method='true' suggestion='Call dataWithBytes:length:.' selector='dataWithBytesNoCopy:length:'/>
+    <method ignore='true' class_method='true' suggestion='Call dataWithBytes:length:.' selector='dataWithBytesNoCopy:length:freeWhenDone:'/>
+    <method selector='initWithBytes:length:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+    <method ignore='true' suggestion='Call initWithBytes:length:.' selector='initWithBytesNoCopy:length:'/>
+    <method ignore='true' suggestion='Call initWithBytes:length:.' selector='initWithBytesNoCopy:length:freeWhenDone:'/>
+  </class>
+  <class name='NSArray'>
+    <method ignore='true' suggestion='Call the usual object accessors.' selector='getObjects:'/>
+    <method ignore='true' suggestion='Call the usual object accessors.' selector='getObjects:range:'/>
+    <method selector='initWithObjects:count:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+    <method class_method='true' selector='arrayWithObjects:count:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+    <method selector='addObserver:toObjectsAtIndexes:forKeyPath:options:context:'>
+      <method_arg index='4' type_modifier='in'/>
+    </method>
+    <method selector='addObserver:forKeyPath:options:context:'>
+      <method_arg index='3' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSFastEnumeration'>
+    <method selector='countByEnumeratingWithState:objects:count:'>
+      <method_arg c_array_delimited_by_arg='2' index='1' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSIndexSet'>
+    <method selector='getIndexes:maxCount:inIndexRange:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSGarbageCollector'>
+    <method selector='disableCollectorForPointer:'>
+      <method_arg index='0' type_modifier='in'/>
+    </method>
+    <method selector='enableCollectorForPointer:'>
+      <method_arg index='0' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSDateFormatter'>
+    <method selector='getObjectValue:forString:range:error:'>
+      <method_arg index='2' type_modifier='inout'/>
+    </method>
+  </class>
+  <class name='NSIndexPath'>
+    <method class_method='true' selector='indexPathWithIndexes:length:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+    <method selector='initWithIndexes:length:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+    <method ignore='true' suggestion='Call the usual accessors.' selector='getIndexes:'/>
+  </class>
+  <class name='NSMutableData'>
+    <method selector='appendBytes:length:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+    <method ignore='true' suggestion='Call replaceBytesInRange:withBytes:length:.' selector='replaceBytesInRange:withBytes:'/>
+    <method selector='replaceBytesInRange:withBytes:length:'>
+      <method_arg c_array_delimited_by_arg='2' index='1' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSString'>
+    <method selector='getFileSystemRepresentation:maxLength:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='out'/>
+    </method>
+    <method ignore='true' selector='getCharacters:'/>     <!-- XXX 
+    -->
+    <method ignore='true' selector='getCharacters:range:'/>     <!-- XXX 
+    -->
+    <method selector='getCString:maxLength:encoding:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='out'/>
+    </method>
+    <method ignore='true' suggestion='Call initWithCharacters:length:.' selector='initWithCharactersNoCopy:length:freeWhenDone:'/>
+    <method selector='initWithCharacters:length:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+    <method selector='initWithBytes:length:encoding:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+    <method ignore='true' suggestion='Call initWithBytes:length:encoding:.' selector='initWithBytesNoCopy:length:encoding:freeWhenDone:'/>
+    <method class_method='true' selector='stringWithCharacters:length:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSObject'>
+    <method selector='observeValueForKeyPath:ofObject:change:context:'>
+      <method_arg index='3' type_modifier='in'/>
+    </method>
+    <method selector='addObserver:forKeyPath:options:context:'>
+      <method_arg index='3' type_modifier='in'/>
+    </method>
+    <method selector='setObservationInfo:'>
+      <method_arg index='0' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSInvocation'>
+    <method ignore='true' selector='getReturnValue:'/>     <!-- XXX 
+    -->
+    <method selector='setReturnValue:'> 
+      <method_arg index='0' type_modifier='in'/>
+    </method>
+    <method ignore='true' selector='getArgument:atIndex:'/>     <!-- XXX 
+    -->
+    <method selector='setArgument:atIndex:'>
+      <method_arg index='0' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSNumberFormatter'>
+    <method selector='getObjectValue:forString:range:error:'>
+      <method_arg index='2' type_modifier='inout'/>
+    </method>
+  </class>
+  <class name='NSDictionary'>
+    <method class_method='true' selector='dictionaryWithObjects:forKeys:count:'>
+      <method_arg c_array_delimited_by_arg='2' index='0' type_modifier='in'/>
+      <method_arg c_array_delimited_by_arg='2' index='1' type_modifier='in'/>
+    </method>
+    <method selector='initWithObjects:forKeys:count:'>
+      <method_arg c_array_delimited_by_arg='2' index='0' type_modifier='in'/>
+      <method_arg c_array_delimited_by_arg='2' index='1' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSValue'>
+    <method ignore='true' selector='getValue:'/>
+    <method selector='initWithBytes:objCType:'>
+      <method_arg index='0' type_modifier='in'/>
+    </method>
+    <method class_method='true' selector='valueWithBytes:objCType:'>
+      <method_arg index='0' type_modifier='in'/>
+    </method>
+    <method class_method='true' selector='value:withObjCType:'>
+      <method_arg index='0' type_modifier='in'/>
+    </method>
+    <method class_method='true' selector='valueWithPointer:'>
+      <method_arg index='0' type_modifier='in'/>
+    </method>
+  </class>
+</signatures>

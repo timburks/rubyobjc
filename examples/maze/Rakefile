@@ -1,0 +1,7 @@
+require 'rake/cocoa'
+
+Rake::CocoaApplication.new do |t|
+  t.application = "Maze"
+  t.identifier = 'com.rubyobjc.themazegame'
+  t.icon_file = 'maze.icns'
+end

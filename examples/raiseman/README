@@ -1,0 +1,23 @@
+--
+
+RubyObjC RaiseMan
+
+-- 
+
+This directory contains a RubyObjC implementation of the RaiseMan example 
+described in Aaron Hillegass' "Cocoa Programming for Mac OS X, Second Edition".
+
+It was adapted from a RubyCocoa port begun by Nicholas Chen and posted
+at http://blog.vazexqi.com.
+
+It illustrates many important Cocoa concepts including the Cocoa document
+architecture, saving and restoring documents with files, preferences and 
+user defaults, bindings, and notifications.
+
+To build it, simply type "rake" from the terminal.  You can then run the application
+in the usual way or by simply typing "rake run".
+
+-- 
+
+Copyright (c) 2007 Tim Burks, Neon Design Technology, Inc.
+This and other RubyObjC examples can be found online at http://www.rubyobjc.com.

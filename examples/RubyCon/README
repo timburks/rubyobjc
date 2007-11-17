@@ -1,0 +1,15 @@
+--
+
+RubyCon: Ruby Plug In Example
+
+-- 
+Adds a Ruby console to any Cocoa application.  Requires a local installation of Ruby (for IRB).
+Specify the applications you want to enhance in the array in the RubyCon.m source file.
+
+WARNING: This does not work well with RubyObjC applications, which already contain an embedded interpreter and console.
+It has not been tested with RubyCocoa, but it will probably cause any application with an embedded Ruby interpreter to crash.
+
+-- 
+
+Copyright (c) 2007 Tim Burks, Neon Design Technology, Inc.
+This and other RubyObjC examples can be found online at http://www.rubyobjc.com.

@@ -1,0 +1,2646 @@
+<?xml version='1.0'?>
+<!DOCTYPE signatures SYSTEM "file://localhost/System/Library/DTDs/BridgeSupport.dtd">
+<signatures version='0.9'>
+  <constant name='NSAccessibilityErrorCodeExceptionInfo' type='_C_ID'/>
+  <constant name='NSAccessibilityRoleAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityRoleDescriptionAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilitySubroleAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityHelpAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityValueAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityMinValueAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityMaxValueAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityEnabledAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityFocusedAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityParentAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityChildrenAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityWindowAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilitySelectedChildrenAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityVisibleChildrenAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityPositionAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilitySizeAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityContentsAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityTitleAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityPreviousContentsAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityNextContentsAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityHeaderAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityEditedAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityTabsAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityHorizontalScrollBarAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityVerticalScrollBarAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityOverflowButtonAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityIncrementButtonAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityDecrementButtonAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityFilenameAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityExpandedAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilitySelectedAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilitySplittersAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityDocumentAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityTitleUIElementAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilitySelectedTextAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilitySelectedTextRangeAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityMainAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityMinimizedAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityCloseButtonAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityZoomButtonAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityMinimizeButtonAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityToolbarButtonAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityProxyAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityGrowAreaAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityMenuBarAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityWindowsAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityFrontmostAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityHiddenAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityMainWindowAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityFocusedWindowAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityFocusedUIElementAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityOrientationAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityVerticalOrientationValue' type='_C_ID'/>
+  <constant name='NSAccessibilityHorizontalOrientationValue' type='_C_ID'/>
+  <constant name='NSAccessibilityColumnTitlesAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityRowsAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityVisibleRowsAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilitySelectedRowsAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityColumnsAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityVisibleColumnsAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilitySelectedColumnsAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityAscendingSortDirectionValue' type='_C_ID'/>
+  <constant name='NSAccessibilityDescendingSortDirectionValue' type='_C_ID'/>
+  <constant name='NSAccessibilityUnknownSortDirectionValue' type='_C_ID'/>
+  <constant name='NSAccessibilityDisclosingAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityDisclosedRowsAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityDisclosedByRowAttribute' type='_C_ID'/>
+  <constant name='NSAccessibilityLeftTabStopMarkerTypeValue' type='_C_ID'/>
+  <constant name='NSAccessibilityRightTabStopMarkerTypeValue' type='_C_ID'/>
+  <constant name='NSAccessibilityCenterTabStopMarkerTypeValue' type='_C_ID'/>
+  <constant name='NSAccessibilityDecimalTabStopMarkerTypeValue' type='_C_ID'/>
+  <constant name='NSAccessibilityHeadIndentMarkerTypeValue' type='_C_ID'/>
+  <constant name='NSAccessibilityTailIndentMarkerTypeValue' type='_C_ID'/>
+  <constant name='NSAccessibilityFirstLineIndentMarkerTypeValue' type='_C_ID'/>
+  <constant name='NSAccessibilityUnknownMarkerTypeValue' type='_C_ID'/>
+  <constant name='NSAccessibilityInchesUnitValue' type='_C_ID'/>
+  <constant name='NSAccessibilityCentimetersUnitValue' type='_C_ID'/>
+  <constant name='NSAccessibilityPointsUnitValue' type='_C_ID'/>
+  <constant name='NSAccessibilityPicasUnitValue' type='_C_ID'/>
+  <constant name='NSAccessibilityUnknownUnitValue' type='_C_ID'/>
+  <constant name='NSAccessibilityPressAction' type='_C_ID'/>
+  <constant name='NSAccessibilityIncrementAction' type='_C_ID'/>
+  <constant name='NSAccessibilityDecrementAction' type='_C_ID'/>
+  <constant name='NSAccessibilityConfirmAction' type='_C_ID'/>
+  <constant name='NSAccessibilityPickAction' type='_C_ID'/>
+  <constant name='NSAccessibilityCancelAction' type='_C_ID'/>
+  <constant name='NSAccessibilityRaiseAction' type='_C_ID'/>
+  <constant name='NSAccessibilityShowMenuAction' type='_C_ID'/>
+  <constant name='NSAccessibilityDeleteAction' type='_C_ID'/>
+  <constant name='NSAccessibilityMainWindowChangedNotification' type='_C_ID'/>
+  <constant name='NSAccessibilityFocusedWindowChangedNotification' type='_C_ID'/>
+  <constant name='NSAccessibilityFocusedUIElementChangedNotification' type='_C_ID'/>
+  <constant name='NSAccessibilityApplicationActivatedNotification' type='_C_ID'/>
+  <constant name='NSAccessibilityApplicationDeactivatedNotification' type='_C_ID'/>
+  <constant name='NSAccessibilityApplicationHiddenNotification' type='_C_ID'/>
+  <constant name='NSAccessibilityApplicationShownNotification' type='_C_ID'/>
+  <constant name='NSAccessibilityWindowCreatedNotification' type='_C_ID'/>
+  <constant name='NSAccessibilityWindowMovedNotification' type='_C_ID'/>
+  <constant name='NSAccessibilityWindowResizedNotification' type='_C_ID'/>
+  <constant name='NSAccessibilityWindowMiniaturizedNotification' type='_C_ID'/>
+  <constant name='NSAccessibilityWindowDeminiaturizedNotification' type='_C_ID'/>
+  <constant name='NSAccessibilityDrawerCreatedNotification' type='_C_ID'/>
+  <constant name='NSAccessibilitySheetCreatedNotification' type='_C_ID'/>
+  <constant name='NSAccessibilityUIElementDestroyedNotification' type='_C_ID'/>
+  <constant name='NSAccessibilityValueChangedNotification' type='_C_ID'/>
+  <constant name='NSAccessibilityTitleChangedNotification' type='_C_ID'/>
+  <constant name='NSAccessibilityResizedNotification' type='_C_ID'/>
+  <constant name='NSAccessibilityMovedNotification' type='_C_ID'/>
+  <constant name='NSAccessibilityCreatedNotification' type='_C_ID'/>
+  <constant name='NSAccessibilityHelpTagCreatedNotification' type='_C_ID'/>
+  <constant name='NSAccessibilitySelectedTextChangedNotification' type='_C_ID'/>
+  <constant name='NSAccessibilityRowCountChangedNotification' type='_C_ID'/>
+  <constant name='NSAccessibilitySelectedChildrenChangedNotification' type='_C_ID'/>
+  <constant name='NSAccessibilitySelectedRowsChangedNotification' type='_C_ID'/>
+  <constant name='NSAccessibilitySelectedColumnsChangedNotification' type='_C_ID'/>
+  <constant name='NSAccessibilityUnknownRole' type='_C_ID'/>
+  <constant name='NSAccessibilityButtonRole' type='_C_ID'/>
+  <constant name='NSAccessibilityRadioButtonRole' type='_C_ID'/>
+  <constant name='NSAccessibilityCheckBoxRole' type='_C_ID'/>
+  <constant name='NSAccessibilitySliderRole' type='_C_ID'/>
+  <constant name='NSAccessibilityTabGroupRole' type='_C_ID'/>
+  <constant name='NSAccessibilityTextFieldRole' type='_C_ID'/>
+  <constant name='NSAccessibilityStaticTextRole' type='_C_ID'/>
+  <constant name='NSAccessibilityTextAreaRole' type='_C_ID'/>
+  <constant name='NSAccessibilityScrollAreaRole' type='_C_ID'/>
+  <constant name='NSAccessibilityPopUpButtonRole' type='_C_ID'/>
+  <constant name='NSAccessibilityMenuButtonRole' type='_C_ID'/>
+  <constant name='NSAccessibilityTableRole' type='_C_ID'/>
+  <constant name='NSAccessibilityApplicationRole' type='_C_ID'/>
+  <constant name='NSAccessibilityGroupRole' type='_C_ID'/>
+  <constant name='NSAccessibilityRadioGroupRole' type='_C_ID'/>
+  <constant name='NSAccessibilityListRole' type='_C_ID'/>
+  <constant name='NSAccessibilityScrollBarRole' type='_C_ID'/>
+  <constant name='NSAccessibilityValueIndicatorRole' type='_C_ID'/>
+  <constant name='NSAccessibilityImageRole' type='_C_ID'/>
+  <constant name='NSAccessibilityMenuBarRole' type='_C_ID'/>
+  <constant name='NSAccessibilityMenuRole' type='_C_ID'/>
+  <constant name='NSAccessibilityMenuItemRole' type='_C_ID'/>
+  <constant name='NSAccessibilityColumnRole' type='_C_ID'/>
+  <constant name='NSAccessibilityRowRole' type='_C_ID'/>
+  <constant name='NSAccessibilityToolbarRole' type='_C_ID'/>
+  <constant name='NSAccessibilityBusyIndicatorRole' type='_C_ID'/>
+  <constant name='NSAccessibilityProgressIndicatorRole' type='_C_ID'/>
+  <constant name='NSAccessibilityWindowRole' type='_C_ID'/>
+  <constant name='NSAccessibilityDrawerRole' type='_C_ID'/>
+  <constant name='NSAccessibilitySystemWideRole' type='_C_ID'/>
+  <constant name='NSAccessibilityOutlineRole' type='_C_ID'/>
+  <constant name='NSAccessibilityIncrementorRole' type='_C_ID'/>
+  <constant name='NSAccessibilityBrowserRole' type='_C_ID'/>
+  <constant name='NSAccessibilityComboBoxRole' type='_C_ID'/>
+  <constant name='NSAccessibilitySplitGroupRole' type='_C_ID'/>
+  <constant name='NSAccessibilitySplitterRole' type='_C_ID'/>
+  <constant name='NSAccessibilityColorWellRole' type='_C_ID'/>
+  <constant name='NSAccessibilityGrowAreaRole' type='_C_ID'/>
+  <constant name='NSAccessibilitySheetRole' type='_C_ID'/>
+  <constant name='NSAccessibilityHelpTagRole' type='_C_ID'/>
+  <constant name='NSAccessibilityMatteRole' type='_C_ID'/>
+  <constant name='NSAccessibilityRulerRole' type='_C_ID'/>
+  <constant name='NSAccessibilityRulerMarkerRole' type='_C_ID'/>
+  <constant name='NSAccessibilitySortButtonRole' type='_C_ID'/>
+  <constant name='NSAccessibilityLinkRole' type='_C_ID'/>
+  <constant name='NSAccessibilityUnknownSubrole' type='_C_ID'/>
+  <constant name='NSAccessibilityCloseButtonSubrole' type='_C_ID'/>
+  <constant name='NSAccessibilityZoomButtonSubrole' type='_C_ID'/>
+  <constant name='NSAccessibilityMinimizeButtonSubrole' type='_C_ID'/>
+  <constant name='NSAccessibilityToolbarButtonSubrole' type='_C_ID'/>
+  <constant name='NSAccessibilityTableRowSubrole' type='_C_ID'/>
+  <constant name='NSAccessibilityOutlineRowSubrole' type='_C_ID'/>
+  <constant name='NSAccessibilitySecureTextFieldSubrole' type='_C_ID'/>
+  <constant name='NSAccessibilityStandardWindowSubrole' type='_C_ID'/>
+  <constant name='NSAccessibilityDialogSubrole' type='_C_ID'/>
+  <constant name='NSAccessibilitySystemDialogSubrole' type='_C_ID'/>
+  <constant name='NSAccessibilityFloatingWindowSubrole' type='_C_ID'/>
+  <constant name='NSAccessibilitySystemFloatingWindowSubrole' type='_C_ID'/>
+  <constant name='NSAccessibilityIncrementArrowSubrole' type='_C_ID'/>
+  <constant name='NSAccessibilityDecrementArrowSubrole' type='_C_ID'/>
+  <constant name='NSAccessibilityIncrementPageSubrole' type='_C_ID'/>
+  <constant name='NSAccessibilityDecrementPageSubrole' type='_C_ID'/>
+  <constant name='NSAccessibilitySearchFieldSubrole' type='_C_ID'/>
+  <constant name='NSAccessibilityTextAttachmentSubrole' type='_C_ID'/>
+  <constant name='NSAccessibilityTextLinkSubrole' type='_C_ID'/>
+  <constant name='NSAnimationProgressMarkNotification' type='_PRIV_C_PTR'/>
+  <constant name='NSAnimationProgressMark' type='_PRIV_C_PTR'/>
+  <constant name='NSViewAnimationTargetKey' type='_PRIV_C_PTR'/>
+  <constant name='NSViewAnimationStartFrameKey' type='_PRIV_C_PTR'/>
+  <constant name='NSViewAnimationEndFrameKey' type='_PRIV_C_PTR'/>
+  <constant name='NSViewAnimationEffectKey' type='_PRIV_C_PTR'/>
+  <constant name='NSViewAnimationFadeInEffect' type='_PRIV_C_PTR'/>
+  <constant name='NSViewAnimationFadeOutEffect' type='_PRIV_C_PTR'/>
+  <constant name='NSAppKitVersionNumber' type='_C_DBL'/>
+  <constant name='NSModalPanelRunLoopMode' type='_C_ID'/>
+  <constant name='NSEventTrackingRunLoopMode' type='_C_ID'/>
+  <constant name='NSApp' type='_C_ID'/>
+  <constant name='NSApplicationDidBecomeActiveNotification' type='_C_ID'/>
+  <constant name='NSApplicationDidHideNotification' type='_C_ID'/>
+  <constant name='NSApplicationDidFinishLaunchingNotification' type='_C_ID'/>
+  <constant name='NSApplicationDidResignActiveNotification' type='_C_ID'/>
+  <constant name='NSApplicationDidUnhideNotification' type='_C_ID'/>
+  <constant name='NSApplicationDidUpdateNotification' type='_C_ID'/>
+  <constant name='NSApplicationWillBecomeActiveNotification' type='_C_ID'/>
+  <constant name='NSApplicationWillHideNotification' type='_C_ID'/>
+  <constant name='NSApplicationWillFinishLaunchingNotification' type='_C_ID'/>
+  <constant name='NSApplicationWillResignActiveNotification' type='_C_ID'/>
+  <constant name='NSApplicationWillUnhideNotification' type='_C_ID'/>
+  <constant name='NSApplicationWillUpdateNotification' type='_C_ID'/>
+  <constant name='NSApplicationWillTerminateNotification' type='_C_ID'/>
+  <constant name='NSApplicationDidChangeScreenParametersNotification' type='_C_ID'/>
+  <constant name='NSFontAttributeName' type='_C_ID'/>
+  <constant name='NSParagraphStyleAttributeName' type='_C_ID'/>
+  <constant name='NSForegroundColorAttributeName' type='_C_ID'/>
+  <constant name='NSUnderlineStyleAttributeName' type='_C_ID'/>
+  <constant name='NSSuperscriptAttributeName' type='_C_ID'/>
+  <constant name='NSBackgroundColorAttributeName' type='_C_ID'/>
+  <constant name='NSAttachmentAttributeName' type='_C_ID'/>
+  <constant name='NSLigatureAttributeName' type='_C_ID'/>
+  <constant name='NSBaselineOffsetAttributeName' type='_C_ID'/>
+  <constant name='NSKernAttributeName' type='_C_ID'/>
+  <constant name='NSLinkAttributeName' type='_C_ID'/>
+  <constant name='NSStrokeWidthAttributeName' type='_C_ID'/>
+  <constant name='NSStrokeColorAttributeName' type='_C_ID'/>
+  <constant name='NSUnderlineColorAttributeName' type='_C_ID'/>
+  <constant name='NSStrikethroughStyleAttributeName' type='_C_ID'/>
+  <constant name='NSStrikethroughColorAttributeName' type='_C_ID'/>
+  <constant name='NSShadowAttributeName' type='_C_ID'/>
+  <constant name='NSObliquenessAttributeName' type='_C_ID'/>
+  <constant name='NSExpansionAttributeName' type='_C_ID'/>
+  <constant name='NSCursorAttributeName' type='_C_ID'/>
+  <constant name='NSToolTipAttributeName' type='_C_ID'/>
+  <constant name='NSCharacterShapeAttributeName' type='_C_ID'/>
+  <constant name='NSGlyphInfoAttributeName' type='_C_ID'/>
+  <constant name='NSMarkedClauseSegmentAttributeName' type='_C_ID'/>
+  <constant name='NSUnderlineByWordMask' type='UNKNOWN'/>
+  <constant name='NSSpellingStateAttributeName' type='_C_ID'/>
+  <constant name='NSPlainTextDocumentType' type='_C_ID'/>
+  <constant name='NSRTFTextDocumentType' type='_C_ID'/>
+  <constant name='NSRTFDTextDocumentType' type='_C_ID'/>
+  <constant name='NSMacSimpleTextDocumentType' type='_C_ID'/>
+  <constant name='NSHTMLTextDocumentType' type='_C_ID'/>
+  <constant name='NSDocFormatTextDocumentType' type='_C_ID'/>
+  <constant name='NSWordMLTextDocumentType' type='_C_ID'/>
+  <constant name='NSWebArchiveTextDocumentType' type='_C_ID'/>
+  <constant name='NSPaperSizeDocumentAttribute' type='_C_ID'/>
+  <constant name='NSLeftMarginDocumentAttribute' type='_C_ID'/>
+  <constant name='NSRightMarginDocumentAttribute' type='_C_ID'/>
+  <constant name='NSTopMarginDocumentAttribute' type='_C_ID'/>
+  <constant name='NSBottomMarginDocumentAttribute' type='_C_ID'/>
+  <constant name='NSViewSizeDocumentAttribute' type='_C_ID'/>
+  <constant name='NSViewZoomDocumentAttribute' type='_C_ID'/>
+  <constant name='NSViewModeDocumentAttribute' type='_C_ID'/>
+  <constant name='NSDocumentTypeDocumentAttribute' type='_C_ID'/>
+  <constant name='NSReadOnlyDocumentAttribute' type='_C_ID'/>
+  <constant name='NSConvertedDocumentAttribute' type='_C_ID'/>
+  <constant name='NSCocoaVersionDocumentAttribute' type='_C_ID'/>
+  <constant name='NSBackgroundColorDocumentAttribute' type='_C_ID'/>
+  <constant name='NSHyphenationFactorDocumentAttribute' type='_C_ID'/>
+  <constant name='NSDefaultTabIntervalDocumentAttribute' type='_C_ID'/>
+  <constant name='NSCharacterEncodingDocumentAttribute' type='_C_ID'/>
+  <constant name='NSTitleDocumentAttribute' type='_C_ID'/>
+  <constant name='NSCompanyDocumentAttribute' type='_C_ID'/>
+  <constant name='NSCopyrightDocumentAttribute' type='_C_ID'/>
+  <constant name='NSSubjectDocumentAttribute' type='_C_ID'/>
+  <constant name='NSAuthorDocumentAttribute' type='_C_ID'/>
+  <constant name='NSKeywordsDocumentAttribute' type='_C_ID'/>
+  <constant name='NSCommentDocumentAttribute' type='_C_ID'/>
+  <constant name='NSEditorDocumentAttribute' type='_C_ID'/>
+  <constant name='NSCreationTimeDocumentAttribute' type='_C_ID'/>
+  <constant name='NSModificationTimeDocumentAttribute' type='_C_ID'/>
+  <constant name='NSExcludedElementsDocumentAttribute' type='_C_ID'/>
+  <constant name='NSTextEncodingNameDocumentAttribute' type='_C_ID'/>
+  <constant name='NSPrefixSpacesDocumentAttribute' type='_C_ID'/>
+  <constant name='NSDocumentTypeDocumentOption' type='_C_ID'/>
+  <constant name='NSDefaultAttributesDocumentOption' type='_C_ID'/>
+  <constant name='NSCharacterEncodingDocumentOption' type='_C_ID'/>
+  <constant name='NSTextEncodingNameDocumentOption' type='_C_ID'/>
+  <constant name='NSBaseURLDocumentOption' type='_C_ID'/>
+  <constant name='NSTimeoutDocumentOption' type='_C_ID'/>
+  <constant name='NSWebPreferencesDocumentOption' type='_C_ID'/>
+  <constant name='NSWebResourceLoadDelegateDocumentOption' type='_C_ID'/>
+  <constant name='NSTextSizeMultiplierDocumentOption' type='_C_ID'/>
+  <constant name='NSUnderlineStrikethroughMask' type='UNKNOWN'/>
+  <constant name='NSImageCompressionMethod' type='_PRIV_C_PTR'/>
+  <constant name='NSImageCompressionFactor' type='_PRIV_C_PTR'/>
+  <constant name='NSImageDitherTransparency' type='_PRIV_C_PTR'/>
+  <constant name='NSImageRGBColorTable' type='_PRIV_C_PTR'/>
+  <constant name='NSImageInterlaced' type='_PRIV_C_PTR'/>
+  <constant name='NSImageColorSyncProfileData' type='_PRIV_C_PTR'/>
+  <constant name='NSImageFrameCount' type='_PRIV_C_PTR'/>
+  <constant name='NSImageCurrentFrame' type='_PRIV_C_PTR'/>
+  <constant name='NSImageCurrentFrameDuration' type='_PRIV_C_PTR'/>
+  <constant name='NSImageLoopCount' type='_PRIV_C_PTR'/>
+  <constant name='NSImageGamma' type='_PRIV_C_PTR'/>
+  <constant name='NSImageProgressive' type='_PRIV_C_PTR'/>
+  <constant name='NSImageEXIFData' type='_PRIV_C_PTR'/>
+  <constant name='NSImageFallbackBackgroundColor' type='_PRIV_C_PTR'/>
+  <constant name='NSBrowserColumnConfigurationDidChangeNotification' type='_C_ID'/>
+  <constant name='NSControlTintDidChangeNotification' type='_C_ID'/>
+  <constant name='NSSystemColorsDidChangeNotification' type='_C_ID'/>
+  <constant name='NSColorListDidChangeNotification' type='_C_ID'/>
+  <constant name='NSColorPanelColorDidChangeNotification' type='_C_ID'/>
+  <constant name='NSComboBoxWillPopUpNotification' type='_C_ID'/>
+  <constant name='NSComboBoxWillDismissNotification' type='_C_ID'/>
+  <constant name='NSComboBoxSelectionDidChangeNotification' type='_C_ID'/>
+  <constant name='NSComboBoxSelectionIsChangingNotification' type='_C_ID'/>
+  <constant name='NSControlTextDidBeginEditingNotification' type='_C_ID'/>
+  <constant name='NSControlTextDidEndEditingNotification' type='_C_ID'/>
+  <constant name='NSControlTextDidChangeNotification' type='_C_ID'/>
+  <constant name='NSDrawerWillOpenNotification' type='_C_ID'/>
+  <constant name='NSDrawerDidOpenNotification' type='_C_ID'/>
+  <constant name='NSDrawerWillCloseNotification' type='_C_ID'/>
+  <constant name='NSDrawerDidCloseNotification' type='_C_ID'/>
+  <constant name='NSTextLineTooLongException' type='_C_ID'/>
+  <constant name='NSTextNoSelectionException' type='_C_ID'/>
+  <constant name='NSWordTablesWriteException' type='_C_ID'/>
+  <constant name='NSWordTablesReadException' type='_C_ID'/>
+  <constant name='NSTextReadException' type='_C_ID'/>
+  <constant name='NSTextWriteException' type='_C_ID'/>
+  <constant name='NSPasteboardCommunicationException' type='_C_ID'/>
+  <constant name='NSPrintingCommunicationException' type='_C_ID'/>
+  <constant name='NSAbortModalException' type='_C_ID'/>
+  <constant name='NSAbortPrintingException' type='_C_ID'/>
+  <constant name='NSIllegalSelectorException' type='_C_ID'/>
+  <constant name='NSAppKitVirtualMemoryException' type='_C_ID'/>
+  <constant name='NSBadRTFDirectiveException' type='_C_ID'/>
+  <constant name='NSBadRTFFontTableException' type='_C_ID'/>
+  <constant name='NSBadRTFStyleSheetException' type='_C_ID'/>
+  <constant name='NSTypedStreamVersionException' type='_C_ID'/>
+  <constant name='NSTIFFException' type='_C_ID'/>
+  <constant name='NSPrintPackageException' type='_C_ID'/>
+  <constant name='NSBadRTFColorTableException' type='_C_ID'/>
+  <constant name='NSDraggingException' type='_C_ID'/>
+  <constant name='NSColorListIOException' type='_C_ID'/>
+  <constant name='NSColorListNotEditableException' type='_C_ID'/>
+  <constant name='NSBadBitmapParametersException' type='_C_ID'/>
+  <constant name='NSWindowServerCommunicationException' type='_C_ID'/>
+  <constant name='NSFontUnavailableException' type='_C_ID'/>
+  <constant name='NSPPDIncludeNotFoundException' type='_C_ID'/>
+  <constant name='NSPPDParseException' type='_C_ID'/>
+  <constant name='NSPPDIncludeStackOverflowException' type='_C_ID'/>
+  <constant name='NSPPDIncludeStackUnderflowException' type='_C_ID'/>
+  <constant name='NSRTFPropertyStackOverflowException' type='_C_ID'/>
+  <constant name='NSAppKitIgnoredException' type='_C_ID'/>
+  <constant name='NSBadComparisonException' type='_C_ID'/>
+  <constant name='NSImageCacheException' type='_C_ID'/>
+  <constant name='NSNibLoadingException' type='_C_ID'/>
+  <constant name='NSBrowserIllegalDelegateException' type='_C_ID'/>
+  <constant name='NSAccessibilityException' type='_C_ID'/>
+  <constant name='NSFontIdentityMatrix' type='_PRIV_C_PTR'/>
+  <constant name='NSAntialiasThresholdChangedNotification' type='_C_ID'/>
+  <constant name='NSFontSetChangedNotification' type='_C_ID'/>
+  <constant name='NSFontFamilyAttribute' type='_C_ID'/>
+  <constant name='NSFontNameAttribute' type='_C_ID'/>
+  <constant name='NSFontFaceAttribute' type='_C_ID'/>
+  <constant name='NSFontSizeAttribute' type='_C_ID'/>
+  <constant name='NSFontVisibleNameAttribute' type='_C_ID'/>
+  <constant name='NSFontMatrixAttribute' type='_C_ID'/>
+  <constant name='NSFontVariationAttribute' type='_C_ID'/>
+  <constant name='NSFontCharacterSetAttribute' type='_C_ID'/>
+  <constant name='NSFontCascadeListAttribute' type='_C_ID'/>
+  <constant name='NSFontTraitsAttribute' type='_C_ID'/>
+  <constant name='NSFontFixedAdvanceAttribute' type='_C_ID'/>
+  <constant name='NSFontSymbolicTrait' type='_C_ID'/>
+  <constant name='NSFontWeightTrait' type='_C_ID'/>
+  <constant name='NSFontWidthTrait' type='_C_ID'/>
+  <constant name='NSFontSlantTrait' type='_C_ID'/>
+  <constant name='NSFontVariationAxisIdentifierKey' type='_C_ID'/>
+  <constant name='NSFontVariationAxisMinimumValueKey' type='_C_ID'/>
+  <constant name='NSFontVariationAxisMaximumValueKey' type='_C_ID'/>
+  <constant name='NSFontVariationAxisDefaultValueKey' type='_C_ID'/>
+  <constant name='NSFontVariationAxisNameKey' type='_C_ID'/>
+  <constant name='NSCalibratedWhiteColorSpace' type='_C_ID'/>
+  <constant name='NSCalibratedBlackColorSpace' type='_C_ID'/>
+  <constant name='NSCalibratedRGBColorSpace' type='_C_ID'/>
+  <constant name='NSDeviceWhiteColorSpace' type='_C_ID'/>
+  <constant name='NSDeviceBlackColorSpace' type='_C_ID'/>
+  <constant name='NSDeviceRGBColorSpace' type='_C_ID'/>
+  <constant name='NSDeviceCMYKColorSpace' type='_C_ID'/>
+  <constant name='NSNamedColorSpace' type='_C_ID'/>
+  <constant name='NSPatternColorSpace' type='_C_ID'/>
+  <constant name='NSCustomColorSpace' type='_C_ID'/>
+  <constant name='NSWhite' type='UNKNOWN'/>
+  <constant name='NSLightGray' type='UNKNOWN'/>
+  <constant name='NSDarkGray' type='UNKNOWN'/>
+  <constant name='NSBlack' type='UNKNOWN'/>
+  <constant name='NSDeviceResolution' type='_C_ID'/>
+  <constant name='NSDeviceColorSpaceName' type='_C_ID'/>
+  <constant name='NSDeviceBitsPerSample' type='_C_ID'/>
+  <constant name='NSDeviceIsScreen' type='_C_ID'/>
+  <constant name='NSDeviceIsPrinter' type='_C_ID'/>
+  <constant name='NSDeviceSize' type='_C_ID'/>
+  <constant name='NSGraphicsContextDestinationAttributeName' type='_C_ID'/>
+  <constant name='NSGraphicsContextRepresentationFormatAttributeName' type='_C_ID'/>
+  <constant name='NSGraphicsContextPSFormat' type='_C_ID'/>
+  <constant name='NSGraphicsContextPDFFormat' type='_C_ID'/>
+  <constant name='NSContextHelpModeDidActivateNotification' type='_C_ID'/>
+  <constant name='NSContextHelpModeDidDeactivateNotification' type='_C_ID'/>
+  <constant name='NSImageRepRegistryDidChangeNotification' type='_C_ID'/>
+  <constant name='NSInterfaceStyleDefault' type='_C_ID'/>
+  <constant name='NSMultipleValuesMarker' type='_C_ID'/>
+  <constant name='NSNoSelectionMarker' type='_C_ID'/>
+  <constant name='NSNotApplicableMarker' type='_C_ID'/>
+  <constant name='NSObservedObjectKey' type='_C_ID'/>
+  <constant name='NSObservedKeyPathKey' type='_C_ID'/>
+  <constant name='NSOptionsKey' type='_C_ID'/>
+  <constant name='NSAlignmentBinding' type='_C_ID'/>
+  <constant name='NSAlternateImageBinding' type='_C_ID'/>
+  <constant name='NSAlternateTitleBinding' type='_C_ID'/>
+  <constant name='NSAnimateBinding' type='_C_ID'/>
+  <constant name='NSAnimationDelayBinding' type='_C_ID'/>
+  <constant name='NSArgumentBinding' type='_C_ID'/>
+  <constant name='NSAttributedStringBinding' type='_C_ID'/>
+  <constant name='NSContentArrayBinding' type='_C_ID'/>
+  <constant name='NSContentArrayForMultipleSelectionBinding' type='_C_ID'/>
+  <constant name='NSContentBinding' type='_C_ID'/>
+  <constant name='NSContentHeightBinding' type='_C_ID'/>
+  <constant name='NSContentObjectBinding' type='_C_ID'/>
+  <constant name='NSContentObjectsBinding' type='_C_ID'/>
+  <constant name='NSContentSetBinding' type='_C_ID'/>
+  <constant name='NSContentValuesBinding' type='_C_ID'/>
+  <constant name='NSContentWidthBinding' type='_C_ID'/>
+  <constant name='NSCriticalValueBinding' type='_C_ID'/>
+  <constant name='NSDataBinding' type='_C_ID'/>
+  <constant name='NSDisplayPatternTitleBinding' type='_C_ID'/>
+  <constant name='NSDisplayPatternValueBinding' type='_C_ID'/>
+  <constant name='NSDocumentEditedBinding' type='_C_ID'/>
+  <constant name='NSDoubleClickArgumentBinding' type='_C_ID'/>
+  <constant name='NSDoubleClickTargetBinding' type='_C_ID'/>
+  <constant name='NSEditableBinding' type='_C_ID'/>
+  <constant name='NSEnabledBinding' type='_C_ID'/>
+  <constant name='NSFilterPredicateBinding' type='_C_ID'/>
+  <constant name='NSFontBinding' type='_C_ID'/>
+  <constant name='NSFontBoldBinding' type='_C_ID'/>
+  <constant name='NSFontFamilyNameBinding' type='_C_ID'/>
+  <constant name='NSFontItalicBinding' type='_C_ID'/>
+  <constant name='NSFontNameBinding' type='_C_ID'/>
+  <constant name='NSFontSizeBinding' type='_C_ID'/>
+  <constant name='NSHeaderTitleBinding' type='_C_ID'/>
+  <constant name='NSHiddenBinding' type='_C_ID'/>
+  <constant name='NSImageBinding' type='_C_ID'/>
+  <constant name='NSIsIndeterminateBinding' type='_C_ID'/>
+  <constant name='NSLabelBinding' type='_C_ID'/>
+  <constant name='NSManagedObjectContextBinding' type='_C_ID'/>
+  <constant name='NSMaximumRecentsBinding' type='_C_ID'/>
+  <constant name='NSMaxValueBinding' type='_C_ID'/>
+  <constant name='NSMaxWidthBinding' type='_C_ID'/>
+  <constant name='NSMinValueBinding' type='_C_ID'/>
+  <constant name='NSMinWidthBinding' type='_C_ID'/>
+  <constant name='NSMixedStateImageBinding' type='_C_ID'/>
+  <constant name='NSOffStateImageBinding' type='_C_ID'/>
+  <constant name='NSOnStateImageBinding' type='_C_ID'/>
+  <constant name='NSPredicateBinding' type='_C_ID'/>
+  <constant name='NSRecentSearchesBinding' type='_C_ID'/>
+  <constant name='NSRepresentedFilenameBinding' type='_C_ID'/>
+  <constant name='NSRowHeightBinding' type='_C_ID'/>
+  <constant name='NSSelectedIdentifierBinding' type='_C_ID'/>
+  <constant name='NSSelectedIndexBinding' type='_C_ID'/>
+  <constant name='NSSelectedLabelBinding' type='_C_ID'/>
+  <constant name='NSSelectedObjectBinding' type='_C_ID'/>
+  <constant name='NSSelectedObjectsBinding' type='_C_ID'/>
+  <constant name='NSSelectedTagBinding' type='_C_ID'/>
+  <constant name='NSSelectedValueBinding' type='_C_ID'/>
+  <constant name='NSSelectedValuesBinding' type='_C_ID'/>
+  <constant name='NSSelectionIndexesBinding' type='_C_ID'/>
+  <constant name='NSSelectionIndexPathsBinding' type='_C_ID'/>
+  <constant name='NSSortDescriptorsBinding' type='_C_ID'/>
+  <constant name='NSTargetBinding' type='_C_ID'/>
+  <constant name='NSTextColorBinding' type='_C_ID'/>
+  <constant name='NSTitleBinding' type='_C_ID'/>
+  <constant name='NSToolTipBinding' type='_C_ID'/>
+  <constant name='NSValueBinding' type='_C_ID'/>
+  <constant name='NSValuePathBinding' type='_C_ID'/>
+  <constant name='NSValueURLBinding' type='_C_ID'/>
+  <constant name='NSVisibleBinding' type='_C_ID'/>
+  <constant name='NSWarningValueBinding' type='_C_ID'/>
+  <constant name='NSWidthBinding' type='_C_ID'/>
+  <constant name='NSAllowsEditingMultipleValuesSelectionBindingOption' type='_C_ID'/>
+  <constant name='NSAllowsNullArgumentBindingOption' type='_C_ID'/>
+  <constant name='NSAlwaysPresentsApplicationModalAlertsBindingOption' type='_C_ID'/>
+  <constant name='NSConditionallySetsEditableBindingOption' type='_C_ID'/>
+  <constant name='NSConditionallySetsEnabledBindingOption' type='_C_ID'/>
+  <constant name='NSConditionallySetsHiddenBindingOption' type='_C_ID'/>
+  <constant name='NSContinuouslyUpdatesValueBindingOption' type='_C_ID'/>
+  <constant name='NSCreatesSortDescriptorBindingOption' type='_C_ID'/>
+  <constant name='NSDeletesObjectsOnRemoveBindingsOption' type='_C_ID'/>
+  <constant name='NSDisplayNameBindingOption' type='_C_ID'/>
+  <constant name='NSDisplayPatternBindingOption' type='_C_ID'/>
+  <constant name='NSHandlesContentAsCompoundValueBindingOption' type='_C_ID'/>
+  <constant name='NSInsertsNullPlaceholderBindingOption' type='_C_ID'/>
+  <constant name='NSInvokesSeparatelyWithArrayObjectsBindingOption' type='_C_ID'/>
+  <constant name='NSMultipleValuesPlaceholderBindingOption' type='_C_ID'/>
+  <constant name='NSNoSelectionPlaceholderBindingOption' type='_C_ID'/>
+  <constant name='NSNotApplicablePlaceholderBindingOption' type='_C_ID'/>
+  <constant name='NSNullPlaceholderBindingOption' type='_C_ID'/>
+  <constant name='NSRaisesForNotApplicableKeysBindingOption' type='_C_ID'/>
+  <constant name='NSPredicateFormatBindingOption' type='_C_ID'/>
+  <constant name='NSSelectorNameBindingOption' type='_C_ID'/>
+  <constant name='NSSelectsAllWhenSettingContentBindingOption' type='_C_ID'/>
+  <constant name='NSValidatesImmediatelyBindingOption' type='_C_ID'/>
+  <constant name='NSValueTransformerNameBindingOption' type='_C_ID'/>
+  <constant name='NSValueTransformerBindingOption' type='_C_ID'/>
+  <constant name='NSMenuWillSendActionNotification' type='_C_ID'/>
+  <constant name='NSMenuDidSendActionNotification' type='_C_ID'/>
+  <constant name='NSMenuDidAddItemNotification' type='_C_ID'/>
+  <constant name='NSMenuDidRemoveItemNotification' type='_C_ID'/>
+  <constant name='NSMenuDidChangeItemNotification' type='_C_ID'/>
+  <constant name='NSMenuDidBeginTrackingNotification' type='_C_ID'/>
+  <constant name='NSMenuDidEndTrackingNotification' type='_C_ID'/>
+  <constant name='NSNibOwner' type='_C_ID'/>
+  <constant name='NSNibTopLevelObjects' type='_C_ID'/>
+  <constant name='NSOutlineViewSelectionDidChangeNotification' type='_C_ID'/>
+  <constant name='NSOutlineViewColumnDidMoveNotification' type='_C_ID'/>
+  <constant name='NSOutlineViewColumnDidResizeNotification' type='_C_ID'/>
+  <constant name='NSOutlineViewSelectionIsChangingNotification' type='_C_ID'/>
+  <constant name='NSOutlineViewItemWillExpandNotification' type='_C_ID'/>
+  <constant name='NSOutlineViewItemDidExpandNotification' type='_C_ID'/>
+  <constant name='NSOutlineViewItemWillCollapseNotification' type='_C_ID'/>
+  <constant name='NSOutlineViewItemDidCollapseNotification' type='_C_ID'/>
+  <constant name='NSTabColumnTerminatorsAttributeName' type='_C_ID'/>
+  <constant name='NSStringPboardType' type='_C_ID'/>
+  <constant name='NSFilenamesPboardType' type='_C_ID'/>
+  <constant name='NSPostScriptPboardType' type='_C_ID'/>
+  <constant name='NSTIFFPboardType' type='_C_ID'/>
+  <constant name='NSRTFPboardType' type='_C_ID'/>
+  <constant name='NSTabularTextPboardType' type='_C_ID'/>
+  <constant name='NSFontPboardType' type='_C_ID'/>
+  <constant name='NSRulerPboardType' type='_C_ID'/>
+  <constant name='NSFileContentsPboardType' type='_C_ID'/>
+  <constant name='NSColorPboardType' type='_C_ID'/>
+  <constant name='NSRTFDPboardType' type='_C_ID'/>
+  <constant name='NSHTMLPboardType' type='_C_ID'/>
+  <constant name='NSPICTPboardType' type='_C_ID'/>
+  <constant name='NSURLPboardType' type='_C_ID'/>
+  <constant name='NSPDFPboardType' type='_C_ID'/>
+  <constant name='NSVCardPboardType' type='_C_ID'/>
+  <constant name='NSFilesPromisePboardType' type='_C_ID'/>
+  <constant name='NSInkTextPboardType' type='_C_ID'/>
+  <constant name='NSGeneralPboard' type='_C_ID'/>
+  <constant name='NSFontPboard' type='_C_ID'/>
+  <constant name='NSRulerPboard' type='_C_ID'/>
+  <constant name='NSFindPboard' type='_C_ID'/>
+  <constant name='NSDragPboard' type='_C_ID'/>
+  <constant name='NSPopUpButtonWillPopUpNotification' type='_C_ID'/>
+  <constant name='NSPopUpButtonCellWillPopUpNotification' type='_C_ID'/>
+  <constant name='NSPrintSpoolJob' type='_C_ID'/>
+  <constant name='NSPrintPreviewJob' type='_C_ID'/>
+  <constant name='NSPrintSaveJob' type='_C_ID'/>
+  <constant name='NSPrintCancelJob' type='_C_ID'/>
+  <constant name='NSPrintPaperName' type='_C_ID'/>
+  <constant name='NSPrintPaperSize' type='_C_ID'/>
+  <constant name='NSPrintOrientation' type='_C_ID'/>
+  <constant name='NSPrintScalingFactor' type='_C_ID'/>
+  <constant name='NSPrintLeftMargin' type='_C_ID'/>
+  <constant name='NSPrintRightMargin' type='_C_ID'/>
+  <constant name='NSPrintTopMargin' type='_C_ID'/>
+  <constant name='NSPrintBottomMargin' type='_C_ID'/>
+  <constant name='NSPrintHorizontallyCentered' type='_C_ID'/>
+  <constant name='NSPrintVerticallyCentered' type='_C_ID'/>
+  <constant name='NSPrintHorizontalPagination' type='_C_ID'/>
+  <constant name='NSPrintVerticalPagination' type='_C_ID'/>
+  <constant name='NSPrintPrinter' type='_C_ID'/>
+  <constant name='NSPrintCopies' type='_C_ID'/>
+  <constant name='NSPrintAllPages' type='_C_ID'/>
+  <constant name='NSPrintFirstPage' type='_C_ID'/>
+  <constant name='NSPrintLastPage' type='_C_ID'/>
+  <constant name='NSPrintMustCollate' type='_C_ID'/>
+  <constant name='NSPrintReversePageOrder' type='_C_ID'/>
+  <constant name='NSPrintJobDisposition' type='_C_ID'/>
+  <constant name='NSPrintSavePath' type='_C_ID'/>
+  <constant name='NSPrintPagesAcross' type='_C_ID'/>
+  <constant name='NSPrintPagesDown' type='_C_ID'/>
+  <constant name='NSPrintTime' type='_C_ID'/>
+  <constant name='NSPrintDetailedErrorReporting' type='_C_ID'/>
+  <constant name='NSPrintFaxNumber' type='_C_ID'/>
+  <constant name='NSPrintPrinterName' type='_C_ID'/>
+  <constant name='NSPrintHeaderAndFooter' type='_C_ID'/>
+  <constant name='NSPrintFormName' type='_C_ID'/>
+  <constant name='NSPrintJobFeatures' type='_C_ID'/>
+  <constant name='NSPrintManualFeed' type='_C_ID'/>
+  <constant name='NSPrintPagesPerSheet' type='_C_ID'/>
+  <constant name='NSPrintPaperFeed' type='_C_ID'/>
+  <constant name='NSPrintFaxCoverSheetName' type='_C_ID'/>
+  <constant name='NSPrintFaxHighResolution' type='_C_ID'/>
+  <constant name='NSPrintFaxModem' type='_C_ID'/>
+  <constant name='NSPrintFaxReceiverNames' type='_C_ID'/>
+  <constant name='NSPrintFaxReceiverNumbers' type='_C_ID'/>
+  <constant name='NSPrintFaxReturnReceipt' type='_C_ID'/>
+  <constant name='NSPrintFaxSendTime' type='_C_ID'/>
+  <constant name='NSPrintFaxTrimPageEnds' type='_C_ID'/>
+  <constant name='NSPrintFaxUseCoverSheet' type='_C_ID'/>
+  <constant name='NSPrintFaxJob' type='_C_ID'/>
+  <constant name='NSPrintOperationExistsException' type='_C_ID'/>
+  <constant name='NSPrintPhotoJobStyleHint' type='_C_ID'/>
+  <constant name='NSSoundPboardType' type='_C_ID'/>
+  <constant name='NSVoiceName' type='_C_ID'/>
+  <constant name='NSVoiceIdentifier' type='_C_ID'/>
+  <constant name='NSVoiceAge' type='_C_ID'/>
+  <constant name='NSVoiceGender' type='_C_ID'/>
+  <constant name='NSVoiceDemoText' type='_C_ID'/>
+  <constant name='NSVoiceLanguage' type='_C_ID'/>
+  <constant name='NSVoiceGenderNeuter' type='_C_ID'/>
+  <constant name='NSVoiceGenderMale' type='_C_ID'/>
+  <constant name='NSVoiceGenderFemale' type='_C_ID'/>
+  <constant name='NSSplitViewWillResizeSubviewsNotification' type='_C_ID'/>
+  <constant name='NSSplitViewDidResizeSubviewsNotification' type='_C_ID'/>
+  <constant name='NSTableViewSelectionDidChangeNotification' type='_C_ID'/>
+  <constant name='NSTableViewColumnDidMoveNotification' type='_C_ID'/>
+  <constant name='NSTableViewColumnDidResizeNotification' type='_C_ID'/>
+  <constant name='NSTableViewSelectionIsChangingNotification' type='_C_ID'/>
+  <constant name='NSTextDidBeginEditingNotification' type='_C_ID'/>
+  <constant name='NSTextDidEndEditingNotification' type='_C_ID'/>
+  <constant name='NSTextDidChangeNotification' type='_C_ID'/>
+  <constant name='NSTextStorageWillProcessEditingNotification' type='_C_ID'/>
+  <constant name='NSTextStorageDidProcessEditingNotification' type='_C_ID'/>
+  <constant name='NSTextViewWillChangeNotifyingTextViewNotification' type='_C_ID'/>
+  <constant name='NSTextViewDidChangeSelectionNotification' type='_C_ID'/>
+  <constant name='NSTextViewDidChangeTypingAttributesNotification' type='_C_ID'/>
+  <constant name='NSToolbarWillAddItemNotification' type='_C_ID'/>
+  <constant name='NSToolbarDidRemoveItemNotification' type='_C_ID'/>
+  <constant name='NSToolbarSeparatorItemIdentifier' type='_C_ID'/>
+  <constant name='NSToolbarSpaceItemIdentifier' type='_C_ID'/>
+  <constant name='NSToolbarFlexibleSpaceItemIdentifier' type='_C_ID'/>
+  <constant name='NSToolbarShowColorsItemIdentifier' type='_C_ID'/>
+  <constant name='NSToolbarShowFontsItemIdentifier' type='_C_ID'/>
+  <constant name='NSToolbarCustomizeToolbarItemIdentifier' type='_C_ID'/>
+  <constant name='NSToolbarPrintItemIdentifier' type='_C_ID'/>
+  <constant name='NSViewFrameDidChangeNotification' type='_C_ID'/>
+  <constant name='NSViewFocusDidChangeNotification' type='_C_ID'/>
+  <constant name='NSViewBoundsDidChangeNotification' type='_C_ID'/>
+  <constant name='NSViewGlobalFrameDidChangeNotification' type='_C_ID'/>
+  <constant name='NSWindowDidBecomeKeyNotification' type='_C_ID'/>
+  <constant name='NSWindowDidBecomeMainNotification' type='_C_ID'/>
+  <constant name='NSWindowDidChangeScreenNotification' type='_C_ID'/>
+  <constant name='NSWindowDidDeminiaturizeNotification' type='_C_ID'/>
+  <constant name='NSWindowDidExposeNotification' type='_C_ID'/>
+  <constant name='NSWindowDidMiniaturizeNotification' type='_C_ID'/>
+  <constant name='NSWindowDidMoveNotification' type='_C_ID'/>
+  <constant name='NSWindowDidResignKeyNotification' type='_C_ID'/>
+  <constant name='NSWindowDidResignMainNotification' type='_C_ID'/>
+  <constant name='NSWindowDidResizeNotification' type='_C_ID'/>
+  <constant name='NSWindowDidUpdateNotification' type='_C_ID'/>
+  <constant name='NSWindowWillCloseNotification' type='_C_ID'/>
+  <constant name='NSWindowWillMiniaturizeNotification' type='_C_ID'/>
+  <constant name='NSWindowWillMoveNotification' type='_C_ID'/>
+  <constant name='NSWindowWillBeginSheetNotification' type='_C_ID'/>
+  <constant name='NSWindowDidEndSheetNotification' type='_C_ID'/>
+  <constant name='NSWindowDidChangeScreenProfileNotification' type='_C_ID'/>
+  <constant name='NSWorkspaceDidLaunchApplicationNotification' type='_C_ID'/>
+  <constant name='NSWorkspaceDidMountNotification' type='_C_ID'/>
+  <constant name='NSWorkspaceDidPerformFileOperationNotification' type='_C_ID'/>
+  <constant name='NSWorkspaceDidTerminateApplicationNotification' type='_C_ID'/>
+  <constant name='NSWorkspaceDidUnmountNotification' type='_C_ID'/>
+  <constant name='NSWorkspaceWillLaunchApplicationNotification' type='_C_ID'/>
+  <constant name='NSWorkspaceWillPowerOffNotification' type='_C_ID'/>
+  <constant name='NSWorkspaceWillUnmountNotification' type='_C_ID'/>
+  <constant name='NSWorkspaceWillSleepNotification' type='_C_ID'/>
+  <constant name='NSWorkspaceDidWakeNotification' type='_C_ID'/>
+  <constant name='NSWorkspaceSessionDidBecomeActiveNotification' type='_C_ID'/>
+  <constant name='NSWorkspaceSessionDidResignActiveNotification' type='_C_ID'/>
+  <constant name='NSApplicationFileType' type='_PRIV_C_PTR'/>
+  <constant name='NSShellCommandFileType' type='_PRIV_C_PTR'/>
+  <constant name='NSWorkspaceMoveOperation' type='_C_ID'/>
+  <constant name='NSWorkspaceCopyOperation' type='_C_ID'/>
+  <constant name='NSWorkspaceLinkOperation' type='_C_ID'/>
+  <constant name='NSWorkspaceCompressOperation' type='_C_ID'/>
+  <constant name='NSWorkspaceDecompressOperation' type='_C_ID'/>
+  <constant name='NSWorkspaceEncryptOperation' type='_C_ID'/>
+  <constant name='NSWorkspaceDecryptOperation' type='_C_ID'/>
+  <constant name='NSWorkspaceDestroyOperation' type='_C_ID'/>
+  <constant name='NSWorkspaceRecycleOperation' type='_C_ID'/>
+  <constant name='NSWorkspaceDuplicateOperation' type='_C_ID'/>
+  <enum name='NSWorkspaceLaunchPreferringClassic' value='0x40000'/>
+  <enum name='NSMiniControlSize' value='0x2'/>
+  <enum name='NSColorRenderingIntentDefault' value='0x0'/>
+  <enum name='NSSegmentSwitchTrackingMomentary' value='0x2'/>
+  <enum name='NSPlainTextTokenStyle' value='0x1'/>
+  <enum name='NSF16FunctionKey' value='0xf713'/>
+  <enum name='NSWantsBidiLevels' value='0x4'/>
+  <enum name='NSCMYKColorSpaceModel' value='0x2'/>
+  <enum name='NSApplicationDelegateReplyCancel' value='0x1'/>
+  <enum name='NSScaleProportionally' value='0x0'/>
+  <enum name='NSLeftMouseDown' value='0x1'/>
+  <enum name='NSInsertLineFunctionKey' value='0xf73b'/>
+  <enum name='NSNonZeroWindingRule' value='0x0'/>
+  <enum name='NSOpenGLPFADepthSize' value='0xc'/>
+  <enum name='NSWindowMiniaturizeButton' value='0x1'/>
+  <enum name='NSPrintPanelShowsPaperSize' value='0x4'/>
+  <enum name='NSOpenGLGOResetLibrary' value='0x1f8'/>
+  <enum name='NSAlertThirdButtonReturn' value='0x3ea'/>
+  <enum name='NSModalPanelWindowLevel' value='0x8'/>
+  <enum name='NSGlyphAttributeElastic' value='0x1'/>
+  <enum name='NSUnknownColorSpaceModel' value='0xffffffff'/>
+  <enum name='NSOpenGLPFAStencilSize' value='0xd'/>
+  <enum name='NSDragOperationEvery' value='0xffffffff'/>
+  <enum name='NSScrollerArrowsMaxEnd' value='0x0'/>
+  <enum name='NSFocusRingAbove' value='0x2'/>
+  <enum name='NSAdobeGB1CharacterCollection' value='0x2'/>
+  <enum name='NSUnitalicFontMask' value='0x1000000'/>
+  <enum name='NSLineBreakByCharWrapping' value='0x1'/>
+  <enum name='NSF11FunctionKey' value='0xf70e'/>
+  <enum name='NSCustomPaletteModeColorPanel' value='0x4'/>
+  <enum name='NSOpenGLPFAVirtualScreenCount' value='0x80'/>
+  <enum name='NSServiceMiscellaneousError' value='0x104f0'/>
+  <enum name='NSDrawerClosedState' value='0x0'/>
+  <enum name='NSFindPanelSubstringMatchTypeContains' value='0x0'/>
+  <enum name='NSHSBModeColorPanel' value='0x3'/>
+  <enum name='NSLineSweepLeft' value='0x0'/>
+  <enum name='NSF34FunctionKey' value='0xf725'/>
+  <enum name='NSTextBlockWidth' value='0x0'/>
+  <enum name='NSLeftArrowFunctionKey' value='0xf702'/>
+  <enum name='NSShiftKeyMask' value='0x20000'/>
+  <enum name='NSPrintPanelShowsNonSettingControls' value='0x10000'/>
+  <enum name='NSF7FunctionKey' value='0xf70a'/>
+  <enum name='NSToggleButton' value='0x2'/>
+  <enum name='NSEvenOddWindingRule' value='0x1'/>
+  <enum name='NSScrollerIncrementLine' value='0x5'/>
+  <enum name='NSFontPanelDocumentColorEffectModeMask' value='0x800'/>
+  <enum name='NSEndFunctionKey' value='0xf72b'/>
+  <enum name='NSFindFunctionKey' value='0xf745'/>
+  <enum name='NSOpenGLPFANoRecovery' value='0x48'/>
+  <enum name='NSDragOperationMove' value='0x10'/>
+  <enum name='NSBacktabTextMovement' value='0x12'/>
+  <enum name='NSReturnTextMovement' value='0x10'/>
+  <enum name='NSImageCacheBySize' value='0x2'/>
+  <enum name='NSDiscreteCapacityLevelIndicatorStyle' value='0x2'/>
+  <enum name='NSSelectionAffinityDownstream' value='0x1'/>
+  <enum name='NSGlyphAttributeInscribe' value='0x5'/>
+  <enum name='NSFocusRingTypeNone' value='0x1'/>
+  <enum name='NSColorPanelCMYKModeMask' value='0x4'/>
+  <enum name='NSOnState' value='0x1'/>
+  <enum name='NSFileHandlingPanelCancelButton' value='0x0'/>
+  <enum name='NSNoImage' value='0x0'/>
+  <enum name='NSUnifiedTitleAndToolbarWindowMask' value='0x1000'/>
+  <enum name='NSDragOperationNone' value='0x0'/>
+  <enum name='NSGIFFileType' value='0x2'/>
+  <enum name='NSF2FunctionKey' value='0xf705'/>
+  <enum name='NSSwitchButton' value='0x3'/>
+  <enum name='NSImageRepLoadStatusInvalidData' value='0xfffffffc'/>
+  <enum name='NSClosePathBezierPathElement' value='0x3'/>
+  <enum name='NSViewMaxXMargin' value='0x4'/>
+  <enum name='NSCompositeDestinationAtop' value='0x9'/>
+  <enum name='NSFormFeedCharacter' value='0xc'/>
+  <enum name='NSWindowBackingLocationVideoMemory' value='0x1'/>
+  <enum name='NSNullCellType' value='0x0'/>
+  <enum name='NSScrollWheelMask' value='0x400000'/>
+  <enum name='NSGlyphAttributeBidiLevel' value='0x2'/>
+  <enum name='NSSaveAsOperation' value='0x1'/>
+  <enum name='NSFontAntialiasedIntegerAdvancementsRenderingMode' value='0x3'/>
+  <enum name='NSToolbarItemVisibilityPriorityUser' value='0x7d0'/>
+  <enum name='NSFontScriptsClass' value='0xa0000000'/>
+  <enum name='NSRightTabStopType' value='0x1'/>
+  <enum name='NSLeftTextMovement' value='0x13'/>
+  <enum name='NSCellDisabled' value='0x0'/>
+  <enum name='NSImageRepLoadStatusReadingHeader' value='0xfffffffe'/>
+  <enum name='NSSpecialPageOrder' value='0x0'/>
+  <enum name='NSInsertCharFunctionKey' value='0xf73d'/>
+  <enum name='NSGlyphInscribeOverBelow' value='0x4'/>
+  <enum name='NSTableViewSolidVerticalGridLineMask' value='0x1'/>
+  <enum name='NSOpenGLPFADoubleBuffer' value='0x5'/>
+  <enum name='NSWorkspaceLaunchDefault' value='0x30000'/>
+  <enum name='NSFindPanelSubstringMatchTypeStartsWith' value='0x1'/>
+  <enum name='NSF20FunctionKey' value='0xf717'/>
+  <enum name='NSUnderlinePatternDot' value='0x100'/>
+  <enum name='NSBelowTop' value='0x3'/>
+  <enum name='NSLandscapeOrientation' value='0x1'/>
+  <enum name='NSDockWindowLevel' value='0x14'/>
+  <enum name='NSCellHasImageOnLeftOrBottom' value='0xd'/>
+  <enum name='NSSelectingNext' value='0x1'/>
+  <enum name='NSBreakFunctionKey' value='0xf732'/>
+  <enum name='NSTextFieldDatePickerStyle' value='0x2'/>
+  <enum name='NSProgressIndicatorPreferredLargeThickness' value='0x12'/>
+  <enum name='NSFontOldStyleSerifsClass' value='0x10000000'/>
+  <enum name='NSDragOperationPrivate' value='0x8'/>
+  <enum name='NSExpandedFontMask' value='0x20'/>
+  <enum name='NSTextBlockMinimumWidth' value='0x1'/>
+  <enum name='NSOpenGLCPRasterizationEnable' value='0xdd'/>
+  <enum name='NSOpenGLPFARobust' value='0x4b'/>
+  <enum name='NSFunctionKeyMask' value='0x800000'/>
+  <enum name='NSFocusRingTypeExterior' value='0x2'/>
+  <enum name='NSOpenGLPFAColorSize' value='0x8'/>
+  <enum name='NSRoundLineJoinStyle' value='0x1'/>
+  <enum name='NSScrollerIncrementArrow' value='0x0'/>
+  <enum name='NSLeftTabsBezelBorder' value='0x1'/>
+  <enum name='NSTIFFCompressionNEXT' value='0x7ffe'/>
+  <enum name='NSColorPanelCrayonModeMask' value='0x80'/>
+  <enum name='NSGrayColorSpaceModel' value='0x0'/>
+  <enum name='NSImageRepMatchesDevice' value='0x0'/>
+  <enum name='NSBoxPrimary' value='0x0'/>
+  <enum name='NSBMPFileType' value='0x1'/>
+  <enum name='NSTrackingActiveInKeyWindow' value='0x20'/>
+  <enum name='NSLeftTabStopType' value='0x0'/>
+  <enum name='NSGlyphInscribeAbove' value='0x2'/>
+  <enum name='NSHomeFunctionKey' value='0xf729'/>
+  <enum name='NSF18FunctionKey' value='0xf715'/>
+  <enum name='NSBlueControlTint' value='0x1'/>
+  <enum name='NSCancelButton' value='0x0'/>
+  <enum name='NSRightMouseUpMask' value='0x10'/>
+  <enum name='NSRegularControlSize' value='0x0'/>
+  <enum name='NSUndoFunctionKey' value='0xf743'/>
+  <enum name='NSImageCacheDefault' value='0x0'/>
+  <enum name='NSTextBlockAbsoluteValueType' value='0x0'/>
+  <enum name='NSFindPanelSubstringMatchTypeFullWord' value='0x2'/>
+  <enum name='NSThickerSquareBezelStyle' value='0x4'/>
+  <enum name='NSOpenGLPFAAuxBuffers' value='0x7'/>
+  <enum name='NSSmallIconButtonBezelStyle' value='0x2'/>
+  <enum name='NSWindowExposedEventType' value='0x0'/>
+  <enum name='NSAlphaFirstBitmapFormat' value='0x1'/>
+  <enum name='NSNoTabsNoBorder' value='0x6'/>
+  <enum name='NSTableViewLastColumnOnlyAutoresizingStyle' value='0x4'/>
+  <enum name='NSRunAbortedResponse' value='0xfffffc17'/>
+  <enum name='NSPopUpArrowAtCenter' value='0x1'/>
+  <enum name='NSImageAlignBottom' value='0x5'/>
+  <enum name='NSImageScaleProportionallyDown' value='0x0'/>
+  <enum name='NSFontTransitionalSerifsClass' value='0x20000000'/>
+  <enum name='NSAlphaShiftKeyMask' value='0x10000'/>
+  <enum name='NSClearDisplayFunctionKey' value='0xf73a'/>
+  <enum name='NSPrintPanelShowsPageRange' value='0x2'/>
+  <enum name='NSBackTabCharacter' value='0x19'/>
+  <enum name='NSCellHitEditableTextArea' value='0x2'/>
+  <enum name='NSPrintingReplyLater' value='0x2'/>
+  <enum name='NSF9FunctionKey' value='0xf70c'/>
+  <enum name='NSBeginFunctionKey' value='0xf72a'/>
+  <enum name='NSSystemFunctionKey' value='0xf737'/>
+  <enum name='NSWritingDirectionRightToLeft' value='0x1'/>
+  <enum name='NSImageAlignBottomLeft' value='0x6'/>
+  <enum name='NSImageAlignLeft' value='0x4'/>
+  <enum name='NSDefaultTokenStyle' value='0x0'/>
+  <enum name='NSImageRight' value='0x3'/>
+  <enum name='NSMainMenuWindowLevel' value='0x18'/>
+  <enum name='NSLeftMouseUpMask' value='0x4'/>
+  <enum name='NSRightMouseDragged' value='0x7'/>
+  <enum name='NSTabletProximity' value='0x18'/>
+  <enum name='NSNoInterfaceStyle' value='0x0'/>
+  <enum name='NSNonactivatingPanelMask' value='0x80'/>
+  <enum name='NSChangeBackgroundCellMask' value='0x8'/>
+  <enum name='NSF4FunctionKey' value='0xf707'/>
+  <enum name='NSImageRepLoadStatusUnexpectedEOF' value='0xfffffffb'/>
+  <enum name='NSKeyDown' value='0xa'/>
+  <enum name='NSTrackingCursorUpdate' value='0x4'/>
+  <enum name='NSImageAlignCenter' value='0x0'/>
+  <enum name='NSCriticalRequest' value='0x0'/>
+  <enum name='NSGradientConvexWeak' value='0x3'/>
+  <enum name='NSPrintPanelShowsCopies' value='0x1'/>
+  <enum name='NSIdentityMappingCharacterCollection' value='0x0'/>
+  <enum name='NSGradientConcaveStrong' value='0x2'/>
+  <enum name='NSF27FunctionKey' value='0xf71e'/>
+  <enum name='NSAnimationEaseOut' value='0x2'/>
+  <enum name='NSProgressIndicatorSpinningStyle' value='0x1'/>
+  <enum name='NSCellHasImageHorizontal' value='0xc'/>
+  <enum name='NSChangeAutosaved' value='0x4'/>
+  <enum name='NSButtLineCapStyle' value='0x0'/>
+  <enum name='NSCellHitTrackableArea' value='0x4'/>
+  <enum name='NSMouseMovedMask' value='0x20'/>
+  <enum name='NSInformationalRequest' value='0xa'/>
+  <enum name='NSQTMovieLoopingBackAndForthPlayback' value='0x2'/>
+  <enum name='NSNoScrollerParts' value='0x0'/>
+  <enum name='NSWindowAbove' value='0x1'/>
+  <enum name='NSTextFieldRoundedBezel' value='0x1'/>
+  <enum name='NSSelectByCharacter' value='0x0'/>
+  <enum name='NSCursorUpdate' value='0x11'/>
+  <enum name='NSFocusRingBelow' value='0x1'/>
+  <enum name='NSTabletPoint' value='0x17'/>
+  <enum name='NSChangeCleared' value='0x2'/>
+  <enum name='NSChangeUndone' value='0x1'/>
+  <enum name='NSWindowOut' value='0x0'/>
+  <enum name='NSOtherMouseUpMask' value='0x4000000'/>
+  <enum name='NSPathStylePopUp' value='0x2'/>
+  <enum name='NSToolbarItemVisibilityPriorityLow' value='0xfffffc18'/>
+  <enum name='NSImageScaleAxesIndependently' value='0x1'/>
+  <enum name='NSMenuFunctionKey' value='0xf735'/>
+  <enum name='NSF22FunctionKey' value='0xf719'/>
+  <enum name='NSPopUpMenuWindowLevel' value='0x65'/>
+  <enum name='NSToolbarItemVisibilityPriorityStandard' value='0x0'/>
+  <enum name='NSSmallControlSize' value='0x1'/>
+  <enum name='NSPrintScreenFunctionKey' value='0xf72e'/>
+  <enum name='NSRoundLineCapStyle' value='0x1'/>
+  <enum name='NSRadioModeMatrix' value='0x0'/>
+  <enum name='NSLineMovesUp' value='0x4'/>
+  <enum name='NSSelectingPrevious' value='0x2'/>
+  <enum name='NSCondensedFontMask' value='0x40'/>
+  <enum name='NSEraDatePickerElementFlag' value='0x100'/>
+  <enum name='NSColorPanelAllModesMask' value='0xffff'/>
+  <enum name='NSContentsCellMask' value='0x1'/>
+  <enum name='NSUnknownPointingDevice' value='0x0'/>
+  <enum name='NSNextFunctionKey' value='0xf740'/>
+  <enum name='NSBezelBorder' value='0x2'/>
+  <enum name='NSCellAllowsMixedState' value='0x10'/>
+  <enum name='NSCursorPointingDevice' value='0x2'/>
+  <enum name='NSDragOperationGeneric' value='0x4'/>
+  <enum name='NSJPEGFileType' value='0x3'/>
+  <enum name='NSImageFrameGrayBezel' value='0x2'/>
+  <enum name='NSPauseFunctionKey' value='0xf730'/>
+  <enum name='NSNoFontChangeAction' value='0x0'/>
+  <enum name='NSCompositeSourceIn' value='0x3'/>
+  <enum name='NSTableColumnAutoresizingMask' value='0x1'/>
+  <enum name='NSUnderlinePatternDashDotDot' value='0x400'/>
+  <enum name='NSLinearSlider' value='0x0'/>
+  <enum name='NSOffState' value='0x0'/>
+  <enum name='NSNullGlyph' value='0x0'/>
+  <enum name='NSOpenGLPFAScreenMask' value='0x54'/>
+  <enum name='NSImageLoadStatusCancelled' value='0x1'/>
+  <enum name='NSFloatType' value='0x3'/>
+  <enum name='NSTrackingInVisibleRect' value='0x200'/>
+  <enum name='NSCellState' value='0x1'/>
+  <enum name='NSFontUIOptimizedTrait' value='0x1000'/>
+  <enum name='NSTextReadWriteErrorMaximum' value='0x102ff'/>
+  <enum name='NSF13FunctionKey' value='0xf710'/>
+  <enum name='NSHighlightModeMatrix' value='0x1'/>
+  <enum name='NSChangeGrayCell' value='0x4'/>
+  <enum name='NSFontFamilyClassMask' value='0xf0000000'/>
+  <enum name='NSAdobeCNS1CharacterCollection' value='0x1'/>
+  <enum name='NSFindPanelActionShowFindPanel' value='0x1'/>
+  <enum name='NSAlphaNonpremultipliedBitmapFormat' value='0x2'/>
+  <enum name='NSMiterLineJoinStyle' value='0x0'/>
+  <enum name='NSTextTableAutomaticLayoutAlgorithm' value='0x0'/>
+  <enum name='NSBoxSecondary' value='0x1'/>
+  <enum name='NSFontCollectionApplicationOnlyMask' value='0x1'/>
+  <enum name='NSColorPanelHSBModeMask' value='0x8'/>
+  <enum name='NSSelectFunctionKey' value='0xf741'/>
+  <enum name='NSRightArrowFunctionKey' value='0xf703'/>
+  <enum name='NSDragOperationLink' value='0x2'/>
+  <enum name='NSCMYKModeColorPanel' value='0x2'/>
+  <enum name='NSQTMovieLoopingPlayback' value='0x1'/>
+  <enum name='NSExecuteFunctionKey' value='0xf742'/>
+  <enum name='NSCellHasOverlappingImage' value='0xb'/>
+  <enum name='NSImageInterpolationNone' value='0x1'/>
+  <enum name='NSRuleEditorRowTypeCompound' value='0x1'/>
+  <enum name='NSCellIsInsetButton' value='0xf'/>
+  <enum name='NSDragOperationDelete' value='0x20'/>
+  <enum name='NSLineMovesRight' value='0x2'/>
+  <enum name='NSTableViewGridNone' value='0x0'/>
+  <enum name='NSWindowSharingNone' value='0x0'/>
+  <enum name='NSLABColorSpaceModel' value='0x3'/>
+  <enum name='NSSpellingStateSpellingFlag' value='0x1'/>
+  <enum name='NSViewMaxYMargin' value='0x20'/>
+  <enum name='NSModeSwitchFunctionKey' value='0xf747'/>
+  <enum name='NSF31FunctionKey' value='0xf722'/>
+  <enum name='NSRightTabsBezelBorder' value='0x3'/>
+  <enum name='NSOpenGLCPSwapRectangleEnable' value='0xc9'/>
+  <enum name='NSLineBreakByTruncatingTail' value='0x4'/>
+  <enum name='NSCompositeDestinationIn' value='0x7'/>
+  <enum name='NSLineToBezierPathElement' value='0x1'/>
+  <enum name='NSUnscaledWindowMask' value='0x800'/>
+  <enum name='NSImageFrameGroove' value='0x3'/>
+  <enum name='NSColorPanelWheelModeMask' value='0x40'/>
+  <enum name='NSImageFrameNone' value='0x0'/>
+  <enum name='NSUserFunctionKey' value='0xf736'/>
+  <enum name='NSSegmentStyleSmallSquare' value='0x6'/>
+  <enum name='NSSpeechImmediateBoundary' value='0x0'/>
+  <enum name='NSF30FunctionKey' value='0xf721'/>
+  <enum name='NSJPEG2000FileType' value='0x5'/>
+  <enum name='NSUnderlinePatternSolid' value='0x0'/>
+  <enum name='NSImageScaleProportionallyUpOrDown' value='0x3'/>
+  <enum name='NSCenterTextAlignment' value='0x2'/>
+  <enum name='NSAscendingPageOrder' value='0x1'/>
+  <enum name='NSTypesetterContainerBreakAction' value='0x20'/>
+  <enum name='NSClearControlTint' value='0x7'/>
+  <enum name='NSMouseEnteredMask' value='0x100'/>
+  <enum name='NSTexturedRoundedBezelStyle' value='0xb'/>
+  <enum name='NSDescendingPageOrder' value='0xffffffff'/>
+  <enum name='NSImageAlignBottomRight' value='0x7'/>
+  <enum name='NSAnyType' value='0x0'/>
+  <enum name='NSNoCellMask' value='0x0'/>
+  <enum name='NSAboveBottom' value='0x4'/>
+  <enum name='NSColorPanelCustomPaletteModeMask' value='0x10'/>
+  <enum name='NSFindPanelActionReplaceAllInSelection' value='0x8'/>
+  <enum name='NSOpenGLPFAStereo' value='0x6'/>
+  <enum name='NSCircularSlider' value='0x1'/>
+  <enum name='NSNaturalTextAlignment' value='0x4'/>
+  <enum name='NSMomentaryLight' value='0x7'/>
+  <enum name='NSScrollerNoPart' value='0x0'/>
+  <enum name='NSOpenGLPFAMaximumPolicy' value='0x34'/>
+  <enum name='NSTexturedBackgroundWindowMask' value='0x100'/>
+  <enum name='NSTypesetterHorizontalTabAction' value='0x4'/>
+  <enum name='NSTextStorageEditedAttributes' value='0x1'/>
+  <enum name='NSImageRepLoadStatusUnknownType' value='0xffffffff'/>
+  <enum name='NSCursorUpdateMask' value='0x20000'/>
+  <enum name='NSBorderlessWindowMask' value='0x0'/>
+  <enum name='NSGradientDrawsAfterEndingLocation' value='0x2'/>
+  <enum name='NSMoveToBezierPathElement' value='0x0'/>
+  <enum name='NSF29FunctionKey' value='0xf720'/>
+  <enum name='NSPNGFileType' value='0x4'/>
+  <enum name='NSImageInterpolationDefault' value='0x0'/>
+  <enum name='NSNoBorder' value='0x0'/>
+  <enum name='NSOpenGLGORetainRenderers' value='0x1f7'/>
+  <enum name='NSChangeDone' value='0x0'/>
+  <enum name='NSFPRevertButton' value='0x82'/>
+  <enum name='NSOpenGLPFAAccumSize' value='0xe'/>
+  <enum name='NSOpenGLPFAFullScreen' value='0x36'/>
+  <enum name='NSToolbarSizeModeRegular' value='0x1'/>
+  <enum name='NSOpenGLPFASamples' value='0x38'/>
+  <enum name='NSTabCharacter' value='0x9'/>
+  <enum name='NSColorPanelColorListModeMask' value='0x20'/>
+  <enum name='NSUnderlineStyleDouble' value='0x9'/>
+  <enum name='NSFixedPitchFontMask' value='0x400'/>
+  <enum name='NSCompositePlusDarker' value='0xb'/>
+  <enum name='NSDocModalWindowMask' value='0x40'/>
+  <enum name='NSScrollerArrowsMinEnd' value='0x1'/>
+  <enum name='NSItalicFontMask' value='0x1'/>
+  <enum name='NSCompositeCopy' value='0x1'/>
+  <enum name='NSGraphiteControlTint' value='0x6'/>
+  <enum name='NSAnimationEaseIn' value='0x1'/>
+  <enum name='NSApplicationDeactivatedEventType' value='0x2'/>
+  <enum name='NSLeftTextAlignment' value='0x0'/>
+  <enum name='NSF24FunctionKey' value='0xf71b'/>
+  <enum name='NSLineSweepRight' value='0x1'/>
+  <enum name='NSDeviceNColorSpaceModel' value='0x4'/>
+  <enum name='NSTexturedSquareBezelStyle' value='0x8'/>
+  <enum name='NSFontPanelShadowEffectModeMask' value='0x1000'/>
+  <enum name='NSGradientConvexStrong' value='0x4'/>
+  <enum name='NSFontUnknownClass' value='0x0'/>
+  <enum name='NSWorkspaceLaunchNewInstance' value='0x80000'/>
+  <enum name='NSExclude10_4ElementsIconCreationOption' value='0x4'/>
+  <enum name='NSRightTextAlignment' value='0x1'/>
+  <enum name='NSTextBlockMinimumHeight' value='0x5'/>
+  <enum name='NSPowerOffEventType' value='0x1'/>
+  <enum name='NSGlyphInscribeBase' value='0x0'/>
+  <enum name='NSDeleteLineFunctionKey' value='0xf73c'/>
+  <enum name='NSAdobeJapan2CharacterCollection' value='0x4'/>
+  <enum name='NSDisplayWindowRunLoopOrdering' value='0x927c0'/>
+  <enum name='NSRuleEditorNestingModeSimple' value='0x3'/>
+  <enum name='NSWindowBackingLocationMainMemory' value='0x2'/>
+  <enum name='NSQTMovieNormalPlayback' value='0x0'/>
+  <enum name='NSOpenGLPFASingleRenderer' value='0x47'/>
+  <enum name='NSAnimationEaseInOut' value='0x0'/>
+  <enum name='NSBottomTabsBezelBorder' value='0x2'/>
+  <enum name='NSPopUpArrowAtBottom' value='0x2'/>
+  <enum name='NSAnimationNonblocking' value='0x1'/>
+  <enum name='NSSaveToOperation' value='0x2'/>
+  <enum name='NSScrollerDecrementArrow' value='0x1'/>
+  <enum name='NSApplicationActivatedEventType' value='0x1'/>
+  <enum name='NSTextFieldSquareBezel' value='0x0'/>
+  <enum name='NSWorkspaceLaunchAllowingClassicStartup' value='0x20000'/>
+  <enum name='NSServiceErrorMaximum' value='0x10501'/>
+  <enum name='NSOpenGLCPSwapInterval' value='0xde'/>
+  <enum name='NSF15FunctionKey' value='0xf712'/>
+  <enum name='NSSingleDateMode' value='0x0'/>
+  <enum name='NSCompositeSourceOver' value='0x2'/>
+  <enum name='NSRoundedTokenStyle' value='0x2'/>
+  <enum name='NSBackingStoreNonretained' value='0x1'/>
+  <enum name='NSStringDrawingUsesLineFragmentOrigin' value='0x1'/>
+  <enum name='NSWorkspaceLaunchWithoutActivation' value='0x200'/>
+  <enum name='NSTextBlockBottomAlignment' value='0x2'/>
+  <enum name='NSUtilityWindowMask' value='0x10'/>
+  <enum name='NSPrintFunctionKey' value='0xf738'/>
+  <enum name='NSUnknownPageOrder' value='0x2'/>
+  <enum name='NSSegmentStyleTexturedRounded' value='0x2'/>
+  <enum name='NSTypesetterOriginalBehavior' value='0x0'/>
+  <enum name='NSDisclosureBezelStyle' value='0x5'/>
+  <enum name='NSNoTabsLineBorder' value='0x5'/>
+  <enum name='NSHelpKeyMask' value='0x400000'/>
+  <enum name='NSRoundRectBezelStyle' value='0xc'/>
+  <enum name='NSNormalWindowLevel' value='0x0'/>
+  <enum name='NSTypesetterLatestBehavior' value='0xffffffff'/>
+  <enum name='NSTIFFCompressionJPEG' value='0x6'/>
+  <enum name='NSOpenGLPFAMPSafe' value='0x4e'/>
+  <enum name='NSBoxSeparator' value='0x2'/>
+  <enum name='NSF10FunctionKey' value='0xf70d'/>
+  <enum name='NSPosterFontMask' value='0x100'/>
+  <enum name='NSTableViewNoColumnAutoresizing' value='0x0'/>
+  <enum name='NSCellChangesContents' value='0xe'/>
+  <enum name='NSFindPanelActionReplaceAll' value='0x4'/>
+  <enum name='NSDefaultControlTint' value='0x0'/>
+  <enum name='NSBrowserAutoColumnResizing' value='0x1'/>
+  <enum name='NSSquareLineCapStyle' value='0x2'/>
+  <enum name='NSBevelLineJoinStyle' value='0x2'/>
+  <enum name='NSTickMarkBelow' value='0x0'/>
+  <enum name='NSApplicationDefinedMask' value='0x8000'/>
+  <enum name='NSMiniaturizableWindowMask' value='0x4'/>
+  <enum name='NSF33FunctionKey' value='0xf724'/>
+  <enum name='NSSpellingStateGrammarFlag' value='0x2'/>
+  <enum name='NSFPCurrentField' value='0x86'/>
+  <enum name='NSAnimationEffectDisappearingItemDefault' value='0x0'/>
+  <enum name='NSRuleEditorNestingModeCompound' value='0x2'/>
+  <enum name='NSOtherMouseDraggedMask' value='0x8000000'/>
+  <enum name='NSParagraphSeparatorCharacter' value='0x2029'/>
+  <enum name='NSChangeReadOtherContents' value='0x3'/>
+  <enum name='NSF6FunctionKey' value='0xf709'/>
+  <enum name='NSShadowlessSquareBezelStyle' value='0x6'/>
+  <enum name='NSCompositeXOR' value='0xa'/>
+  <enum name='NSTableViewSolidHorizontalGridLineMask' value='0x2'/>
+  <enum name='NSChangeGrayCellMask' value='0x4'/>
+  <enum name='NSOpenGLPFAAccelerated' value='0x49'/>
+  <enum name='NSClipPagination' value='0x2'/>
+  <enum name='NSScrollerKnob' value='0x2'/>
+  <enum name='NSCompositeDestinationOut' value='0x8'/>
+  <enum name='NSMouseEventSubtype' value='0x0'/>
+  <enum name='NSTIFFCompressionCCITTFAX3' value='0x3'/>
+  <enum name='NSFontItalicTrait' value='0x1'/>
+  <enum name='NSTIFFCompressionCCITTFAX4' value='0x4'/>
+  <enum name='NSBrowserUserColumnResizing' value='0x2'/>
+  <enum name='NSPrintingFailure' value='0x3'/>
+  <enum name='NSCompressedFontMask' value='0x200'/>
+  <enum name='NSSegmentStyleCapsule' value='0x5'/>
+  <enum name='NSTypesetterBehavior_10_2' value='0x2'/>
+  <enum name='NSF1FunctionKey' value='0xf704'/>
+  <enum name='NSViaPanelFontAction' value='0x1'/>
+  <enum name='NSTIFFFileType' value='0x0'/>
+  <enum name='NSDeleteCharFunctionKey' value='0xf73e'/>
+  <enum name='NSWritingDirectionLeftToRight' value='0x0'/>
+  <enum name='NSTypesetterBehavior_10_3' value='0x3'/>
+  <enum name='NSFontPanelFaceModeMask' value='0x1'/>
+  <enum name='NSTypesetterBehavior_10_4' value='0x4'/>
+  <enum name='NSKeyUp' value='0xb'/>
+  <enum name='NSUpArrowFunctionKey' value='0xf700'/>
+  <enum name='NSSystemDefinedMask' value='0x4000'/>
+  <enum name='NSLineBreakByWordWrapping' value='0x0'/>
+  <enum name='NSTextBlockTopAlignment' value='0x0'/>
+  <enum name='NSFontPanelTextColorEffectModeMask' value='0x400'/>
+  <enum name='NSTableViewFirstColumnOnlyAutoresizingStyle' value='0x5'/>
+  <enum name='NSBoldFontMask' value='0x2'/>
+  <enum name='NSSegmentStyleRoundRect' value='0x3'/>
+  <enum name='NSImageAlignTopLeft' value='0x2'/>
+  <enum name='NSThickSquareBezelStyle' value='0x3'/>
+  <enum name='NSToolbarSizeModeSmall' value='0x2'/>
+  <enum name='NSEnterCharacter' value='0x3'/>
+  <enum name='NSKeyUpMask' value='0x800'/>
+  <enum name='NSTabletPointEventSubtype' value='0x1'/>
+  <enum name='NSTabletPointMask' value='0x800000'/>
+  <enum name='NSWindowSharingReadOnly' value='0x1'/>
+  <enum name='NSFindPanelActionNext' value='0x2'/>
+  <enum name='NSWindowCloseButton' value='0x0'/>
+  <enum name='NSCircularBezelStyle' value='0x7'/>
+  <enum name='NSTerminateLater' value='0x2'/>
+  <enum name='NSDrawerOpeningState' value='0x1'/>
+  <enum name='NSSaveOperation' value='0x0'/>
+  <enum name='NSTerminateCancel' value='0x0'/>
+  <enum name='NSFontPanelStrikethroughEffectModeMask' value='0x200'/>
+  <enum name='NSPathStyleStandard' value='0x0'/>
+  <enum name='NSImageLoadStatusInvalidData' value='0x2'/>
+  <enum name='NSFPSetButton' value='0x84'/>
+  <enum name='NSClearLineFunctionKey' value='0xf739'/>
+  <enum name='NSLineBreakByTruncatingHead' value='0x3'/>
+  <enum name='NSFindPanelActionSelectAll' value='0x9'/>
+  <enum name='NSTabletProximityMask' value='0x1000000'/>
+  <enum name='NSToolbarSizeModeDefault' value='0x0'/>
+  <enum name='NSColorRenderingIntentPerceptual' value='0x3'/>
+  <enum name='NSFontSymbolicClass' value='0xc0000000'/>
+  <enum name='NSFontOrnamentalsClass' value='0x90000000'/>
+  <enum name='NSVerticalRuler' value='0x1'/>
+  <enum name='NSF26FunctionKey' value='0xf71d'/>
+  <enum name='NSFontSansSerifClass' value='0x80000000'/>
+  <enum name='NSToolbarDisplayModeDefault' value='0x0'/>
+  <enum name='NSTableViewSelectionHighlightStyleSourceList' value='0x1'/>
+  <enum name='NSRecessedBezelStyle' value='0xd'/>
+  <enum name='NSRatingLevelIndicatorStyle' value='0x3'/>
+  <enum name='NSCommandKeyMask' value='0x100000'/>
+  <enum name='NSAllScrollerParts' value='0x2'/>
+  <enum name='NSTextBlockHeight' value='0x4'/>
+  <enum name='NSPageUpFunctionKey' value='0xf72c'/>
+  <enum name='NSTrackingMouseMoved' value='0x2'/>
+  <enum name='NSAdobeJapan1CharacterCollection' value='0x3'/>
+  <enum name='NSFindPanelActionSelectAllInSelection' value='0xa'/>
+  <enum name='NSTableColumnUserResizingMask' value='0x2'/>
+  <enum name='NSOpenGLCPSurfaceOrder' value='0xeb'/>
+  <enum name='NSMouseMoved' value='0x5'/>
+  <enum name='NSToolbarDisplayModeLabelOnly' value='0x3'/>
+  <enum name='NSSpeechSentenceBoundary' value='0x2'/>
+  <enum name='NSDeleteCharacter' value='0x7f'/>
+  <enum name='NSStringDrawingUsesFontLeading' value='0x2'/>
+  <enum name='NSControlGlyph' value='0xffffff'/>
+  <enum name='NSAdobeKorea1CharacterCollection' value='0x5'/>
+  <enum name='NSImageFrameButton' value='0x4'/>
+  <enum name='NSHelpFunctionKey' value='0xf746'/>
+  <enum name='NSPrintPanelShowsPreview' value='0x20000'/>
+  <enum name='NSCellLightsByGray' value='0x7'/>
+  <enum name='NSColorRenderingIntentAbsoluteColorimetric' value='0x1'/>
+  <enum name='NSDragOperationCopy' value='0x1'/>
+  <enum name='NSImageRepLoadStatusCompleted' value='0xfffffffa'/>
+  <enum name='NSColorListModeColorPanel' value='0x5'/>
+  <enum name='NSWorkspaceLaunchAndHideOthers' value='0x200000'/>
+  <enum name='NSScrollLockFunctionKey' value='0xf72f'/>
+  <enum name='NSOtherMouseDragged' value='0x1b'/>
+  <enum name='NSSysReqFunctionKey' value='0xf731'/>
+  <enum name='NSRangeDateMode' value='0x1'/>
+  <enum name='NSCellHitNone' value='0x0'/>
+  <enum name='NSFileHandlingPanelOKButton' value='0x1'/>
+  <enum name='NSF17FunctionKey' value='0xf714'/>
+  <enum name='NSLineSeparatorCharacter' value='0x2028'/>
+  <enum name='NSApplicationDelegateReplyFailure' value='0x2'/>
+  <enum name='NSRightMouseDown' value='0x3'/>
+  <enum name='NSSelectedTab' value='0x0'/>
+  <enum name='NSStringDrawingUsesDeviceMetrics' value='0x8'/>
+  <enum name='NSImageLoadStatusReadError' value='0x4'/>
+  <enum name='NSLeftMouseDragged' value='0x6'/>
+  <enum name='NSImageInterpolationLow' value='0x2'/>
+  <enum name='NSOpenGLPFASampleAlpha' value='0x3d'/>
+  <enum name='NSFontPanelCollectionModeMask' value='0x4'/>
+  <enum name='NSTrackingMouseEnteredAndExited' value='0x1'/>
+  <enum name='NSProgressIndicatorPreferredThickness' value='0xe'/>
+  <enum name='NSImageAbove' value='0x5'/>
+  <enum name='NSWorkspaceLaunchInhibitingBackgroundOnly' value='0x80'/>
+  <enum name='NSToolbarDisplayModeIconAndLabel' value='0x1'/>
+  <enum name='NSImageOverlaps' value='0x6'/>
+  <enum name='NSAWTEventType' value='0x10'/>
+  <enum name='NSOpenGLPFAClosestPolicy' value='0x4a'/>
+  <enum name='NSWorkspaceLaunchAndHide' value='0x100000'/>
+  <enum name='NSCompositeSourceOut' value='0x4'/>
+  <enum name='NSFPSizeField' value='0x81'/>
+  <enum name='NSFPSizeTitle' value='0x85'/>
+  <enum name='NSF12FunctionKey' value='0xf70f'/>
+  <enum name='NSStopFunctionKey' value='0xf734'/>
+  <enum name='NSExcludeQuickDrawElementsIconCreationOption' value='0x2'/>
+  <enum name='NSStatusWindowLevel' value='0x19'/>
+  <enum name='NSAlternateKeyMask' value='0x80000'/>
+  <enum name='NSGrayModeColorPanel' value='0x0'/>
+  <enum name='NSTopTabsBezelBorder' value='0x0'/>
+  <enum name='NSPageDownFunctionKey' value='0xf72d'/>
+  <enum name='NSOpenGLPFAAuxDepthStencil' value='0x39'/>
+  <enum name='NSRelevancyLevelIndicatorStyle' value='0x0'/>
+  <enum name='NSNativeShortGlyphPacking' value='0x5'/>
+  <enum name='NSFontFreeformSerifsClass' value='0x70000000'/>
+  <enum name='NSF35FunctionKey' value='0xf726'/>
+  <enum name='NSPopUpNoArrow' value='0x0'/>
+  <enum name='NSNoTitle' value='0x0'/>
+  <enum name='NSTIFFCompressionNone' value='0x1'/>
+  <enum name='NSImageCellType' value='0x2'/>
+  <enum name='NSUpdateWindowsRunLoopOrdering' value='0x7a120'/>
+  <enum name='NSViewNotSizable' value='0x0'/>
+  <enum name='NSF8FunctionKey' value='0xf70b'/>
+  <enum name='NSMomentaryPushInButton' value='0x7'/>
+  <enum name='NSNoUnderlineStyle' value='0x0'/>
+  <enum name='NSTextWriteInapplicableDocumentTypeError' value='0x1020e'/>
+  <enum name='NSRemoveTraitFontAction' value='0x7'/>
+  <enum name='NSCompositeClear' value='0x0'/>
+  <enum name='NSColorRenderingIntentRelativeColorimetric' value='0x2'/>
+  <enum name='NSContinuousCapacityLevelIndicatorStyle' value='0x1'/>
+  <enum name='NSTimeZoneDatePickerElementFlag' value='0x10'/>
+  <enum name='NSServiceInvalidPasteboardDataError' value='0x10403'/>
+  <enum name='NSTrackingEnabledDuringMouseDrag' value='0x400'/>
+  <enum name='NSLineSweepUp' value='0x3'/>
+  <enum name='NSImageRepLoadStatusWillNeedAllData' value='0xfffffffd'/>
+  <enum name='NSStringDrawingOneShot' value='0x10'/>
+  <enum name='NSNextStepInterfaceStyle' value='0x1'/>
+  <enum name='NSSubmenuWindowLevel' value='0x3'/>
+  <enum name='NSJustifiedTextAlignment' value='0x3'/>
+  <enum name='NSCompositeSourceAtop' value='0x5'/>
+  <enum name='NSBackspaceCharacter' value='0x8'/>
+  <enum name='NSAnimationNonblockingThreaded' value='0x2'/>
+  <enum name='NSChangeBackgroundCell' value='0x8'/>
+  <enum name='NSFlagsChangedMask' value='0x1000'/>
+  <enum name='NSF3FunctionKey' value='0xf706'/>
+  <enum name='NSFontAntialiasedRenderingMode' value='0x1'/>
+  <enum name='NSAlertAlternateReturn' value='0x0'/>
+  <enum name='NSWorkspaceLaunchWithoutAddingToRecents' value='0x100'/>
+  <enum name='NSFindPanelActionReplace' value='0x5'/>
+  <enum name='NSAtBottom' value='0x5'/>
+  <enum name='NSAnimationLinear' value='0x3'/>
+  <enum name='NSTextReadInapplicableDocumentTypeError' value='0x1010e'/>
+  <enum name='NSWindowBackingLocationDefault' value='0x0'/>
+  <enum name='NSWorkspaceLaunchAsync' value='0x10000'/>
+  <enum name='NSTrackingActiveAlways' value='0x80'/>
+  <enum name='NSListModeMatrix' value='0x2'/>
+  <enum name='NSMouseExited' value='0x9'/>
+  <enum name='NSClosableWindowMask' value='0x2'/>
+  <enum name='NSPushInCellMask' value='0x2'/>
+  <enum name='NSOpenGLGOFormatCacheSize' value='0x1f5'/>
+  <enum name='NSFitPagination' value='0x1'/>
+  <enum name='NSAnimationEffectPoof' value='0xa'/>
+  <enum name='NSSystemDefined' value='0xe'/>
+  <enum name='NSWindowZoomButton' value='0x2'/>
+  <enum name='NSToolbarDisplayModeIconOnly' value='0x2'/>
+  <enum name='NSFindPanelActionPrevious' value='0x3'/>
+  <enum name='NSTextBlockPadding' value='0xffffffff'/>
+  <enum name='NSFontClarendonSerifsClass' value='0x40000000'/>
+  <enum name='NSMomentaryLightButton' value='0x0'/>
+  <enum name='NSSegmentStyleAutomatic' value='0x0'/>
+  <enum name='NSNoTabsBezelBorder' value='0x4'/>
+  <enum name='NSTableViewReverseSequentialColumnAutoresizingStyle' value='0x3'/>
+  <enum name='NSAlertSecondButtonReturn' value='0x3e9'/>
+  <enum name='NSColorRenderingIntentSaturation' value='0x4'/>
+  <enum name='NSF21FunctionKey' value='0xf718'/>
+  <enum name='NSCellHitContentArea' value='0x1'/>
+  <enum name='NSImageAlignTop' value='0x1'/>
+  <enum name='NSWindows95InterfaceStyle' value='0x2'/>
+  <enum name='NSPrintingCancelled' value='0x0'/>
+  <enum name='NSRuleEditorNestingModeList' value='0x1'/>
+  <enum name='NSPushInCell' value='0x2'/>
+  <enum name='NSTextBlockBaselineAlignment' value='0x3'/>
+  <enum name='NSLeftMouseDraggedMask' value='0x40'/>
+  <enum name='NSLeftMouseUp' value='0x2'/>
+  <enum name='NSWindowToolbarButton' value='0x3'/>
+  <enum name='NSPositiveDoubleType' value='0x7'/>
+  <enum name='NSBoxOldStyle' value='0x3'/>
+  <enum name='NSFontVerticalTrait' value='0x800'/>
+  <enum name='NSSegmentStyleRounded' value='0x1'/>
+  <enum name='NSRightTextMovement' value='0x14'/>
+  <enum name='NSWindowDocumentIconButton' value='0x4'/>
+  <enum name='NSSelectionAffinityUpstream' value='0x0'/>
+  <enum name='NSOpenGLPFABackingStore' value='0x4c'/>
+  <enum name='NSOpenGLPFASupersample' value='0x3c'/>
+  <enum name='NSDeleteFunctionKey' value='0xf728'/>
+  <enum name='NSDoubleType' value='0x6'/>
+  <enum name='NSImageCacheAlways' value='0x1'/>
+  <enum name='NSScaleNone' value='0x2'/>
+  <enum name='NSFindPanelActionReplaceAndFind' value='0x6'/>
+  <enum name='NSCancelTextMovement' value='0x17'/>
+  <enum name='NSAutoPagination' value='0x0'/>
+  <enum name='NSFPPreviewField' value='0x80'/>
+  <enum name='NSF19FunctionKey' value='0xf716'/>
+  <enum name='NSImageLeft' value='0x2'/>
+  <enum name='NSOpenGLPFAMultisample' value='0x3b'/>
+  <enum name='NSAlertFirstButtonReturn' value='0x3e8'/>
+  <enum name='NSImageLoadStatusUnexpectedEOF' value='0x3'/>
+  <enum name='NSCellEditable' value='0x3'/>
+  <enum name='NSDrawerOpenState' value='0x2'/>
+  <enum name='NSFontDefaultRenderingMode' value='0x0'/>
+  <enum name='NSLineMovesDown' value='0x3'/>
+  <enum name='NSOpenGLPFAAllRenderers' value='0x1'/>
+  <enum name='NSNoModeColorPanel' value='0xffffffff'/>
+  <enum name='NSGradientConcaveWeak' value='0x1'/>
+  <enum name='NSHorizontalRuler' value='0x0'/>
+  <enum name='NSTickMarkRight' value='0x0'/>
+  <enum name='NSSpeechWordBoundary' value='0x1'/>
+  <enum name='NSLeftMouseDownMask' value='0x2'/>
+  <enum name='NSApplicationDefined' value='0xf'/>
+  <enum name='NSPrevFunctionKey' value='0xf73f'/>
+  <enum name='NSWindowBelow' value='0xffffffff'/>
+  <enum name='NSWritingDirectionNatural' value='0xffffffff'/>
+  <enum name='NSClockAndCalendarDatePickerStyle' value='0x1'/>
+  <enum name='NSPenUpperSideMask' value='0x4'/>
+  <enum name='NSUpTextMovement' value='0x15'/>
+  <enum name='NSTextFieldAndStepperDatePickerStyle' value='0x0'/>
+  <enum name='NSFindPanelActionSetFindString' value='0x7'/>
+  <enum name='NSFontModernSerifsClass' value='0x30000000'/>
+  <enum name='NSRunContinuesResponse' value='0xfffffc16'/>
+  <enum name='NSServiceApplicationNotFoundError' value='0x10400'/>
+  <enum name='NSTypesetterParagraphBreakAction' value='0x10'/>
+  <enum name='NSTypesetterZeroAdvancementAction' value='0x1'/>
+  <enum name='NSRoundedDisclosureBezelStyle' value='0xe'/>
+  <enum name='NSOpenGLPFAAlphaSize' value='0xb'/>
+  <enum name='NSTextListPrependEnclosingMarker' value='0x1'/>
+  <enum name='NSWheelModeColorPanel' value='0x6'/>
+  <enum name='NSFontIntegerAdvancementsRenderingMode' value='0x2'/>
+  <enum name='NSSelectByParagraph' value='0x2'/>
+  <enum name='NSRightMouseDownMask' value='0x8'/>
+  <enum name='NSOnOffButton' value='0x6'/>
+  <enum name='NSSmallSquareBezelStyle' value='0xa'/>
+  <enum name='NSOpenGLCPSurfaceOpacity' value='0xec'/>
+  <enum name='NSViewWidthSizable' value='0x2'/>
+  <enum name='NSLineBreakByClipping' value='0x2'/>
+  <enum name='NSOpenGLPFAMinimumPolicy' value='0x33'/>
+  <enum name='NSScrollWheel' value='0x16'/>
+  <enum name='NSTerminateNow' value='0x1'/>
+  <enum name='NSGlyphInscribeBelow' value='0x1'/>
+  <enum name='NSAddTraitFontAction' value='0x2'/>
+  <enum name='NSOpenGLPFAColorFloat' value='0x3a'/>
+  <enum name='NSImageAlignRight' value='0x8'/>
+  <enum name='NSPrinterTableNotFound' value='0x1'/>
+  <enum name='NSPenPointingDevice' value='0x1'/>
+  <enum name='NSScaleToFit' value='0x1'/>
+  <enum name='NSPathStyleNavigationBar' value='0x1'/>
+  <enum name='NSScrollerArrowsNone' value='0x2'/>
+  <enum name='NSScrollerDecrementLine' value='0x4'/>
+  <enum name='NSSizeUpFontAction' value='0x3'/>
+  <enum name='NSTableColumnNoResizing' value='0x0'/>
+  <enum name='NSOtherTextMovement' value='0x0'/>
+  <enum name='NSTIFFCompressionPackBits' value='0x8005'/>
+  <enum name='NSDrawerClosingState' value='0x3'/>
+  <enum name='NSLineDoesntMove' value='0x0'/>
+  <enum name='NSF5FunctionKey' value='0xf708'/>
+  <enum name='NSFloatingWindowLevel' value='0x3'/>
+  <enum name='NSPrintPanelShowsOrientation' value='0x8'/>
+  <enum name='NSInformationalAlertStyle' value='0x1'/>
+  <enum name='NSOpenGLPFAOffScreen' value='0x35'/>
+  <enum name='NSTickMarkLeft' value='0x1'/>
+  <enum name='NSCellHighlighted' value='0x5'/>
+  <enum name='NSImageLoadStatusCompleted' value='0x0'/>
+  <enum name='NSGrooveBorder' value='0x3'/>
+  <enum name='NSSizeDownFontAction' value='0x4'/>
+  <enum name='NSFontMonoSpaceTrait' value='0x400'/>
+  <enum name='NSF28FunctionKey' value='0xf71f'/>
+  <enum name='NSTabletProximityEventSubtype' value='0x2'/>
+  <enum name='NSImageFramePhoto' value='0x1'/>
+  <enum name='NSTableViewSelectionHighlightStyleRegular' value='0x0'/>
+  <enum name='NSTextTableFixedLayoutAlgorithm' value='0x1'/>
+  <enum name='NSAppKitDefined' value='0xd'/>
+  <enum name='NSOpenGLPFACompliant' value='0x53'/>
+  <enum name='NSImageBelow' value='0x4'/>
+  <enum name='NSRedoFunctionKey' value='0xf744'/>
+  <enum name='NSFlagsChanged' value='0xc'/>
+  <enum name='NSSegmentStyleTexturedSquare' value='0x4'/>
+  <enum name='NSLineBorder' value='0x1'/>
+  <enum name='NSServiceApplicationLaunchFailedError' value='0x10401'/>
+  <enum name='NSOtherMouseDownMask' value='0x2000000'/>
+  <enum name='NSAlertErrorReturn' value='0xfffffffe'/>
+  <enum name='NSOtherMouseUp' value='0x1a'/>
+  <enum name='NSOpenGLPFASampleBuffers' value='0x37'/>
+  <enum name='NSTrackingActiveWhenFirstResponder' value='0x10'/>
+  <enum name='NSPrinterTableOK' value='0x0'/>
+  <enum name='NSPushOnPushOffButton' value='0x1'/>
+  <enum name='NSOtherMouseDown' value='0x19'/>
+  <enum name='NSUnderlinePatternDash' value='0x200'/>
+  <enum name='NSF23FunctionKey' value='0xf71a'/>
+  <enum name='NSIntType' value='0x1'/>
+  <enum name='NSEraserPointingDevice' value='0x3'/>
+  <enum name='NSBackingStoreRetained' value='0x0'/>
+  <enum name='NSUnboldFontMask' value='0x4'/>
+  <enum name='NSFontSlabSerifsClass' value='0x50000000'/>
+  <enum name='NSInsertFunctionKey' value='0xf727'/>
+  <enum name='NSTextBlockMaximumWidth' value='0x2'/>
+  <enum name='NSProgressIndicatorPreferredAquaThickness' value='0xc'/>
+  <enum name='NSMouseExitedMask' value='0x200'/>
+  <enum name='NSNonStandardCharacterSetFontMask' value='0x8'/>
+  <enum name='NSCarriageReturnCharacter' value='0xd'/>
+  <enum name='NSRGBColorSpaceModel' value='0x1'/>
+  <enum name='NSViewMinYMargin' value='0x8'/>
+  <enum name='NSOpenGLCPSwapRectangle' value='0xc8'/>
+  <enum name='NSFPPreviewButton' value='0x83'/>
+  <enum name='NSOKButton' value='0x1'/>
+  <enum name='NSGradientDrawsBeforeStartingLocation' value='0x1'/>
+  <enum name='NSOpenGLGOClearFormatCache' value='0x1f6'/>
+  <enum name='NSBrowserDropOn' value='0x0'/>
+  <enum name='NSTickMarkAbove' value='0x1'/>
+  <enum name='NSScrollerArrowsDefaultSetting' value='0x0'/>
+  <enum name='NSOpenGLPFAPixelBuffer' value='0x5a'/>
+  <enum name='NSScreenChangedEventType' value='0x8'/>
+  <enum name='NSFindPanelSubstringMatchTypeEndsWith' value='0x3'/>
+  <enum name='NSLighterFontAction' value='0x6'/>
+  <enum name='NSTextReadWriteErrorMinimum' value='0x10100'/>
+  <enum name='NSShowControlGlyphs' value='0x1'/>
+  <enum name='NSDecimalTabStopType' value='0x3'/>
+  <enum name='NSIllegalTextMovement' value='0x0'/>
+  <enum name='NSCurveToBezierPathElement' value='0x2'/>
+  <enum name='NSDeviceIndependentModifierFlagsMask' value='0xffff0000'/>
+  <enum name='NSFontPanelSizeModeMask' value='0x2'/>
+  <enum name='NSAlertOtherReturn' value='0xffffffff'/>
+  <enum name='NSScrollerKnobSlot' value='0x6'/>
+  <enum name='NSRadioButton' value='0x4'/>
+  <enum name='NSAlertDefaultReturn' value='0x1'/>
+  <enum name='NSStringDrawingDisableScreenFontSubstitution' value='0x4'/>
+  <enum name='NSTornOffMenuWindowLevel' value='0x3'/>
+  <enum name='NSDirectSelection' value='0x0'/>
+  <enum name='NSCriticalAlertStyle' value='0x2'/>
+  <enum name='NSLineSweepDown' value='0x2'/>
+  <enum name='NSRunStoppedResponse' value='0xfffffc18'/>
+  <enum name='NSShowInvisibleGlyphs' value='0x2'/>
+  <enum name='NSTIFFCompressionOldJPEG' value='0x8061'/>
+  <enum name='NSFocusRingOnly' value='0x0'/>
+  <enum name='NSTrackingActiveInActiveApp' value='0x40'/>
+  <enum name='NSControlKeyMask' value='0x40000'/>
+  <enum name='NSF14FunctionKey' value='0xf711'/>
+  <enum name='NSMomentaryPushButton' value='0x0'/>
+  <enum name='NSTypesetterBehavior_10_2_WithCompatibility' value='0x1'/>
+  <enum name='NSKeyDownMask' value='0x400'/>
+  <enum name='NSCompositePlusLighter' value='0xd'/>
+  <enum name='NSCompositeHighlight' value='0xc'/>
+  <enum name='NSCrayonModeColorPanel' value='0x7'/>
+  <enum name='NSFocusRingTypeDefault' value='0x0'/>
+  <enum name='NSMixedState' value='0xffffffff'/>
+  <enum name='NSAnimationBlocking' value='0x0'/>
+  <enum name='NSMacintoshInterfaceStyle' value='0x3'/>
+  <enum name='NSGradientNone' value='0x0'/>
+  <enum name='NSBrowserDropAbove' value='0x1'/>
+  <enum name='NSCompositeDestinationOver' value='0x6'/>
+  <enum name='NSWindowSharingReadWrite' value='0x2'/>
+  <enum name='NSTextBlockBorder' value='0x0'/>
+  <enum name='NSImageInterpolationHigh' value='0x3'/>
+  <enum name='NSPrintingSuccess' value='0x1'/>
+  <enum name='NSColorPanelGrayModeMask' value='0x1'/>
+  <enum name='NSResizableWindowMask' value='0x8'/>
+  <enum name='NSScrollerIncrementPage' value='0x3'/>
+  <enum name='NSAnyEventMask' value='0xffffffff'/>
+  <enum name='NSHeavierFontAction' value='0x5'/>
+  <enum name='NSTableViewSequentialColumnAutoresizingStyle' value='0x2'/>
+  <enum name='NSResetCursorRectsRunLoopOrdering' value='0xaae60'/>
+  <enum name='NSTextBlockMaximumHeight' value='0x6'/>
+  <enum name='NSYearMonthDayDatePickerElementFlag' value='0xe0'/>
+  <enum name='NSPeriodicMask' value='0x10000'/>
+  <enum name='NSScreenSaverWindowLevel' value='0x3e8'/>
+  <enum name='NSF32FunctionKey' value='0xf723'/>
+  <enum name='NSServiceMalformedServiceDictionaryError' value='0x10404'/>
+  <enum name='NSUnderlineStyleThick' value='0x2'/>
+  <enum name='NSPeriodic' value='0x10'/>
+  <enum name='NSPressedTab' value='0x2'/>
+  <enum name='NSRoundedBezelStyle' value='0x1'/>
+  <enum name='NSRegularSquareBezelStyle' value='0x2'/>
+  <enum name='NSNumericPadKeyMask' value='0x200000'/>
+  <enum name='NSTrackModeMatrix' value='0x3'/>
+  <enum name='NSResetFunctionKey' value='0xf733'/>
+  <enum name='NSTextStorageEditedCharacters' value='0x2'/>
+  <enum name='NSTextBlockMiddleAlignment' value='0x1'/>
+  <enum name='NSOnlyScrollerArrows' value='0x1'/>
+  <enum name='NSUnderlinePatternDashDot' value='0x300'/>
+  <enum name='NSImageScaleNone' value='0x2'/>
+  <enum name='NSTypesetterLineBreakAction' value='0x8'/>
+  <enum name='NSImageCacheNever' value='0x3'/>
+  <enum name='NSTIFFCompressionLZW' value='0x5'/>
+  <enum name='NSLineMovesLeft' value='0x1'/>
+  <enum name='NSMomentaryChangeButton' value='0x5'/>
+  <enum name='NSPrinterTableError' value='0x2'/>
+  <enum name='NSPositiveIntType' value='0x2'/>
+  <enum name='NSImageOnly' value='0x1'/>
+  <enum name='NSTableViewDropOn' value='0x0'/>
+  <enum name='NSScrollerDecrementPage' value='0x1'/>
+  <enum name='NSTrackingAssumeInside' value='0x100'/>
+  <enum name='NSPenLowerSideMask' value='0x2'/>
+  <enum name='NSMouseEntered' value='0x8'/>
+  <enum name='NSDownTextMovement' value='0x16'/>
+  <enum name='NSTextBlockPercentageValueType' value='0x1'/>
+  <enum name='NSOpenGLPFAWindow' value='0x50'/>
+  <enum name='NSTableViewDropAbove' value='0x1'/>
+  <enum name='NSLineBreakByTruncatingMiddle' value='0x5'/>
+  <enum name='NSSegmentSwitchTrackingSelectAny' value='0x1'/>
+  <enum name='NSFontBoldTrait' value='0x2'/>
+  <enum name='NSAttachmentCharacter' value='0xfffc'/>
+  <enum name='NSServiceRequestTimedOutError' value='0x10402'/>
+  <enum name='NSUnderlineStyleSingle' value='0x1'/>
+  <enum name='NSFontCondensedTrait' value='0x40'/>
+  <enum name='NSCenterTabStopType' value='0x2'/>
+  <enum name='NSHelpButtonBezelStyle' value='0x9'/>
+  <enum name='NSRuleEditorRowTypeSimple' value='0x0'/>
+  <enum name='NSProgressIndicatorBarStyle' value='0x0'/>
+  <enum name='NSDragOperationAll_Obsolete' value='0xf'/>
+  <enum name='NSYearMonthDatePickerElementFlag' value='0xc0'/>
+  <enum name='NSViewHeightSizable' value='0x10'/>
+  <enum name='NSToolbarItemVisibilityPriorityHigh' value='0x3e8'/>
+  <enum name='NSHourMinuteSecondDatePickerElementFlag' value='0xe'/>
+  <enum name='NSOutlineViewDropOnItemIndex' value='0xffffffff'/>
+  <enum name='NSSmallCapsFontMask' value='0x80'/>
+  <enum name='NSWindowMovedEventType' value='0x4'/>
+  <enum name='NSDownArrowFunctionKey' value='0xf701'/>
+  <enum name='NSRightMouseDraggedMask' value='0x80'/>
+  <enum name='NSFontPanelUnderlineEffectModeMask' value='0x100'/>
+  <enum name='NSUnderlineStyleNone' value='0x0'/>
+  <enum name='NSFontExpandedTrait' value='0x20'/>
+  <enum name='NSFloatingPointSamplesBitmapFormat' value='0x4'/>
+  <enum name='NSTypesetterWhitespaceAction' value='0x2'/>
+  <enum name='NSTextCellType' value='0x1'/>
+  <enum name='NSGlyphInscribeOverstrike' value='0x3'/>
+  <enum name='NSPrintPanelShowsPageSetupAccessory' value='0x100'/>
+  <enum name='NSAutosaveOperation' value='0x3'/>
+  <enum name='NSCellIsBordered' value='0xa'/>
+  <enum name='NSPortraitOrientation' value='0x0'/>
+  <enum name='NSAtTop' value='0x2'/>
+  <enum name='NSPositiveFloatType' value='0x4'/>
+  <enum name='NSWorkspaceLaunchAndPrint' value='0x2'/>
+  <enum name='NSTextBlockMargin' value='0x1'/>
+  <enum name='NSFontPanelAllEffectsModeMask' value='0xfff00'/>
+  <enum name='NSFontPanelAllModesMask' value='0xffffffff'/>
+  <enum name='NSNarrowFontMask' value='0x10'/>
+  <enum name='NSOpenGLPFAMultiScreen' value='0x51'/>
+  <enum name='NSF25FunctionKey' value='0xf71c'/>
+  <enum name='NSHourMinuteDatePickerElementFlag' value='0xc'/>
+  <enum name='NSWarningAlertStyle' value='0x0'/>
+  <enum name='NSGlyphAttributeSoft' value='0x0'/>
+  <enum name='NSCellLightsByBackground' value='0x9'/>
+  <enum name='NSProgressIndicatorPreferredSmallThickness' value='0xa'/>
+  <enum name='NSPrintPanelShowsScaling' value='0x10'/>
+  <enum name='NSSelectByWord' value='0x1'/>
+  <enum name='NSApplicationDelegateReplySuccess' value='0x0'/>
+  <enum name='NSSegmentSwitchTrackingSelectOne' value='0x0'/>
+  <enum name='NSImageAlignTopRight' value='0x3'/>
+  <enum name='NSRuleEditorNestingModeSingle' value='0x0'/>
+  <enum name='NSTableViewUniformColumnAutoresizingStyle' value='0x1'/>
+  <enum name='NSAboveTop' value='0x1'/>
+  <enum name='NSBrowserNoColumnResizing' value='0x0'/>
+  <enum name='NSBackingStoreBuffered' value='0x2'/>
+  <enum name='NSSingleUnderlineStyle' value='0x1'/>
+  <enum name='NSFontPanelStandardModesMask' value='0xffff'/>
+  <enum name='NSOpenGLPFARendererID' value='0x46'/>
+  <enum name='NSAppKitDefinedMask' value='0x2000'/>
+  <enum name='NSRGBModeColorPanel' value='0x1'/>
+  <enum name='NSColorPanelRGBModeMask' value='0x2'/>
+  <enum name='NSNewlineCharacter' value='0xa'/>
+  <enum name='NSViewMinXMargin' value='0x1'/>
+  <enum name='NSRightMouseUp' value='0x4'/>
+  <enum name='NSOpenGLCPStateValidation' value='0x12d'/>
+  <enum name='NSCellLightsByContents' value='0x6'/>
+  <enum name='NSBackgroundTab' value='0x1'/>
+  <enum name='NSTabTextMovement' value='0x11'/>
+  <enum name='NSTitledWindowMask' value='0x1'/>
+  <enum name='NSBelowBottom' value='0x6'/>
+  <enum name='NSPenTipMask' value='0x1'/>
+  <function name='NSAccessibilityUnignoredAncestor' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSAccessibilityUnignoredDescendant' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSAccessibilityUnignoredChildren' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSAccessibilityUnignoredChildrenForOnlyChild' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSAccessibilityPostNotification'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSApplicationMain' returns='_C_INT'>
+    <function_arg type='_C_INT'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSApplicationLoad' returns='_PRIV_C_BOOL'/>
+  <function name='NSShowsServicesMenuItem' returns='_PRIV_C_BOOL'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSSetShowsServicesMenuItem' returns='UNKNOWN'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_PRIV_C_BOOL'/>
+  </function>
+  <function name='NSUpdateDynamicServices'/>
+  <function name='NSPerformService' returns='_PRIV_C_BOOL'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSRegisterServicesProvider'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSUnregisterServicesProvider'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSConvertGlyphsToPackedGlyphs' returns='UNKNOWN'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='_C_CHARPTR'/>
+  </function>
+  <function name='NSBestDepth' returns='_C_INT'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='_PRIV_C_BOOL'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSPlanarFromDepth' returns='_PRIV_C_BOOL'>
+    <function_arg type='_C_INT'/>
+  </function>
+  <function name='NSColorSpaceFromDepth' returns='_C_ID'>
+    <function_arg type='_C_INT'/>
+  </function>
+  <function name='NSBitsPerSampleFromDepth' returns='UNKNOWN'>
+    <function_arg type='_C_INT'/>
+  </function>
+  <function name='NSBitsPerPixelFromDepth' returns='UNKNOWN'>
+    <function_arg type='_C_INT'/>
+  </function>
+  <function name='NSNumberOfColorComponents' returns='UNKNOWN'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSAvailableWindowDepths' returns='_PRIV_C_PTR'/>
+  <function name='NSRectFill'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+  </function>
+  <function name='NSRectFillList'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSRectFillListWithGrays'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSRectFillListWithColors'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSRectFillUsingOperation'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSRectFillListUsingOperation'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSRectFillListWithColorsUsingOperation'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSFrameRect'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+  </function>
+  <function name='NSFrameRectWithWidth'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSFrameRectWithWidthUsingOperation'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSRectClip'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+  </function>
+  <function name='NSRectClipList'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSDrawTiledRects' returns='_PRIV_C_NSRECT'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+    <function_arg type='_PRIV_C_NSRECT'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSDrawGrayBezel'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+    <function_arg type='_PRIV_C_NSRECT'/>
+  </function>
+  <function name='NSDrawGroove'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+    <function_arg type='_PRIV_C_NSRECT'/>
+  </function>
+  <function name='NSDrawWhiteBezel'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+    <function_arg type='_PRIV_C_NSRECT'/>
+  </function>
+  <function name='NSDrawButton'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+    <function_arg type='_PRIV_C_NSRECT'/>
+  </function>
+  <function name='NSEraseRect'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+  </function>
+  <function name='NSReadPixel' returns='_C_ID'>
+    <function_arg type='_PRIV_C_NSPOINT'/>
+  </function>
+  <function name='NSDrawBitmap'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='_PRIV_C_BOOL'/>
+    <function_arg type='_PRIV_C_BOOL'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSCopyBits'>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='_PRIV_C_NSRECT'/>
+    <function_arg type='_PRIV_C_NSPOINT'/>
+  </function>
+  <function name='NSHighlightRect'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+  </function>
+  <function name='NSBeep'/>
+  <function name='NSCountWindows'>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSWindowList'>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSCountWindowsForContext'>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSWindowListForContext'>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSGetWindowServerMemory' returns='UNKNOWN'>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSDrawColorTiledRects' returns='_PRIV_C_NSRECT'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+    <function_arg type='_PRIV_C_NSRECT'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSDrawDarkBezel'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+    <function_arg type='_PRIV_C_NSRECT'/>
+  </function>
+  <function name='NSDrawLightBezel'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+    <function_arg type='_PRIV_C_NSRECT'/>
+  </function>
+  <function name='NSDottedFrameRect'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+  </function>
+  <function name='NSDrawWindowBackground'>
+    <function_arg type='_PRIV_C_NSRECT'/>
+  </function>
+  <function name='NSSetFocusRingStyle'>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSDisableScreenUpdates'/>
+  <function name='NSEnableScreenUpdates'/>
+  <function name='NSShowAnimationEffect'>
+    <function_arg type='UNKNOWN'/>
+    <function_arg type='_PRIV_C_NSPOINT'/>
+    <function_arg type='_PRIV_C_NSSIZE'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_SEL'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSInterfaceStyleForKey' returns='UNKNOWN'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSIsControllerMarker' returns='_PRIV_C_BOOL'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSOpenGLSetOption'>
+    <function_arg type='_C_INT'/>
+    <function_arg type='UNKNOWN'/>
+  </function>
+  <function name='NSOpenGLGetOption'>
+    <function_arg type='_C_INT'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSOpenGLGetVersion'>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_PRIV_C_PTR'/>
+  </function>
+  <function name='NSRunAlertPanel' variadic='true' returns='UNKNOWN'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSRunInformationalAlertPanel' variadic='true' returns='UNKNOWN'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSRunCriticalAlertPanel' variadic='true' returns='UNKNOWN'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSRunAlertPanelRelativeToWindow' variadic='true' returns='UNKNOWN'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSRunInformationalAlertPanelRelativeToWindow' variadic='true' returns='UNKNOWN'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSRunCriticalAlertPanelRelativeToWindow' variadic='true' returns='UNKNOWN'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSBeginAlertSheet' variadic='true'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_SEL'/>
+    <function_arg type='_C_SEL'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSBeginInformationalAlertSheet' variadic='true'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_SEL'/>
+    <function_arg type='_C_SEL'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSBeginCriticalAlertSheet' variadic='true'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_SEL'/>
+    <function_arg type='_C_SEL'/>
+    <function_arg type='_PRIV_C_PTR'/>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSGetAlertPanel' variadic='true' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSGetInformationalAlertPanel' variadic='true' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSGetCriticalAlertPanel' variadic='true' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSReleaseAlertPanel'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSCreateFilenamePboardType' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSCreateFileContentsPboardType' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSGetFileType' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <function name='NSGetFileTypes' returns='_C_ID'>
+    <function_arg type='_C_ID'/>
+  </function>
+  <informal_protocol name='NSAccessibility'>
+    <method encoding='@8@0:4' selector='accessibilityAttributeNames'/>
+    <method encoding='@12@0:4@8' selector='accessibilityAttributeValue:'/>
+    <method encoding='c12@0:4@8' selector='accessibilityIsAttributeSettable:'/>
+    <method encoding='v16@0:4@8@12' selector='accessibilitySetValue:forAttribute:'/>
+    <method encoding='@8@0:4' selector='accessibilityParameterizedAttributeNames'/>
+    <method encoding='@16@0:4@8@12' selector='accessibilityAttributeValue:forParameter:'/>
+    <method encoding='@8@0:4' selector='accessibilityActionNames'/>
+    <method encoding='@12@0:4@8' selector='accessibilityActionDescription:'/>
+    <method encoding='v12@0:4@8' selector='accessibilityPerformAction:'/>
+    <method encoding='c8@0:4' selector='accessibilityIsIgnored'/>
+    <method encoding='@16@0:4{_NSPoint=ff}8' selector='accessibilityHitTest:'/>
+    <method encoding='@8@0:4' selector='accessibilityFocusedUIElement'/>
+  </informal_protocol>
+  <informal_protocol name='NSAccessibilityAdditions'>
+    <method encoding='c16@0:4@8@12' selector='accessibilitySetOverrideValue:forAttribute:'/>
+  </informal_protocol>
+  <informal_protocol name='NSAlertDelegate'>
+    <method encoding='c12@0:4@8' selector='alertShowHelp:'/>
+  </informal_protocol>
+  <informal_protocol name='NSAnimationDelegate'>
+    <method encoding='c12@0:4@8' selector='animationShouldStart:'/>
+    <method encoding='v12@0:4@8' selector='animationDidStop:'/>
+    <method encoding='v12@0:4@8' selector='animationDidEnd:'/>
+    <method encoding='f16@0:4@8f12' selector='animation:valueForProgress:'/>
+    <method encoding='v16@0:4@8f12' selector='animation:didReachProgressMark:'/>
+  </informal_protocol>
+  <informal_protocol name='NSApplicationNotifications'>
+    <method encoding='v12@0:4@8' selector='applicationWillFinishLaunching:'/>
+    <method encoding='v12@0:4@8' selector='applicationDidFinishLaunching:'/>
+    <method encoding='v12@0:4@8' selector='applicationWillHide:'/>
+    <method encoding='v12@0:4@8' selector='applicationDidHide:'/>
+    <method encoding='v12@0:4@8' selector='applicationWillUnhide:'/>
+    <method encoding='v12@0:4@8' selector='applicationDidUnhide:'/>
+    <method encoding='v12@0:4@8' selector='applicationWillBecomeActive:'/>
+    <method encoding='v12@0:4@8' selector='applicationDidBecomeActive:'/>
+    <method encoding='v12@0:4@8' selector='applicationWillResignActive:'/>
+    <method encoding='v12@0:4@8' selector='applicationDidResignActive:'/>
+    <method encoding='v12@0:4@8' selector='applicationWillUpdate:'/>
+    <method encoding='v12@0:4@8' selector='applicationDidUpdate:'/>
+    <method encoding='v12@0:4@8' selector='applicationWillTerminate:'/>
+    <method encoding='v12@0:4@8' selector='applicationDidChangeScreenParameters:'/>
+  </informal_protocol>
+  <informal_protocol name='NSApplicationDelegate'>
+    <method encoding='I12@0:4@8' selector='applicationShouldTerminate:'/>
+    <method encoding='c16@0:4@8@12' selector='application:openFile:'/>
+    <method encoding='v16@0:4@8@12' selector='application:openFiles:'/>
+    <method encoding='c16@0:4@8@12' selector='application:openTempFile:'/>
+    <method encoding='c12@0:4@8' selector='applicationShouldOpenUntitledFile:'/>
+    <method encoding='c12@0:4@8' selector='applicationOpenUntitledFile:'/>
+    <method encoding='c16@0:4@8@12' selector='application:openFileWithoutUI:'/>
+    <method encoding='c16@0:4@8@12' selector='application:printFile:'/>
+    <method encoding='I24@0:4@8@12@16c20' selector='application:printFiles:withSettings:showPrintPanels:'/>
+    <method encoding='v16@0:4@8@12' selector='application:printFiles:'/>
+    <method encoding='c12@0:4@8' selector='applicationShouldTerminateAfterLastWindowClosed:'/>
+    <method encoding='c16@0:4@8c12' selector='applicationShouldHandleReopen:hasVisibleWindows:'/>
+    <method encoding='@12@0:4@8' selector='applicationDockMenu:'/>
+    <method encoding='@16@0:4@8@12' selector='application:willPresentError:'/>
+  </informal_protocol>
+  <informal_protocol name='NSServicesRequests'>
+    <method encoding='c16@0:4@8@12' selector='writeSelectionToPasteboard:types:'/>
+    <method encoding='c12@0:4@8' selector='readSelectionFromPasteboard:'/>
+  </informal_protocol>
+  <informal_protocol name='NSApplicationScriptingDelegation'>
+    <method encoding='c16@0:4@8@12' selector='application:delegateHandlesKey:'/>
+  </informal_protocol>
+  <informal_protocol name='NSBrowserDelegate'>
+    <method encoding='i16@0:4@8i12' selector='browser:numberOfRowsInColumn:'/>
+    <method encoding='v20@0:4@8i12@16' selector='browser:createRowsForColumn:inMatrix:'/>
+    <method encoding='v24@0:4@8@12i16i20' selector='browser:willDisplayCell:atRow:column:'/>
+    <method encoding='@16@0:4@8i12' selector='browser:titleOfColumn:'/>
+    <method encoding='c20@0:4@8@12i16' selector='browser:selectCellWithString:inColumn:'/>
+    <method encoding='c20@0:4@8i12i16' selector='browser:selectRow:inColumn:'/>
+    <method encoding='c16@0:4@8i12' selector='browser:isColumnValid:'/>
+    <method encoding='v12@0:4@8' selector='browserWillScroll:'/>
+    <method encoding='v12@0:4@8' selector='browserDidScroll:'/>
+    <method encoding='f16@0:4@8i12' selector='browser:sizeToFitWidthOfColumn:'/>
+    <method encoding='v12@0:4@8' selector='browserColumnConfigurationDidChange:'/>
+    <method encoding='@24@0:4@8@12@16i20' selector='browser:namesOfPromisedFilesDroppedAtDestination:forDraggedRowsWithIndexes:inColumn:'/>
+    <method encoding='c24@0:4@8@12i16@20' selector='browser:canDragRowsWithIndexes:inColumn:withEvent:'/>
+    <method encoding='@28@0:4@8@12i16@20^{_NSPoint=ff}24' selector='browser:draggingImageForRowsWithIndexes:inColumn:withEvent:offset:'/>
+    <method encoding='c28@0:4@8@12i16i20I24' selector='browser:acceptDrop:atRow:column:dropOperation:'/>
+    <method encoding='c20@0:4@8@12@16' selector='browser:shouldTypeSelectForEvent:withCurrentSearchString:'/>
+    <method encoding='i28@0:4@8i12i16i20@24' selector='browser:nextTypeSelectMatchFromRow:toRow:inColumn:forString:'/>
+  </informal_protocol>
+  <informal_protocol name='NSColorPanelResponderMethod'>
+    <method encoding='v12@0:4@8' selector='changeColor:'/>
+  </informal_protocol>
+  <informal_protocol name='NSComboBoxDataSource'>
+    <method encoding='i12@0:4@8' selector='numberOfItemsInComboBox:'/>
+    <method encoding='@16@0:4@8i12' selector='comboBox:objectValueForItemAtIndex:'/>
+    <method encoding='I16@0:4@8@12' selector='comboBox:indexOfItemWithStringValue:'/>
+    <method encoding='@16@0:4@8@12' selector='comboBox:completedString:'/>
+  </informal_protocol>
+  <informal_protocol name='NSComboBoxNotifications'>
+    <method encoding='v12@0:4@8' selector='comboBoxWillPopUp:'/>
+    <method encoding='v12@0:4@8' selector='comboBoxWillDismiss:'/>
+    <method encoding='v12@0:4@8' selector='comboBoxSelectionDidChange:'/>
+    <method encoding='v12@0:4@8' selector='comboBoxSelectionIsChanging:'/>
+  </informal_protocol>
+  <informal_protocol name='NSComboBoxCellDataSource'>
+    <method encoding='i12@0:4@8' selector='numberOfItemsInComboBoxCell:'/>
+    <method encoding='@16@0:4@8i12' selector='comboBoxCell:objectValueForItemAtIndex:'/>
+    <method encoding='I16@0:4@8@12' selector='comboBoxCell:indexOfItemWithStringValue:'/>
+    <method encoding='@16@0:4@8@12' selector='comboBoxCell:completedString:'/>
+  </informal_protocol>
+  <informal_protocol name='NSControlSubclassNotifications'>
+    <method encoding='v12@0:4@8' selector='controlTextDidBeginEditing:'/>
+    <method encoding='v12@0:4@8' selector='controlTextDidEndEditing:'/>
+    <method encoding='v12@0:4@8' selector='controlTextDidChange:'/>
+  </informal_protocol>
+  <informal_protocol name='NSControlSubclassDelegate'>
+    <method encoding='c16@0:4@8@12' selector='control:textShouldBeginEditing:'/>
+    <method encoding='c16@0:4@8@12' selector='control:textShouldEndEditing:'/>
+    <method encoding='c20@0:4@8@12@16' selector='control:didFailToFormatString:errorDescription:'/>
+    <method encoding='v20@0:4@8@12@16' selector='control:didFailToValidatePartialString:errorDescription:'/>
+    <method encoding='c16@0:4@8@12' selector='control:isValidObject:'/>
+    <method encoding='c20@0:4@8@12:16' selector='control:textView:doCommandBySelector:'/>
+    <method encoding='@32@0:4@8@12@16{_NSRange=II}20^i28' selector='control:textView:completions:forPartialWordRange:indexOfSelectedItem:'/>
+  </informal_protocol>
+  <informal_protocol name='NSDatePickerCellDelegate'>
+    <method encoding='v20@0:4@8^@12^d16' selector='datePickerCell:validateProposedDateValue:timeInterval:'/>
+  </informal_protocol>
+  <informal_protocol name='NSDictionaryControllerKeyValuePair'>
+    <method encoding='v12@0:4@8' selector='setLocalizedKey:'/>
+    <method encoding='@8@0:4' selector='localizedKey'/>
+    <method encoding='v12@0:4@8' selector='setKey:'/>
+    <method encoding='@8@0:4' selector='key'/>
+    <method encoding='v12@0:4@8' selector='setValue:'/>
+    <method encoding='@8@0:4' selector='value'/>
+    <method encoding='c8@0:4' selector='isExplicitlyIncluded'/>
+  </informal_protocol>
+  <informal_protocol name='NSDraggingDestination'>
+    <method encoding='I12@0:4@8' selector='draggingEntered:'/>
+    <method encoding='I12@0:4@8' selector='draggingUpdated:'/>
+    <method encoding='v12@0:4@8' selector='draggingExited:'/>
+    <method encoding='c12@0:4@8' selector='prepareForDragOperation:'/>
+    <method encoding='c12@0:4@8' selector='performDragOperation:'/>
+    <method encoding='v12@0:4@8' selector='concludeDragOperation:'/>
+    <method encoding='v12@0:4@8' selector='draggingEnded:'/>
+    <method encoding='c8@0:4' selector='wantsPeriodicDraggingUpdates'/>
+  </informal_protocol>
+  <informal_protocol name='NSDraggingSource'>
+    <method encoding='I12@0:4c8' selector='draggingSourceOperationMaskForLocal:'/>
+    <method encoding='@12@0:4@8' selector='namesOfPromisedFilesDroppedAtDestination:'/>
+    <method encoding='v20@0:4@8{_NSPoint=ff}12' selector='draggedImage:beganAt:'/>
+    <method encoding='v24@0:4@8{_NSPoint=ff}12I20' selector='draggedImage:endedAt:operation:'/>
+    <method encoding='v20@0:4@8{_NSPoint=ff}12' selector='draggedImage:movedTo:'/>
+    <method encoding='c8@0:4' selector='ignoreModifierKeysWhileDragging'/>
+    <method encoding='v24@0:4@8{_NSPoint=ff}12c20' selector='draggedImage:endedAt:deposited:'/>
+  </informal_protocol>
+  <informal_protocol name='NSDrawerNotifications'>
+    <method encoding='v12@0:4@8' selector='drawerWillOpen:'/>
+    <method encoding='v12@0:4@8' selector='drawerDidOpen:'/>
+    <method encoding='v12@0:4@8' selector='drawerWillClose:'/>
+    <method encoding='v12@0:4@8' selector='drawerDidClose:'/>
+  </informal_protocol>
+  <informal_protocol name='NSDrawerDelegate'>
+    <method encoding='c12@0:4@8' selector='drawerShouldOpen:'/>
+    <method encoding='c12@0:4@8' selector='drawerShouldClose:'/>
+    <method encoding='{_NSSize=ff}20@0:4@8{_NSSize=ff}12' selector='drawerWillResizeContents:toSize:'/>
+  </informal_protocol>
+  <informal_protocol name='NSFontManagerDelegate'>
+    <method encoding='c16@0:4@8@12' selector='fontManager:willIncludeFont:'/>
+  </informal_protocol>
+  <informal_protocol name='NSFontManagerResponderMethod'>
+    <method encoding='v12@0:4@8' selector='changeFont:'/>
+  </informal_protocol>
+  <informal_protocol name='NSFontPanelValidationAdditions'>
+    <method encoding='I12@0:4@8' selector='validModesForFontPanel:'/>
+  </informal_protocol>
+  <informal_protocol name='NSImageDelegate'>
+    <method encoding='@28@0:4@8{_NSRect={_NSPoint=ff}{_NSSize=ff}}12' selector='imageDidNotDraw:inRect:'/>
+    <method encoding='v16@0:4@8@12' selector='image:willLoadRepresentation:'/>
+    <method encoding='v16@0:4@8@12' selector='image:didLoadRepresentationHeader:'/>
+    <method encoding='v20@0:4@8@12i16' selector='image:didLoadPartOfRepresentation:withValidRows:'/>
+    <method encoding='v20@0:4@8@12I16' selector='image:didLoadRepresentation:withStatus:'/>
+  </informal_protocol>
+  <informal_protocol name='NSKeyValueBindingCreation'>
+    <method encoding='v12@0:4@8' class_method='true' selector='exposeBinding:'/>
+    <method encoding='@8@0:4' selector='exposedBindings'/>
+    <method encoding='#12@0:4@8' selector='valueClassForBinding:'/>
+    <method encoding='v24@0:4@8@12@16@20' selector='bind:toObject:withKeyPath:options:'/>
+    <method encoding='v12@0:4@8' selector='unbind:'/>
+    <method encoding='@12@0:4@8' selector='infoForBinding:'/>
+  </informal_protocol>
+  <informal_protocol name='NSPlaceholders'>
+    <method encoding='v20@0:4@8@12@16' class_method='true' selector='setDefaultPlaceholder:forMarker:withBinding:'/>
+    <method encoding='@16@0:4@8@12' class_method='true' selector='defaultPlaceholderForMarker:withBinding:'/>
+  </informal_protocol>
+  <informal_protocol name='NSEditorRegistration'>
+    <method encoding='v12@0:4@8' selector='objectDidBeginEditing:'/>
+    <method encoding='v12@0:4@8' selector='objectDidEndEditing:'/>
+  </informal_protocol>
+  <informal_protocol name='NSEditor'>
+    <method encoding='v8@0:4' selector='discardEditing'/>
+    <method encoding='c8@0:4' selector='commitEditing'/>
+  </informal_protocol>
+  <informal_protocol name='NSLayoutManagerDelegate'>
+    <method encoding='v12@0:4@8' selector='layoutManagerDidInvalidateLayout:'/>
+    <method encoding='v20@0:4@8@12c16' selector='layoutManager:didCompleteLayoutForTextContainer:atEnd:'/>
+    <method encoding='@28@0:4@8@12c16I20^{_NSRange=II}24' selector='layoutManager:shouldUseTemporaryAttributes:forDrawingToScreen:atCharacterIndex:effectiveRange:'/>
+  </informal_protocol>
+  <informal_protocol name='NSMenuValidation'>
+    <method encoding='c12@0:4@8' selector='validateMenuItem:'/>
+  </informal_protocol>
+  <informal_protocol name='NSMenuDelegate'>
+    <method encoding='v12@0:4@8' selector='menuNeedsUpdate:'/>
+    <method encoding='i12@0:4@8' selector='numberOfItemsInMenu:'/>
+    <method encoding='c24@0:4@8@12i16c20' selector='menu:updateItem:atIndex:shouldCancel:'/>
+    <method encoding='c24@0:4@8@12^@16^:20' selector='menuHasKeyEquivalent:forEvent:target:action:'/>
+    <method encoding='v12@0:4@8' selector='menuWillOpen:'/>
+    <method encoding='v12@0:4@8' selector='menuDidClose:'/>
+    <method encoding='v16@0:4@8@12' selector='menu:willHighlightItem:'/>
+  </informal_protocol>
+  <informal_protocol name='NSNibAwaking'>
+    <method encoding='v8@0:4' selector='awakeFromNib'/>
+  </informal_protocol>
+  <informal_protocol name='NSOutlineViewDataSource'>
+    <method encoding='@20@0:4@8i12@16' selector='outlineView:child:ofItem:'/>
+    <method encoding='c16@0:4@8@12' selector='outlineView:isItemExpandable:'/>
+    <method encoding='i16@0:4@8@12' selector='outlineView:numberOfChildrenOfItem:'/>
+    <method encoding='@20@0:4@8@12@16' selector='outlineView:objectValueForTableColumn:byItem:'/>
+    <method encoding='v24@0:4@8@12@16@20' selector='outlineView:setObjectValue:forTableColumn:byItem:'/>
+    <method encoding='@16@0:4@8@12' selector='outlineView:itemForPersistentObject:'/>
+    <method encoding='@16@0:4@8@12' selector='outlineView:persistentObjectForItem:'/>
+    <method encoding='v16@0:4@8@12' selector='outlineView:sortDescriptorsDidChange:'/>
+    <method encoding='I24@0:4@8@12@16i20' selector='outlineView:validateDrop:proposedItem:proposedChildIndex:'/>
+    <method encoding='c24@0:4@8@12@16i20' selector='outlineView:acceptDrop:item:childIndex:'/>
+    <method encoding='@20@0:4@8@12@16' selector='outlineView:namesOfPromisedFilesDroppedAtDestination:forDraggedItems:'/>
+  </informal_protocol>
+  <informal_protocol name='NSOutlineViewDelegate'>
+    <method encoding='v24@0:4@8@12@16@20' selector='outlineView:willDisplayCell:forTableColumn:item:'/>
+    <method encoding='c20@0:4@8@12@16' selector='outlineView:shouldEditTableColumn:item:'/>
+    <method encoding='c12@0:4@8' selector='selectionShouldChangeInOutlineView:'/>
+    <method encoding='c16@0:4@8@12' selector='outlineView:shouldSelectItem:'/>
+    <method encoding='@16@0:4@8@12' selector='outlineView:selectionIndexesForProposedSelection:'/>
+    <method encoding='c16@0:4@8@12' selector='outlineView:shouldSelectTableColumn:'/>
+    <method encoding='v16@0:4@8@12' selector='outlineView:mouseDownInHeaderOfTableColumn:'/>
+    <method encoding='v16@0:4@8@12' selector='outlineView:didClickTableColumn:'/>
+    <method encoding='v16@0:4@8@12' selector='outlineView:didDragTableColumn:'/>
+    <method encoding='@36@0:4@8@12^{_NSRect={_NSPoint=ff}{_NSSize=ff}}16@20@24{_NSPoint=ff}28' selector='outlineView:toolTipForCell:rect:tableColumn:item:mouseLocation:'/>
+    <method encoding='f16@0:4@8@12' selector='outlineView:heightOfRowByItem:'/>
+    <method encoding='@20@0:4@8@12@16' selector='outlineView:typeSelectStringForTableColumn:item:'/>
+    <method encoding='@24@0:4@8@12@16@20' selector='outlineView:nextTypeSelectMatchFromItem:toItem:forString:'/>
+    <method encoding='c20@0:4@8@12@16' selector='outlineView:shouldTypeSelectForEvent:withCurrentSearchString:'/>
+    <method encoding='c20@0:4@8@12@16' selector='outlineView:shouldShowCellExpansionForTableColumn:item:'/>
+    <method encoding='c24@0:4@8@12@16@20' selector='outlineView:shouldTrackCell:forTableColumn:item:'/>
+    <method encoding='@20@0:4@8@12@16' selector='outlineView:dataCellForTableColumn:item:'/>
+    <method encoding='c16@0:4@8@12' selector='outlineView:isGroupItem:'/>
+    <method encoding='c16@0:4@8@12' selector='outlineView:shouldExpandItem:'/>
+    <method encoding='c16@0:4@8@12' selector='outlineView:shouldCollapseItem:'/>
+    <method encoding='v24@0:4@8@12@16@20' selector='outlineView:willDisplayOutlineCell:forTableColumn:item:'/>
+  </informal_protocol>
+  <informal_protocol name='NSOutlineViewNotifications'>
+    <method encoding='v12@0:4@8' selector='outlineViewSelectionDidChange:'/>
+    <method encoding='v12@0:4@8' selector='outlineViewColumnDidMove:'/>
+    <method encoding='v12@0:4@8' selector='outlineViewColumnDidResize:'/>
+    <method encoding='v12@0:4@8' selector='outlineViewSelectionIsChanging:'/>
+    <method encoding='v12@0:4@8' selector='outlineViewItemWillExpand:'/>
+    <method encoding='v12@0:4@8' selector='outlineViewItemDidExpand:'/>
+    <method encoding='v12@0:4@8' selector='outlineViewItemWillCollapse:'/>
+    <method encoding='v12@0:4@8' selector='outlineViewItemDidCollapse:'/>
+  </informal_protocol>
+  <informal_protocol name='NSPasteboardOwner'>
+    <method encoding='v16@0:4@8@12' selector='pasteboard:provideDataForType:'/>
+    <method encoding='v12@0:4@8' selector='pasteboardChangedOwner:'/>
+  </informal_protocol>
+  <informal_protocol name='NSRuleEditorDelegateMethods'>
+    <method encoding='i20@0:4@8@12I16' selector='ruleEditor:numberOfChildrenForCriterion:withRowType:'/>
+    <method encoding='@24@0:4@8i12@16I20' selector='ruleEditor:child:forCriterion:withRowType:'/>
+    <method encoding='@20@0:4@8@12i16' selector='ruleEditor:displayValueForCriterion:inRow:'/>
+    <method encoding='@24@0:4@8@12@16i20' selector='ruleEditor:predicatePartsForCriterion:withDisplayValue:inRow:'/>
+    <method encoding='v12@0:4@8' selector='ruleEditorRowsDidChange:'/>
+  </informal_protocol>
+  <informal_protocol name='NSSavePanelDelegate'>
+    <method encoding='c16@0:4@8@12' selector='panel:shouldShowFilename:'/>
+    <method encoding='i24@0:4@8@12@16c20' selector='panel:compareFilename:with:caseSensitive:'/>
+    <method encoding='c16@0:4@8@12' selector='panel:isValidFilename:'/>
+    <method encoding='@20@0:4@8@12c16' selector='panel:userEnteredFilename:confirmed:'/>
+    <method encoding='v16@0:4@8c12' selector='panel:willExpand:'/>
+    <method encoding='v16@0:4@8@12' selector='panel:directoryDidChange:'/>
+    <method encoding='v12@0:4@8' selector='panelSelectionDidChange:'/>
+  </informal_protocol>
+  <informal_protocol name='NSSoundDelegateMethods'>
+    <method encoding='v16@0:4@8c12' selector='sound:didFinishPlaying:'/>
+  </informal_protocol>
+  <informal_protocol name='NSSpeechRecognizerDelegate'>
+    <method encoding='v16@0:4@8@12' selector='speechRecognizer:didRecognizeCommand:'/>
+  </informal_protocol>
+  <informal_protocol name='NSSpeechSynthesizerDelegate'>
+    <method encoding='v16@0:4@8c12' selector='speechSynthesizer:didFinishSpeaking:'/>
+    <method encoding='v24@0:4@8{_NSRange=II}12@20' selector='speechSynthesizer:willSpeakWord:ofString:'/>
+    <method encoding='v16@0:4@8s12' selector='speechSynthesizer:willSpeakPhoneme:'/>
+    <method encoding='v24@0:4@8I12@16@20' selector='speechSynthesizer:didEncounterErrorAtIndex:ofString:message:'/>
+    <method encoding='v16@0:4@8@12' selector='speechSynthesizer:didEncounterSyncMessage:'/>
+  </informal_protocol>
+  <informal_protocol name='NSSplitViewDelegate'>
+    <method encoding='c16@0:4@8@12' selector='splitView:canCollapseSubview:'/>
+    <method encoding='c20@0:4@8@12i16' selector='splitView:shouldCollapseSubview:forDoubleClickOnDividerAtIndex:'/>
+    <method encoding='f20@0:4@8f12i16' selector='splitView:constrainMinCoordinate:ofSubviewAt:'/>
+    <method encoding='f20@0:4@8f12i16' selector='splitView:constrainMaxCoordinate:ofSubviewAt:'/>
+    <method encoding='f20@0:4@8f12i16' selector='splitView:constrainSplitPosition:ofSubviewAt:'/>
+    <method encoding='v20@0:4@8{_NSSize=ff}12' selector='splitView:resizeSubviewsWithOldSize:'/>
+    <method encoding='v12@0:4@8' selector='splitViewWillResizeSubviews:'/>
+    <method encoding='v12@0:4@8' selector='splitViewDidResizeSubviews:'/>
+  </informal_protocol>
+  <informal_protocol name='NSTableViewDelegate'>
+    <method encoding='v24@0:4@8@12@16i20' selector='tableView:willDisplayCell:forTableColumn:row:'/>
+    <method encoding='c20@0:4@8@12i16' selector='tableView:shouldEditTableColumn:row:'/>
+    <method encoding='c12@0:4@8' selector='selectionShouldChangeInTableView:'/>
+    <method encoding='c16@0:4@8i12' selector='tableView:shouldSelectRow:'/>
+    <method encoding='@16@0:4@8@12' selector='tableView:selectionIndexesForProposedSelection:'/>
+    <method encoding='c16@0:4@8@12' selector='tableView:shouldSelectTableColumn:'/>
+    <method encoding='v16@0:4@8@12' selector='tableView:mouseDownInHeaderOfTableColumn:'/>
+    <method encoding='v16@0:4@8@12' selector='tableView:didClickTableColumn:'/>
+    <method encoding='v16@0:4@8@12' selector='tableView:didDragTableColumn:'/>
+    <method encoding='@36@0:4@8@12^{_NSRect={_NSPoint=ff}{_NSSize=ff}}16@20i24{_NSPoint=ff}28' selector='tableView:toolTipForCell:rect:tableColumn:row:mouseLocation:'/>
+    <method encoding='f16@0:4@8i12' selector='tableView:heightOfRow:'/>
+    <method encoding='@20@0:4@8@12i16' selector='tableView:typeSelectStringForTableColumn:row:'/>
+    <method encoding='i24@0:4@8i12i16@20' selector='tableView:nextTypeSelectMatchFromRow:toRow:forString:'/>
+    <method encoding='c20@0:4@8@12@16' selector='tableView:shouldTypeSelectForEvent:withCurrentSearchString:'/>
+    <method encoding='c20@0:4@8@12i16' selector='tableView:shouldShowCellExpansionForTableColumn:row:'/>
+    <method encoding='c24@0:4@8@12@16i20' selector='tableView:shouldTrackCell:forTableColumn:row:'/>
+    <method encoding='@20@0:4@8@12i16' selector='tableView:dataCellForTableColumn:row:'/>
+    <method encoding='c16@0:4@8i12' selector='tableView:isGroupRow:'/>
+  </informal_protocol>
+  <informal_protocol name='NSTableViewNotifications'>
+    <method encoding='v12@0:4@8' selector='tableViewSelectionDidChange:'/>
+    <method encoding='v12@0:4@8' selector='tableViewColumnDidMove:'/>
+    <method encoding='v12@0:4@8' selector='tableViewColumnDidResize:'/>
+    <method encoding='v12@0:4@8' selector='tableViewSelectionIsChanging:'/>
+  </informal_protocol>
+  <informal_protocol name='NSTableDataSource'>
+    <method encoding='i12@0:4@8' selector='numberOfRowsInTableView:'/>
+    <method encoding='@20@0:4@8@12i16' selector='tableView:objectValueForTableColumn:row:'/>
+    <method encoding='v24@0:4@8@12@16i20' selector='tableView:setObjectValue:forTableColumn:row:'/>
+    <method encoding='v16@0:4@8@12' selector='tableView:sortDescriptorsDidChange:'/>
+    <method encoding='I24@0:4@8@12i16I20' selector='tableView:validateDrop:proposedRow:proposedDropOperation:'/>
+    <method encoding='c24@0:4@8@12i16I20' selector='tableView:acceptDrop:row:dropOperation:'/>
+    <method encoding='@20@0:4@8@12@16' selector='tableView:namesOfPromisedFilesDroppedAtDestination:forDraggedRowsWithIndexes:'/>
+  </informal_protocol>
+  <informal_protocol name='NSTabViewDelegate'>
+    <method encoding='c16@0:4@8@12' selector='tabView:shouldSelectTabViewItem:'/>
+    <method encoding='v16@0:4@8@12' selector='tabView:willSelectTabViewItem:'/>
+    <method encoding='v16@0:4@8@12' selector='tabView:didSelectTabViewItem:'/>
+    <method encoding='v12@0:4@8' selector='tabViewDidChangeNumberOfTabViewItems:'/>
+  </informal_protocol>
+  <informal_protocol name='NSTextDelegate'>
+    <method encoding='c12@0:4@8' selector='textShouldBeginEditing:'/>
+    <method encoding='c12@0:4@8' selector='textShouldEndEditing:'/>
+    <method encoding='v12@0:4@8' selector='textDidBeginEditing:'/>
+    <method encoding='v12@0:4@8' selector='textDidEndEditing:'/>
+    <method encoding='v12@0:4@8' selector='textDidChange:'/>
+  </informal_protocol>
+  <informal_protocol name='NSTextStorageDelegate'>
+    <method encoding='v12@0:4@8' selector='textStorageWillProcessEditing:'/>
+    <method encoding='v12@0:4@8' selector='textStorageDidProcessEditing:'/>
+  </informal_protocol>
+  <informal_protocol name='NSTextViewDelegate'>
+    <method encoding='c20@0:4@8@12I16' selector='textView:clickedOnLink:atIndex:'/>
+    <method encoding='v36@0:4@8@12{_NSRect={_NSPoint=ff}{_NSSize=ff}}16I32' selector='textView:clickedOnCell:inRect:atIndex:'/>
+    <method encoding='v36@0:4@8@12{_NSRect={_NSPoint=ff}{_NSSize=ff}}16I32' selector='textView:doubleClickedOnCell:inRect:atIndex:'/>
+    <method encoding='v40@0:4@8@12{_NSRect={_NSPoint=ff}{_NSSize=ff}}16@32I36' selector='textView:draggedCell:inRect:event:atIndex:'/>
+    <method encoding='@20@0:4@8@12I16' selector='textView:writablePasteboardTypesForCell:atIndex:'/>
+    <method encoding='c28@0:4@8@12I16@20@24' selector='textView:writeCell:atIndex:toPasteboard:type:'/>
+    <method encoding='{_NSRange=II}28@0:4@8{_NSRange=II}12{_NSRange=II}20' selector='textView:willChangeSelectionFromCharacterRange:toCharacterRange:'/>
+    <method encoding='@20@0:4@8@12@16' selector='textView:willChangeSelectionFromCharacterRanges:toCharacterRanges:'/>
+    <method encoding='c20@0:4@8@12@16' selector='textView:shouldChangeTextInRanges:replacementStrings:'/>
+    <method encoding='@20@0:4@8@12@16' selector='textView:shouldChangeTypingAttributes:toAttributes:'/>
+    <method encoding='v12@0:4@8' selector='textViewDidChangeSelection:'/>
+    <method encoding='v12@0:4@8' selector='textViewDidChangeTypingAttributes:'/>
+    <method encoding='@20@0:4@8@12I16' selector='textView:willDisplayToolTip:forCharacterAtIndex:'/>
+    <method encoding='@28@0:4@8@12{_NSRange=II}16^i24' selector='textView:completions:forPartialWordRange:indexOfSelectedItem:'/>
+    <method encoding='c24@0:4@8{_NSRange=II}12@20' selector='textView:shouldChangeTextInRange:replacementString:'/>
+    <method encoding='c16@0:4@8:12' selector='textView:doCommandBySelector:'/>
+    <method encoding='i24@0:4@8i12{_NSRange=II}16' selector='textView:shouldSetSpellingState:range:'/>
+    <method encoding='c16@0:4@8@12' selector='textView:clickedOnLink:'/>
+    <method encoding='v32@0:4@8@12{_NSRect={_NSPoint=ff}{_NSSize=ff}}16' selector='textView:clickedOnCell:inRect:'/>
+    <method encoding='v32@0:4@8@12{_NSRect={_NSPoint=ff}{_NSSize=ff}}16' selector='textView:doubleClickedOnCell:inRect:'/>
+    <method encoding='v36@0:4@8@12{_NSRect={_NSPoint=ff}{_NSSize=ff}}16@32' selector='textView:draggedCell:inRect:event:'/>
+    <method encoding='@12@0:4@8' selector='undoManagerForTextView:'/>
+  </informal_protocol>
+  <informal_protocol name='NSTokenFieldDelegate'>
+    <method encoding='@24@0:4@8@12i16^i20' selector='tokenField:completionsForSubstring:indexOfToken:indexOfSelectedItem:'/>
+    <method encoding='@20@0:4@8@12I16' selector='tokenField:shouldAddObjects:atIndex:'/>
+    <method encoding='@16@0:4@8@12' selector='tokenField:displayStringForRepresentedObject:'/>
+    <method encoding='@16@0:4@8@12' selector='tokenField:editingStringForRepresentedObject:'/>
+    <method encoding='@16@0:4@8@12' selector='tokenField:representedObjectForEditingString:'/>
+    <method encoding='c20@0:4@8@12@16' selector='tokenField:writeRepresentedObjects:toPasteboard:'/>
+    <method encoding='@16@0:4@8@12' selector='tokenField:readFromPasteboard:'/>
+    <method encoding='@16@0:4@8@12' selector='tokenField:menuForRepresentedObject:'/>
+    <method encoding='c16@0:4@8@12' selector='tokenField:hasMenuForRepresentedObject:'/>
+    <method encoding='I16@0:4@8@12' selector='tokenField:styleForRepresentedObject:'/>
+  </informal_protocol>
+  <informal_protocol name='NSTokenFieldCellDelegate'>
+    <method encoding='@24@0:4@8@12i16^i20' selector='tokenFieldCell:completionsForSubstring:indexOfToken:indexOfSelectedItem:'/>
+    <method encoding='@20@0:4@8@12I16' selector='tokenFieldCell:shouldAddObjects:atIndex:'/>
+    <method encoding='@16@0:4@8@12' selector='tokenFieldCell:displayStringForRepresentedObject:'/>
+    <method encoding='@16@0:4@8@12' selector='tokenFieldCell:editingStringForRepresentedObject:'/>
+    <method encoding='@16@0:4@8@12' selector='tokenFieldCell:representedObjectForEditingString:'/>
+    <method encoding='c20@0:4@8@12@16' selector='tokenFieldCell:writeRepresentedObjects:toPasteboard:'/>
+    <method encoding='@16@0:4@8@12' selector='tokenFieldCell:readFromPasteboard:'/>
+    <method encoding='@16@0:4@8@12' selector='tokenFieldCell:menuForRepresentedObject:'/>
+    <method encoding='c16@0:4@8@12' selector='tokenFieldCell:hasMenuForRepresentedObject:'/>
+    <method encoding='I16@0:4@8@12' selector='tokenFieldCell:styleForRepresentedObject:'/>
+  </informal_protocol>
+  <informal_protocol name='NSToolbarDelegate'>
+    <method encoding='@20@0:4@8@12c16' selector='toolbar:itemForItemIdentifier:willBeInsertedIntoToolbar:'/>
+    <method encoding='@12@0:4@8' selector='toolbarDefaultItemIdentifiers:'/>
+    <method encoding='@12@0:4@8' selector='toolbarAllowedItemIdentifiers:'/>
+    <method encoding='@12@0:4@8' selector='toolbarSelectableItemIdentifiers:'/>
+  </informal_protocol>
+  <informal_protocol name='NSToolbarNotifications'>
+    <method encoding='v12@0:4@8' selector='toolbarWillAddItem:'/>
+    <method encoding='v12@0:4@8' selector='toolbarDidRemoveItem:'/>
+  </informal_protocol>
+  <informal_protocol name='NSToolbarItemValidation'>
+    <method encoding='c12@0:4@8' selector='validateToolbarItem:'/>
+  </informal_protocol>
+  <informal_protocol name='NSToolTipOwner'>
+    <method encoding='@28@0:4@8i12{_NSPoint=ff}16^v24' selector='view:stringForToolTip:point:userData:'/>
+  </informal_protocol>
+  <informal_protocol name='NSWindowNotifications'>
+    <method encoding='v12@0:4@8' selector='windowDidResize:'/>
+    <method encoding='v12@0:4@8' selector='windowDidExpose:'/>
+    <method encoding='v12@0:4@8' selector='windowWillMove:'/>
+    <method encoding='v12@0:4@8' selector='windowDidMove:'/>
+    <method encoding='v12@0:4@8' selector='windowDidBecomeKey:'/>
+    <method encoding='v12@0:4@8' selector='windowDidResignKey:'/>
+    <method encoding='v12@0:4@8' selector='windowDidBecomeMain:'/>
+    <method encoding='v12@0:4@8' selector='windowDidResignMain:'/>
+    <method encoding='v12@0:4@8' selector='windowWillClose:'/>
+    <method encoding='v12@0:4@8' selector='windowWillMiniaturize:'/>
+    <method encoding='v12@0:4@8' selector='windowDidMiniaturize:'/>
+    <method encoding='v12@0:4@8' selector='windowDidDeminiaturize:'/>
+    <method encoding='v12@0:4@8' selector='windowDidUpdate:'/>
+    <method encoding='v12@0:4@8' selector='windowDidChangeScreen:'/>
+    <method encoding='v12@0:4@8' selector='windowDidChangeScreenProfile:'/>
+    <method encoding='v12@0:4@8' selector='windowWillBeginSheet:'/>
+    <method encoding='v12@0:4@8' selector='windowDidEndSheet:'/>
+  </informal_protocol>
+  <informal_protocol name='NSWindowDelegate'>
+    <method encoding='c12@0:4@8' selector='windowShouldClose:'/>
+    <method encoding='@16@0:4@8@12' selector='windowWillReturnFieldEditor:toObject:'/>
+    <method encoding='{_NSSize=ff}20@0:4@8{_NSSize=ff}12' selector='windowWillResize:toSize:'/>
+    <method encoding='{_NSRect={_NSPoint=ff}{_NSSize=ff}}28@0:4@8{_NSRect={_NSPoint=ff}{_NSSize=ff}}12' selector='windowWillUseStandardFrame:defaultFrame:'/>
+    <method encoding='c28@0:4@8{_NSRect={_NSPoint=ff}{_NSSize=ff}}12' selector='windowShouldZoom:toFrame:'/>
+    <method encoding='@12@0:4@8' selector='windowWillReturnUndoManager:'/>
+    <method encoding='{_NSRect={_NSPoint=ff}{_NSSize=ff}}32@0:4@8@12{_NSRect={_NSPoint=ff}{_NSSize=ff}}16' selector='window:willPositionSheet:usingRect:'/>
+    <method encoding='c16@0:4@8@12' selector='window:shouldShowPopUpDocumentPathMenu:'/>
+    <method encoding='c28@0:4@8@12{_NSPoint=ff}16@24' selector='window:shouldDragDocumentWithEvent:from:withPasteboard:'/>
+  </informal_protocol>
+  <class name='NSPrintPanel'>
+    <method selector='beginSheetWithPrintInfo:modalForWindow:delegate:didEndSelector:contextInfo:'>
+      <method_arg index='4' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSColor'>
+    <method class_method='true' selector='colorWithColorSpace:components:count:'>
+      <method_arg c_array_delimited_by_arg='2' index='1' type_modifier='in'/>
+    </method>
+    <method ignore='true' suggestion='Use the specific accessors according to the color type.' selector='getComponents:'/>
+  </class>
+  <class name='NSEvent'>
+    <method class_method='true' selector='enterExitEventWithType:location:modifierFlags:timestamp:windowNumber:context:eventNumber:trackingNumber:userData:'>
+      <method_arg index='8' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSAlert'>
+    <method selector='beginSheetModalForWindow:modalDelegate:didEndSelector:contextInfo:'>
+      <method_arg index='3' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSResponder'>
+    <method selector='presentError:modalForWindow:delegate:didPresentSelector:contextInfo:'>
+      <method_arg index='4' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSFont'>
+    <method class_method='true' selector='fontWithName:matrix:'>
+      <method_arg c_array_of_fixed_length='6' index='1' type_modifier='in'/>
+    </method>
+    <method selector='getBoundingRects:forGlyphs:count:'>
+      <method_arg c_array_delimited_by_arg='2' index='1' type_modifier='out'/>
+      <method_arg c_array_delimited_by_arg='2' index='2' type_modifier='in'/>
+    </method>
+    <method selector='getAdvancements:forGlyphs:count:'>
+      <method_arg c_array_delimited_by_arg='2' index='1' type_modifier='out'/>
+      <method_arg c_array_delimited_by_arg='2' index='2' type_modifier='in'/>
+    </method>
+    <method ignore='true' suggestion='Call getAdvancements:forGlyphs:count:.' selector='getAdvancements:forPackedGlyphs:length:'/>
+  </class>
+  <class name='NSController'>
+    <method selector='commitEditingWithDelegate:didCommitSelector:contextInfo:'>
+      <method_arg index='2' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSWindow'>
+    <method ignore='true' suggestion='Call the regular initializers.' selector='initWithWindowRef:'/>
+  </class>
+  <class name='NSOpenPanel'>
+    <method selector='beginSheetForDirectory:file:types:modalForWindow:modalDelegate:didEndSelector:contextInfo:'>
+      <method_arg index='6' type_modifier='in'/>
+    </method>
+    <method selector='beginForDirectory:file:types:modelessDelegate:didEndSelector:contextInfo:'>
+      <method_arg index='5' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSLayoutManager'>
+    <method selector='insertGlyphs:length:forStartingGlyphAtIndex:characterIndex:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+    <method ignore='true' suggestion='Call glyphAtIndex: multiple times.' selector='getGlyphsInRange:glyphs:characterIndexes:glyphInscriptions:elasticBits:'/>
+    <method ignore='true' suggestion='Call glyphAtIndex: multiple times.' selector='getGlyphsInRange:glyphs:characterIndexes:glyphInscriptions:elasticBits:bidiLevels:'/>
+    <method ignore='true' suggestion='Call glyphAtIndex: multiple times.' selector='getGlyphs:range:'/>
+    <method ignore='true' suggestion='Call setLocation:forStartOfGlyphRange: multiple times.' selector='setLocations:startingGlyphIndexes:count:forGlyphRange:'/>
+    <method selector='rectArrayForCharacterRange:withinSelectedCharacterRange:inTextContainer:rectCount:'>
+      <method_retval c_array_delimited_by_arg='3'/>
+    </method>
+    <method selector='rectArrayForGlyphRange:withinSelectedGlyphRange:inTextContainer:rectCount:'>
+      <method_retval c_array_delimited_by_arg='3'/>
+    </method>
+    <method ignore='true' selector='getLineFragmentInsertionPointsForCharacterAtIndex:alternatePositions:inDisplayOrder:positions:characterIndexes:'/>
+    <method selector='showPackedGlyphs:length:glyphRange:atPoint:font:color:printingAdjustment:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSPageLayout'>
+    <method selector='beginSheetWithPrintInfo:modalForWindow:delegate:didEndSelector:contextInfo:'>
+      <method_arg index='4' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSBitmapImageRep'>
+    <method class_method='true' selector='getTIFFCompressionTypes:count:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='out'/>
+    </method>
+    <method selector='getPixel:atX:y:'>
+      <method_arg c_array_of_fixed_length='4' index='0' type_modifier='in'/>
+    </method>
+    <method selector='setPixel:atX:y:'>
+      <method_arg c_array_of_fixed_length='4' index='0' type_modifier='out'/>
+    </method>
+  </class>
+  <class name='NSColorSpace'>
+    <method ignore='true' suggestion='Use other initializers.' selector='initWithColorSyncProfile:'/>
+  </class>
+  <class name='NSGraphicsContext'>
+    <method ignore='true' class_method='true' suggestion='Use other initializers.' selector='graphicsContextWithGraphicsPort:flipped:'/>
+    <method ignore='true' selector='setFocusStack:'/>
+  </class>
+  <class name='NSApplication'>
+    <method selector='beginSheet:modalForWindow:modalDelegate:didEndSelector:contextInfo:'>
+      <method_arg index='4' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSSavePanel'>
+    <method selector='beginSheetForDirectory:file:modalForWindow:modalDelegate:didEndSelector:contextInfo:'>
+      <method_arg index='5' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSObject'>
+    <method selector='commitEditingWithDelegate:didCommitSelector:contextInfo:'>
+      <method_arg index='2' type_modifier='in'/>
+    </method>
+    <method selector='view:stringForToolTip:point:userData:'>
+      <method_arg index='3' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSTypesetter'>
+    <method class_method='true' selector='printingAdjustmentInLayoutManager:forNominallySpacedGlyphRange:packedGlyphs:count:'>
+      <method_arg c_array_delimited_by_arg='3' index='2' type_modifier='in'/>
+    </method>
+    <method ignore='true' selector='getGlyphsInRange:glyphs:characterIndexes:glyphInscriptions:elasticBits:bidiLevels:'/>
+    <method ignore='true' selector='substituteGlyphsInRange:withGlyphs:'/>
+    <method ignore='true' selector='setLocation:withAdvancements:forStartOfGlyphRange:'/>
+    <method ignore='true' selector='setBidiLevels:forGlyphRange:'/>
+  </class>
+  <class name='NSView'>
+    <method selector='getRectsBeingDrawn:count:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='out'/>
+    </method>
+    <method selector='addTrackingRect:owner:userData:assumeInside:'>
+      <method_arg index='2' type_modifier='in'/>
+    </method>
+    <method selector='addToolTipRect:owner:userData:'>
+      <method_arg index='2' type_modifier='in'/>
+    </method>
+    <method selector='getRectsExposedDuringLiveResize:count:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='out'/>
+    </method>
+  </class>
+  <class name='NSGradient'>
+    <method ignore='true' suggestion='Use other initializers.' selector='initWithColors:atLocations:colorSpace:'/>
+    <method ignore='true' suggestion='Use other initializers.' selector='initWithColorsAndLocations:'/>
+  </class>
+  <class name='NSOpenGLPixelFormat'>
+    <method selector='initWithAttributes:'>
+      <method_arg index='0' c_array_delimited_by_null='true' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSPrintOperation'>
+    <method selector='runOperationModalForWindow:delegate:didRunSelector:contextInfo:'>
+      <method_arg index='3' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSGlyphStorage'>
+    <method selector='insertGlyphs:length:forStartingGlyphAtIndex:characterIndex:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSOpenGLContext'>
+    <method ignore='true' selector='setOffScreen:width:height:rowbytes:'/>
+    <method ignore='true' selector='setValues:forParameter:'/>
+    <method ignore='true' selector='getValues:forParameter:'/>
+  </class>
+  <class name='NSMovie'>
+    <method ignore='true' suggestion='Use other initializers.' selector='initWithMovie:'/>
+  </class>
+  <class name='NSPrintAccessoryController'>
+    <method selector='commitEditingWithDelegate:didCommitSelector:contextInfo:'>
+      <method_arg index='2' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSDocument'>
+    <method selector='saveDocumentWithDelegate:didSaveSelector:contextInfo:'>
+      <method_arg index='2' type_modifier='in'/>
+    </method>
+    <method selector='runModalSavePanelForSaveOperation:delegate:didSaveSelector:contextInfo:'>
+      <method_arg index='3' type_modifier='in'/>
+    </method>
+    <method selector='saveToURL:ofType:forSaveOperation:delegate:didSaveSelector:contextInfo:'>
+      <method_arg index='5' type_modifier='in'/>
+    </method>
+    <method selector='autosaveDocumentWithDelegate:didAutosaveSelector:contextInfo:'>
+      <method_arg index='2' type_modifier='in'/>
+    </method>
+    <method selector='canCloseDocumentWithDelegate:shouldCloseSelector:contextInfo:'>
+      <method_arg index='2' type_modifier='in'/>
+    </method>
+    <method selector='runModalPageLayoutWithPrintInfo:delegate:didRunSelector:contextInfo:'>
+      <method_arg index='3' type_modifier='in'/>
+    </method>
+    <method selector='printDocumentWithSettings:showPrintPanel:delegate:didPrintSelector:contextInfo:'>
+      <method_arg index='4' type_modifier='in'/>
+    </method>
+    <method selector='runModalPrintOperation:delegate:didRunSelector:contextInfo:'>
+      <method_arg index='3' type_modifier='in'/>
+    </method>
+    <method selector='presentError:modalForWindow:delegate:didPresentSelector:contextInfo:'>
+      <method_arg index='4' type_modifier='in'/>
+    </method>
+    <method selector='shouldCloseWindowController:delegate:shouldCloseSelector:contextInfo:'>
+      <method_arg index='3' type_modifier='in'/>
+    </method>
+    <method selector='saveToFile:saveOperation:delegate:didSaveSelector:contextInfo:'>
+      <method_arg index='4' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSMenu'>
+    <method ignore='true' class_method='true' selector='setMenuZone:'/>
+  </class>
+  <class name='NSCell'>
+    <method selector='getPeriodicDelay:interval:'>
+      <method_arg null_accepted='false' index='0' type_modifier='out'/>
+      <method_arg null_accepted='false' index='1' type_modifier='out'/>
+    </method>
+  </class>
+  <class name='NSDocumentController'>
+    <method selector='reviewUnsavedDocumentsWithAlertTitle:cancellable:delegate:didReviewAllSelector:contextInfo:'>
+      <method_arg index='4' type_modifier='in'/>
+    </method>
+    <method selector='closeAllDocumentsWithDelegate:didCloseAllSelector:contextInfo:'>
+      <method_arg index='2' type_modifier='in'/>
+    </method>
+    <method selector='presentError:modalForWindow:delegate:didPresentSelector:contextInfo:'>
+      <method_arg index='4' type_modifier='in'/>
+    </method>
+  </class>
+  <class name='NSButton'>
+    <method selector='getPeriodicDelay:interval:'>
+      <method_arg null_accepted='false' index='0' type_modifier='out'/>
+      <method_arg null_accepted='false' index='1' type_modifier='out'/>
+    </method>
+  </class>
+  <class name='NSBezierPath'>
+    <method class_method='true' selector='drawPackedGlyphs:atPoint:'>
+      <method_arg index='0' c_array_delimited_by_null='true' type_modifier='in'/>
+    </method>
+    <method selector='getLineDash:count:phase:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='out'/>
+    </method>
+    <method selector='setLineDash:count:phase:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+    <method selector='appendBezierPathWithPoints:count:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+    <method selector='appendBezierPathWithGlyphs:count:'>
+      <method_arg c_array_delimited_by_arg='1' index='0' type_modifier='in'/>
+    </method>
+    <method selector='appendBezierPathWithPackedGlyphs:'>
+      <method_arg index='0' c_array_delimited_by_null='true' type_modifier='in'/>
+    </method>
+    <method ignore='true' selector='setAssociatedPoints:atIndex:'/>
+  </class>
+</signatures>

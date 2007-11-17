@@ -1,0 +1,6 @@
+require 'rake/cocoa'
+
+Rake::CocoaApplication.new do |t|
+  t.application = 'RubyObjC'
+  t.identifier = 'com.rubyobjc.app'
+end

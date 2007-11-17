@@ -1,0 +1,137 @@
+/* 
+ *  objc_builtin.rm/m 
+ *
+ *  Automatically generated code that embeds Ruby source code in the RubyObjC distribution.
+ *
+ *  Copyright (c) 2007 Tim Burks, Neon Design Technology, Inc.
+ *  For more information about this file, visit http://www.rubyobjc.com.
+ */
+
+#import "rubyobjc.h"
+
+<%
+begin
+	require 'rubygems'
+	require 'objc'
+	raise LoadError unless ObjC.require :bf
+	rails NameError unless ObjC::BF
+	BLOWFISH = true
+rescue LoadError, NameError
+	BLOWFISH = false
+end
+
+$filelength = {}
+
+FIRST_SHIFT = 99
+SHIFT_STEP = 109
+KEY = "RubyObjC. Copyright 2007, Neon Design Technology, Inc."
+
+def file_as_string(modulename, filename)
+  if BLOWFISH
+    plain = File.open(filename).read
+    ObjC::BF.setup(KEY)
+    cipher = ObjC::BF.in(plain)
+    bytes = 0
+    result = '{'
+    cipher.each_byte {|c|
+      result << sprintf("'\\x%x',", c)
+      bytes += 1
+      result << " \\\n" if bytes % 16 == 15
+    }
+    result << "}"
+    $filelength[modulename] = cipher.length
+    result
+  else
+    result = '{'
+    bytes = 0
+    shift = FIRST_SHIFT
+    File.open(filename){|f|f.readlines.each{|line|
+      encoding = ""
+      line.each_byte {|c|
+        c = (c + shift) % 256
+        shift = (shift + SHIFT_STEP) % 256
+        encoding += sprintf("'\\x%x',", c)
+        bytes += 1
+      }
+      encoding += " \\\n"
+      result += encoding
+    }}
+    c = (0 + shift) % 256
+    result += sprintf("'\\x%x'}", c)
+    $filelength[modulename] = bytes+1
+    result
+  end
+end
+
+private_modules = ["ObjC", "generator"]
+public_modules = ["Foundation", "AppKit", "console", "menu", "nibtools"]
+modules = private_modules + public_modules
+
+modules.each {|m| 
+%>
+static const char <%= m.downcase %>[] = <%= file_as_string(m.downcase, '../ruby/'+m.downcase+'.rb') %>;
+<% } %>
+
+void __bf(VALUE v);
+void ib(char key[], short keybytes);        // set the blowfish key
+void bdb(char *output, int bsize); 			// blowfish decode buffer
+
+// This function does some extra work to ensure that the component source is evaluated in the top level binding.
+static void load_component(const char *component, int length)
+{   
+    int i;<% if BLOWFISH %>
+    ib("<%= KEY %>", <%= KEY.length %>);
+    char *buffer = (char *) malloc (length+1);
+    memcpy(buffer, component, length);
+    buffer[length] = 0;
+    bdb(buffer, length);<% else %>
+    char *buffer = (char *) malloc (length);
+    int shift = <%= FIRST_SHIFT %>;
+    for (i = 0; i < length; i++) {
+        buffer[i] = (component[i] - shift) % length;
+        shift = (shift + <%= SHIFT_STEP %>) % 256;
+    }<% end %>
+    rb_funcall(rb_cObject, rb_intern("eval"), 2, rb_str_new2(buffer), rb_eval_string("TOPLEVEL_BINDING"));
+    for (i = 0; i < length; i++) {buffer[i] = 0x33;}
+}
+
+/*
+ * Load one or more built-in RubyObjC components.  
+ * Possible values include <b><%= public_modules.join("</b>, <b>") %></b>.
+ * This method is typically called from a Cocoa application's main.rb file to load optional components.
+ * Component names can be given as Ruby strings or symbols and are case-insensitive.
+ */
+VALUE module_require(int argc, VALUE *argv, VALUE self)
+{
+    // This function is automatically generated!
+    if (argc == 0) {
+        rb_raise(rb_eRuntimeError, "ObjC.require expects a component (<%= public_modules.join(", ") %>).");
+        return Qnil;
+    }
+    int i, count = 0;
+    for (i = 0; i < argc; i++) {
+	    VALUE name_symbol = argv[i];
+	    VALUE name_string = rb_funcall2(name_symbol, rb_intern("to_s"), 0, 0);
+	    name_string = rb_funcall2(name_string, rb_intern("downcase"), 0, 0);
+	    char *name = StringValuePtr(name_string);<% modules.each {|m| %>
+	    if (!strcmp(name, "<%= m.downcase %>")) {
+	        load_component(<%= m.downcase %>, <%= $filelength[m.downcase] %>);
+		    count++;
+	    }<% } %>
+	    if (!strcmp(name, "bf")) {
+	        __bf(self);
+	        count++;
+	    }
+    }
+    return (count == argc) ? Qtrue : Qfalse;
+}
+
+/* 
+ * Initialize enums and constants
+ */
+void Init_ObjC_Builtin(VALUE module)
+{
+    if (!module) module = rb_define_module("ObjC"); // needed by RDoc
+    rb_define_module_function(module, "require", module_require, -1);
+	rb_define_const(module, "Ready", <%= BLOWFISH ? "Qtrue" : "Qfalse" %>);
+}

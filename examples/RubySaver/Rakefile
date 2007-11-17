@@ -1,0 +1,29 @@
+require 'rake/cocoa'
+
+INSTALLDIR = "/Library/Screen Savers"
+BUNDLENAME = "RubySaver"
+
+CLOBBER.include("#{BUNDLENAME}.saver")
+
+Rake::CocoaBundle.new do |t|
+  t.bundle = BUNDLENAME
+  t.identifier = "com.rubyobjc.#{BUNDLENAME.downcase}"
+  t.arch = ""
+  t.ldflags += '-lrubyobjc -lruby '
+  t.frameworks += ["ScreenSaver"]
+end
+
+desc "Install the bundle."
+task :install => [:bundle, :uninstall] do
+  sh "rm -rf #{BUNDLENAME}.saver"
+  sh "mv #{BUNDLENAME}.bundle #{BUNDLENAME}.saver"
+  sh "rm -rf \"#{INSTALLDIR}/#{BUNDLENAME}.saver\""
+  sh "cp -r #{BUNDLENAME}.saver \"#{INSTALLDIR}/\""
+end
+
+desc "Uninstall the bundle."
+task :uninstall do
+  sh "rm -rf #{INSTALLDIR}/#{BUNDLENAME}.saver"
+end
+
+task :default => :bundle

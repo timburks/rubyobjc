@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+#
+# create a skeletal cocoa application in the current directory
+#
+# usage: rubyapp <name>
+#
+# Copyright (c) 2007 Tim Burks, Neon Design Technology, Inc.
+# For more information about this file, visit http://www.rubyobjc.com.
+
+appname = (ARGV.length > 0) ? ARGV[0] : "app"
+
+source = File.dirname(__FILE__) + '/../app'
+dest   = `pwd`.chomp + '/' + appname
+
+puts "Creating skeleton app in #{dest}."
+`cp -r #{source} '#{dest}'`
+
+puts "Set the application name in #{dest}/Rakefile."

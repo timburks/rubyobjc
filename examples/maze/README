@@ -1,0 +1,20 @@
+--
+
+The Maze Game: A RubyObjC toy
+
+-- 
+
+This directory contains a toy application that generates mazes
+to be navigated by one or two users.  Use the keyboard to navigate
+the maze until the circles meet.
+
+Use the arrow keys to move the circle on the right and 
+'w','a','s', and 'd' to move the right circle.
+
+To build this, simply type "rake" from the terminal.  You can then run the application
+in the usual way or by simply typing "rake run".
+
+-- 
+
+Copyright (c) 2007 Tim Burks, Neon Design Technology, Inc.
+This and other RubyObjC examples can be found online at http://www.rubyobjc.com.

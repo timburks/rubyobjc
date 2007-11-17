@@ -1,0 +1,5 @@
+
+Files in this directory are derived from the Ruby 1.8.5 source distribution.
+
+They are included here only to allow RubyObjC to be built without the Ruby sources.
+To use Ruby headers directly, modify the include path in objc/Rakefile.

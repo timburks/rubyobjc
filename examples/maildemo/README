@@ -1,0 +1,28 @@
+--
+
+MailDemo in Ruby
+
+-- 
+
+This directory contains a RubyObjC version of Scott Stevenson's 
+MailDemo tutorial.  You can find Scott's tutorial online at
+	http://cocoadevcentral.com/articles/000080.php
+
+This version does nearly everything in Ruby.  The interface is
+still built in IB, but instead of hooking up the controllers 
+in IB, we expose the interface elements and then hook everything
+up in Ruby.  I think that makes the bindings a lot more clear,
+because everything can then be described in just a few lines of
+Ruby that I can easily scan through and verify at once.  You 
+can judge for yourself.
+
+This example requires RubyObjC.  For installation instructions, 
+see http://www.rubyobjc.com.
+
+To build it, simply type "rake" from the terminal.  You can then 
+run the application in the usual way or by simply typing "rake run".
+
+-- 
+
+Copyright (c) 2007 Tim Burks, Neon Design Technology, Inc.
+This and other RubyObjC examples can be found online at http://www.rubyobjc.com.

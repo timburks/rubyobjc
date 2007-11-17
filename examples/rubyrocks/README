@@ -1,0 +1,19 @@
+--
+
+RubyRocks Revisited
+
+-- 
+
+This directory contains a revised version of the RubyRocks program 
+originally published on RubyCocoa Resources (http://www.rubycocoa.com).
+
+Besides having many new features, it has also been ported to RubyObjC,
+a new Ruby/Objective-C bridge.
+
+To build it, simply type "rake" from the terminal.  You can then run the application
+in the usual way or by simply typing "rake run".
+
+-- 
+
+Copyright (c) 2007 Tim Burks, Neon Design Technology, Inc.
+This and other RubyObjC examples can be found online at http://www.rubyobjc.com.
